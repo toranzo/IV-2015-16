@@ -24,4 +24,4 @@ https://groups.google.com/d/forum/iv-ugr-2015).
 
 ##Siguientes objetivos
 
-[Segunda semana](semana-2.md)
+[Segunda semana](2-semana.md)

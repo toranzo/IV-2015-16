@@ -20,7 +20,7 @@ Agradeceré que contestes la [encuesta inicial](https://docs.google.com/forms/d/
 https://groups.google.com/d/forum/iv-ugr-2015).
 * Introducción al uso de **Markdown**.
 * Introducción al software libre y la [oficina de software libre de la UGR](http://osl.ugr.es).
-* Sistema operativo de referencia en la asignatura: Linux (Ubuntu, Debian, Archlinux, Fedora, OpenSUSE, Linux Mint).
+* Sistema operativo de referencia en la asignatura: Linux (Ubuntu, Debian, ArchLinux, Fedora, OpenSUSE, Linux Mint).
 
 ##Siguientes objetivos
 

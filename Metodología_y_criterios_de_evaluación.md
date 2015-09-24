@@ -2,7 +2,7 @@
 
 Los criterios generales que figuran en la [guía docente](http://grados.ugr.es/informatica/pages/infoacademica/guias_docentes/201516/cuarto/tecnologiasdelainformacion/infraestructuravirtual) son los siguientes:
 
-* Para la parte teórica se realizarán sesiones de evaluación y entregas de ejercicios sobre el desarrollo y los resultados de las actividades propuestas. La ponderación de este bloque es el 40%. 
+* Para la parte teórica se realizarán sesiones de evaluación y entregas de ejercicios sobre el desarrollo y los resultados de las actividades propuestas. La ponderación de este bloque será del 40%. 
 * Para la parte práctica se realizarán prácticas de laboratorio, resolución de problemas y desarrollo de proyectos (individuales o en grupo), y se valorarán las entregas de los informes/memorias realizados por los alumnos, o en su caso las entrevistas personales con los alumnos y las sesiones de evaluación. La ponderación de este bloque será el 50%. 
 * En su caso, la parte de trabajo autónomo y los seminarios se evaluarán teniendo en cuenta la asistencia a los seminarios, los problemas propuestos que hayan sido resueltos y entregados por los alumnos, en su caso, las entrevistas efectuadas durante el curso y la presentación oral de los trabajos desarrollados. La ponderación de estos oscila será el 10%. 
 

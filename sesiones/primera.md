@@ -1,4 +1,4 @@
-#Clase del 23 de septiembre de 2014
+#Clase del 23 de septiembre de 2015
 
 Agradeceré que contestes la
 [encuesta inicial](https://docs.google.com/forms/d/1jTVZBwyce-BvzeBtVE8Kq8p_K5qDlx_tx1AUYQovHuE/viewform). Se

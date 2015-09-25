@@ -6,11 +6,7 @@ He escogido como servidor el [HP PROLIANT ML310E GEN8](http://www.dynos.es/servi
 
 Para calcular su coste de amortización, se debe obtener a partir del precio final del producto sin IVA, que lo calculamos a través de alguna web destinada para ello:
 
-<<<<<<< HEAD
 ![Precio sin IVA = 576.86 €](https://www.dropbox.com/s/t2teia06jogmbpl/calculosinIVA.PNG?dl=1)
-=======
-https://www.dropbox.com/s/t2teia06jogmbpl/calculosinIVA.PNG?dl=0
->>>>>>> a2d9bdbac01bbd1039853f8a21957ff64f04ed04
 
 **Amortización a 4 años**
 Deducimos una amortización máxima del 25% cada año: 576.86 * 0.25 = 144.22 € cada uno de los cuatro años.

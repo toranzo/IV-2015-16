@@ -5,6 +5,9 @@ Lista de objetivos del José Manuel Luque Burgos
 habitual lo usa.
 
 [X] Comenzar a usar git y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
+
 [X] Configurar el sistema para poder crear y usar contenedores
+
 [X] Entender el concepto de contenedores
+
 [X] Crear y usar contenedores

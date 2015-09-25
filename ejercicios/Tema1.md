@@ -9,9 +9,11 @@ Para calcular su coste de amortización, se debe obtener a partir del precio fin
 ![Precio sin IVA = 576.86 €](https://www.dropbox.com/s/t2teia06jogmbpl/calculosinIVA.PNG?dl=1)
 
 **Amortización a 4 años**
+
 Deducimos una amortización máxima del 25% cada año: 576.86 * 0.25 = 144.22 € cada uno de los cuatro años.
 
 **Amortización a 7 años**
+
 Los primeros años se debe amortizar más.  
  - Primer año: 576.86 * 0.25 = 144.22 € 
  - Segundo año: 576.86 * 0.25 = 144.22 €  

@@ -14,7 +14,7 @@ Deduciendo una amortización máxima del 25% por cada año: 593.67 * 0.25 = 148.
 
 **Amortizacón a 7 años**
 
-Los primeros años 
+Los dos primeros años comienzan pagando más que el resto de años y así sucesivamente hasta finalizar la amortización del servidor.
 
 	- Primer año: 	593.67 * 0.25 = 148.41
 	- Segundo año:	593.67 * 0.25 = 148.41

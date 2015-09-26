@@ -1,13 +1,10 @@
 Lista de objetivos del José Manuel Luque Burgos
 ===============================================
 
-[X] Entender el soporte en hardware de las técnicas de virtualización y cómo se extiende ese soporte al núcleo de los sistemas operativos. Saber si el ordenador 
-habitual lo usa.
+[X] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
-[X] Comenzar a usar git y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
+[X] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura. 
 
-[X] Configurar el sistema para poder crear y usar contenedores
+[X] Entender el concepto de software libre y su aplicación práctica en clase. 
 
-[X] Entender el concepto de contenedores
-
-[X] Crear y usar contenedores
+[X] Vernos las caras.

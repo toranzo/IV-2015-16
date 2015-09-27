@@ -1,10 +1,13 @@
-Lista de objetivos del José Manuel Luque Burgos
-===============================================
+#Lista de objetivos de José Manuel Luque Burgos
 
-[X] Entender la metodología docente, de evaluación y de interacción de la asignatura.
+## 23 de septiembre
 
-[X] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura. 
+### Lista de objetivos
 
-[X] Entender el concepto de software libre y su aplicación práctica en clase. 
+ [X] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
-[X] Vernos las caras.
+ [X] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura. 
+
+ [X] Entender el concepto de software libre y su aplicación práctica en clase. 
+
+ [X] Vernos las caras.

@@ -35,13 +35,13 @@ Como proveedor de servicios en la nube, escogí [Microsoft Azure](https://azure.
 
 **Se usa sólo el 1% del tiempo**
 
-Precio del servidor en nube de Azure: 0.405 €/hora * 24h * 31 dias) * 1% * 2 instancias = 6.03 €/mes
+Precio del servidor en nube de Azure: 0.405 €/hora * 24h * 31 dias * 1% * 2 instancias = 6.03 €/mes
 
 Precio del servidor dedicado de 1&1: 119.99 €/mes
 
 **Se usa sólo el 10% del tiempo**
 
-Precio del servidor en nube de Azure: 0.405 €/hora * 24h * 31 dias) * 10% * 2 instancias = 60.26 €/mes
+Precio del servidor en nube de Azure: 0.405 €/hora * 24h * 31 dias * 10% * 2 instancias = 60.26 €/mes
 
 Precio del servidor dedicado de 1&1: 119.99 €/mes
 

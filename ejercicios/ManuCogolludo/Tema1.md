@@ -1,5 +1,5 @@
-# Manu Cogolludo Vallejo
-## Tema 1
+# Tema 1
+
 ### Ejercicio 1: Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
 Me he deicidido para utilizar como servidor el [Lenovo Thinkserver ts440](http://www.pccomponentes.com/lenovo_thinkserver_ts440_70aq_intel_xeon_e3_1225_v3_4gb.html) en PCcomponentes.

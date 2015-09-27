@@ -9,5 +9,5 @@
 
 ### Otros objetivos
 
--[x] Entrar en la lista de correo
--[x] Iniciar una maquina virtual con distribución Ubuntu e instalar la misma distribución en una unidad externa
+- [x] Entrar en la lista de correo
+- [x] Iniciar una maquina virtual con distribución Ubuntu e instalar la misma distribución en una unidad externa

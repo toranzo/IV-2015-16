@@ -33,14 +33,14 @@ durante un año de un ordenador con un procesador estándar (escogerlo de forma 
 el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura 
 comprada se usa sólo el 1% o el 10% del tiempo.
 
-![Azure](https://github.com/Makova/IV-2015-16/blob/master/imagenes/Azure.png)
-
 He escogido el siguiente server para alojamiento web dedicado en [STRATO](https://www.strato.es)
 
 ![Strato](https://github.com/Makova/IV-2015-16/blob/master/imagenes/ServerLinux.png)
 
 Y como proveedor de servicios en la nube he escogido [Azure](https://www.microsoft.com/es-es/search/result.aspx?q=azure) y precio de dos máquinas 
-virtuales con características que se acercan a el escogido como PC y el servidor dedicado:
+virtuales con características que se acercan a el escogido como PC y el servidor dedicado:  
+
+![Azure](https://github.com/Makova/IV-2015-16/blob/master/imagenes/Azure.png)
 
 *Se usa sólo el 1% del tiempo*
 

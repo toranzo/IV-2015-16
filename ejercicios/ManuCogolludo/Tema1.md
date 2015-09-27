@@ -26,3 +26,34 @@ Los dos primeros años comienzan pagando más que el resto de años y así suces
 
 Céntimo arriba, céntimo abajo.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Ejercicio 2: Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, comparar el coste 
+durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con 
+el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura 
+comprada se usa sólo el 1% o el 10% del tiempo.
+
+He escogido el siguiente server para alojamiento web dedicado en [STRATO](https://www.strato.es)
+
+![Strato](https://github.com/Makova/IV-2015-16/blob/master/imagenes/ServerLinux.png)
+
+Y como proveedor de servicios en la nube he escogido [Azure](https://www.microsoft.com/es-es/search/result.aspx?q=azure) y precio de dos máquinas 
+virtuales con características que se acercan al escogido como PC y servidor dedicado:  
+
+![Azure](https://github.com/Makova/IV-2015-16/blob/master/imagenes/Azure.png)
+
+**Se usa sólo el 1% del tiempo:**
+
+Precio servidor en nube Azure: 0.101 €/h * 24h * 31 días) * 1% * 2 estancias = 0,00202 €/mes
+
+Precio del servidor dedicado de Strato: 47,19 €/mes
+
+**Se usa sólo el 10% del tiempo:**
+
+Precio servidor en nube Azure: 0.101 €/h * 24h * 31 días) * 10% * 2 estancias = 0,0202 €/mes
+
+Precio del servidor dedicado de Strato: 47,19 €/mes
+
+Es verdad que con proveedores en la nube por los que pagamos por uso y no por a acceso, sale 
+realmente ecónomico con una máquina normalita, pero creo que es más que suficiente para una WordPress, correo, etc...
+Por lo menos el que he escogido yo :D ni medio céntimo. Pero puede que me haya hecho un lío.

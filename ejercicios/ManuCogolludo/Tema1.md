@@ -52,6 +52,8 @@ Precio del servidor dedicado de Strato: 47,19 €/mes
 
 Precio servidor en nube Azure: 0.101 €/h * 24h * 31 días) * 10% * 2 estancias = 0,0202 €/mes
 
+Precio del servidor dedicado de Strato: 47,19 €/mes
+
 Es verdad que con proveedores en la nube por los que pagamos por uso y no por a acceso, sale 
 realmente ecónomico con una máquina normalita, pero creo que es más que suficiente para una WordPress, correo, etc...
 Por lo menos el que he escogido yo :D ni medio céntimo. Pero puede que me haya hecho un lío.

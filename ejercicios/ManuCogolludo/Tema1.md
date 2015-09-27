@@ -38,15 +38,20 @@ He escogido el siguiente server para alojamiento web dedicado en [STRATO](https:
 ![Strato](https://github.com/Makova/IV-2015-16/blob/master/imagenes/ServerLinux.png)
 
 Y como proveedor de servicios en la nube he escogido [Azure](https://www.microsoft.com/es-es/search/result.aspx?q=azure) y precio de dos máquinas 
-virtuales con características que se acercan a el escogido como PC y el servidor dedicado:  
+virtuales con características que se acercan al escogido como PC y servidor dedicado:  
 
 ![Azure](https://github.com/Makova/IV-2015-16/blob/master/imagenes/Azure.png)
 
-*Se usa sólo el 1% del tiempo*
+**Se usa sólo el 1% del tiempo:**
 
 Precio servidor en nube Azure: 0.101 €/h * 24h * 31 días) * 1% * 2 estancias = 0,00202 €/mes
 
 Precio del servidor dedicado de Strato: 47,19 €/mes
 
+**Se usa sólo el 10% del tiempo:**
+
+Precio servidor en nube Azure: 0.101 €/h * 24h * 31 días) * 10% * 2 estancias = 0,0202 €/mes
+
 Es verdad que con proveedores en la nube por los que pagamos por uso y no por a acceso, sale 
 realmente ecónomico con una máquina normalita, pero creo que es más que suficiente para una WordPress, correo, etc...
+Por lo menos el que he escogido yo :D ni medio céntimo. Pero puede que me haya hecho un lío.

@@ -1,6 +1,11 @@
-#Clase del 23 de septiembre de 2015
+#Semana del 23 al 30 de septiembre de 2015
 
-Agradeceré que contesteis la [encuesta inicial](https://docs.google.com/forms/d/1jTVZBwyce-BvzeBtVE8Kq8p_K5qDlx_tx1AUYQovHuE/viewform)
+Agradeceré que contestes la
+[encuesta inicial](https://docs.google.com/forms/d/1jTVZBwyce-BvzeBtVE8Kq8p_K5qDlx_tx1AUYQovHuE/viewform). Se
+recuerda al alumno que es su responsabilidad atender a clase o
+enterarse de los contenidos impartidos en la misma. 
+
+
 
 ##Objetivos a cubrir en la sesión
 
@@ -21,7 +26,14 @@ Agradeceré que contesteis la [encuesta inicial](https://docs.google.com/forms/d
 https://groups.google.com/d/forum/iv-ugr-2015).
 * Introducción al uso de **Markdown**.
 * Introducción al software libre y la [oficina de software libre de la UGR](http://osl.ugr.es).
-* Sistema operativo de referencia en la asignatura: Linux (Ubuntu, Debian, Archlinux, Fedora, OpenSUSE, Linux Mint).
+* Sistema operativo de referencia en la asignatura: Linux (Ubuntu, Debian, ArchLinux, Fedora, OpenSUSE, Linux Mint).
+
+## Material de la asignatura
+
+Todo
+[el material de la asignatura está en GitHub](http://jj.github.io/IV). Se
+recomienda empezar por el primer tema y los ejercicios de
+autoevaluación correspondientes.
 
 ##Siguientes objetivos
 

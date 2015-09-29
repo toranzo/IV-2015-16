@@ -64,3 +64,13 @@ print "Hola mundo"
 * Nos vamos al directorio donde se encuentre el ejecutable creado: *cd cde-package/cde-root/home/usuario/...*
 
 * Y ejecutamos *./python.cde script.py*, y nos saldrá "Hola mundo" por la terminal.
+
+### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+
+Para comprobar si el procesador tiene instalados los flags, ejecutamos *egrep '^flags.*(vmx|svm)' /proc/cpuinfo*
+
+Si no lista nada, entonces es que el procesador no tiene esa funcionalidad o está desactivada.
+
+Con el comando *cat /proc/cpuinfo* vemos la CPU que tenemos:
+
+![Intel Core i7 M640](https://www.dropbox.com/s/ulcduxlpw0zb0u7/infoCPU.PNG?dl=1)

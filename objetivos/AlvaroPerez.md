@@ -1,4 +1,4 @@
-<h1>Objetivos Alvaro Perez<h1>
+##Objetivos Alvaro Pere
 
 
 [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.

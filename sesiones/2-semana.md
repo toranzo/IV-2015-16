@@ -18,6 +18,7 @@ recurso.
 
 ##Otros objetivos
 
+* Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige. 
 * Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub (**no** https).
 * Tener configurdos los dos repositorios (`origin`, el propio, `upstream`, el del resto de la clase). 
 * Tener a punto una instalación Linux para llevar a cabo las
@@ -35,7 +36,8 @@ jueves a partir de las 12:30 está la OSL en la sala de reuniones.
 
 ##Material para la clase
 
-[Introducción, concepto y soporte físico](http://jj.github.io/IV/documentos/temas/Intro_concepto_y_soporte_fisico#introduccin)
+* *Teoría*: [Introducción, concepto y soporte físico](http://jj.github.io/IV/documentos/temas/Intro_concepto_y_soporte_fisico#introduccin)
+* *Práctica*: [Guión del primer hito del proyecto](http://jj.github.io/IV/documentos/practicas/1.Infraestructura). Plazo para la entrega de este primer hito: **10:30 del 14 de octubre de 2015**. 
 
 ##Material adicional
 

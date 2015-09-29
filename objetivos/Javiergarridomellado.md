@@ -1,4 +1,4 @@
-# Objetivos IV Francisco Javier Garrido Mellado
+# Objetivos I Francisco Javier Garrido Mellado
 
 ## Clase del 29 de septiembre de 2015
 
@@ -11,4 +11,4 @@
 ## Otros objetivos
 
 - [X] Entrar en la lista de correo
-- [X] Relizar encuesta inicial
+- [X] Realizar encuesta inicial

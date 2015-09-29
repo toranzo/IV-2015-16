@@ -1,5 +1,5 @@
 # Lista de objetivos de Rubén Martín Hidalgo
-## Clase del 23 de septiembre de 2015
+## Semana del 23 al 30 de septiembre de 2015
 ### Objetivos a cubrir en la sesión
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.

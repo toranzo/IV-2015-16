@@ -55,8 +55,7 @@ Es verdad que con proveedores en la nube por los que pagamos por uso y no por a 
 realmente ecónomico con una máquina normalita, pero creo que es más que suficiente para una WordPress, correo, etc...
 Por lo menos el que he escogido yo :D ni medio céntimo. Pero puede que me haya hecho un lío.
 
-### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para 
-	Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
 * He creado un script en Perl con el "Hola mundo libre con Linux".
 
@@ -76,8 +75,7 @@ cde.options y cde-package se crearón al instalar **cde**
 `Hola mundo libre con Linux´
 
 
-### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen 
-	estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
 
 Ejecutamos el comando [egrep](http://nereida.deioc.ull.es/~pcgull/ihiu01/cdrom/unix/unix1/contenido/node77.html)

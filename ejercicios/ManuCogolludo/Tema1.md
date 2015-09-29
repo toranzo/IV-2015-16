@@ -54,3 +54,40 @@ Precio del servidor dedicado de Strato: 47,19 €/mes
 Es verdad que con proveedores en la nube por los que pagamos por uso y no por a acceso, sale 
 realmente ecónomico con una máquina normalita, pero creo que es más que suficiente para una WordPress, correo, etc...
 Por lo menos el que he escogido yo :D ni medio céntimo. Pero puede que me haya hecho un lío.
+
+### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para 
+Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+
+* He creado un script en Perl con el "Hola mundo libre con Linux".
+
+`#! /usr/bin/perl
+print "¡Hola mundo libre con Linux!\n";`
+
+* Se instala CDE `sudo apt-get install cde`
+
+* Empaquetamos el script con **cde** perl script.pl, ""creo"" que los ficheros 
+cde.options y cde-package se crearón al instalar **cde** 
+
+* Nos situamos al directorio creado:
+
+![ii](clasesJJ/IV-2015-16/imagenes/scriptCDE.png)
+
+* Y se ejecuta el script `./perl.cde script.pl` y voilá, en panatalla:
+`Hola mundo libre con Linux´
+
+
+### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen 
+estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+
+
+Ejecutamos el comando [egrep](http://nereida.deioc.ull.es/~pcgull/ihiu01/cdrom/unix/unix1/contenido/node77.html)
+con la siguiente orden: `egrep '^flags.*(vmx|svm)' /proc/cpuinfo`
+
+Si no sale nada en pantalla, pues el ordenador en el que se ha ejecutado el comando
+no tienes dicha funcionalidad o esta descativada.
+
+Con el comando [cat](https://www.hscripts.com/es/tutoriales/linux-commands/cat.html) se ejecuta `cat /proc/cpuinfo`
+para visualizar la CPU:
+
+![ii](clasesJJ/IV-2015-16/imagenes/cpuinfo.png)
+

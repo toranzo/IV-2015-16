@@ -67,7 +67,7 @@ print "Hola mundo"
 
 ### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
-Para comprobar si el procesador tiene instalados los flags, ejecutamos *egrep '^flags.\*(vmx|svm)' /proc/cpuinfo*
+Para comprobar si el procesador tiene instalados los flags, ejecutamos "egrep '^flags.*(vmx|svm)' /proc/cpuinfo"
 
 Si no lista nada, entonces es que el procesador no tiene esa funcionalidad o está desactivada.
 

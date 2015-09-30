@@ -98,4 +98,4 @@ para visualizar la CPU:
 2. Desde la misma terminal en la que hemos instalado `cpu-checker` ejecutamos el siguiente comando: `sudo kvm-ok` como administrador
 para ver si tenemos instalado el módulo:
 
-![](/HOME/manu/clasesJJ/IV-2015-16/img/kvm-ok.png)
+![](/clasesJJ/IV-2015-16/img/kvm-ok.png)

@@ -71,8 +71,8 @@ cde.options y cde-package se crearón al instalar **cde**
 
 ![](https://github.com/Makova/IV-2015-16/blob/master/img/scriptCDE.png)
 
-* Y se ejecuta el script `./perl.cde script.pl` y voilá, en panatalla:
-`Hola mundo libre con Linux´
+* Y se ejecuta el script `./perl.cde script.pl` y voilá, en pantalla:
+`Hola mundo libre con Linux`
 
 
 ### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
@@ -81,7 +81,7 @@ cde.options y cde-package se crearón al instalar **cde**
 Ejecutamos el comando [egrep](http://nereida.deioc.ull.es/~pcgull/ihiu01/cdrom/unix/unix1/contenido/node77.html)
 con la siguiente orden: `egrep '^flags.*(vmx|svm)' /proc/cpuinfo`
 
-Si no sale nada en pantalla, pues el ordenador en el que se ha ejecutado el comando
+Si no sale nada en pantalla, es porque el ordenador en el que se ha ejecutado el comando
 no tienes dicha funcionalidad o esta descativada.
 
 Con el comando [cat](https://www.hscripts.com/es/tutoriales/linux-commands/cat.html) se ejecuta `cat /proc/cpuinfo`
@@ -95,7 +95,9 @@ para visualizar la CPU:
 
 
 1. Instalamos el paquete [kwv-ok](http://manpages.ubuntu.com/manpages/trusty/man1/kvm-ok.1.html) desde una terminal con el comando `sudo apt-get install cpu-checker`
-2. Desde la misma terminal en la que hemos instalado `cpu-checker` ejecutamos el siguiente comando: `sudo kvm-ok` como administrador
+2. Desde la misma terminal en la que hemos instalado `cpu-checker` ejecutamos el siguiente comando: `sudo kvm-ok` como administrador,
 para ver si tenemos instalado el módulo:
 
 ![](https://github.com/Makova/IV-2015-16/blob/master/img/kvm-ok.png)
+
+En mi caso si tengo instalado el módulo.

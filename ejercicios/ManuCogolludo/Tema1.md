@@ -90,4 +90,3 @@ Con el comando [cat](https://www.hscripts.com/es/tutoriales/linux-commands/cat.h
 para visualizar la CPU:
 
 ![ii](clasesJJ/IV-2015-16/imagenes/cpuinfo.png)
-

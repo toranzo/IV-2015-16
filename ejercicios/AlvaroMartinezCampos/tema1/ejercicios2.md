@@ -13,7 +13,7 @@ Detalles sobre **leaseweb**
 * 8 GB DDR3
 * Almacenamiento: 2TB SATA2
 
-Mas información en: [leaseweb]:(https://www.leaseweb.com/)
+Mas información en: https://www.leaseweb.com/
 
 
 Detalles sobre **OVH**
@@ -25,8 +25,7 @@ No hace distinción entre SO y no tiene coste adicional por configuraciones.
 * 500 GB de espacio en disco.
 
 
-Para más información consultar el siguiente enlace a [OVH]: 
-[OVH]( http://www.ovh.es/hosting/hosting-profesional.xml)
+Para más información consultar el siguiente enlace a  http://www.ovh.es/hosting/hosting-profesional.xml
 
 
 ** *Planes*

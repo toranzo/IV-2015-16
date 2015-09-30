@@ -5,8 +5,7 @@
 * **Servidor**
 * HP ProLiant ML150 Gen 9 E5-2620v3/8GB
 ![Servidor](http://thumbsfotos.pccomponentes.com/hp_proliant_ml150_gen_9_e5_2603v3_4gb_500gb_290_290.jpg)
-* Encontrado en:
-![pccomponentes](http://www.pccomponentes.com/hp_proliant_ml150_gen_9_e5_2620v3_8gb.html)
+* Encontrado en: http://www.pccomponentes.com/hp_proliant_ml150_gen_9_e5_2620v3_8gb.html
 
 * **Precio**
 

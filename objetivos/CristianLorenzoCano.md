@@ -8,3 +8,4 @@
 - [x] Entender el concepto de software libre y su aplicación práctica en clase.
 - [x] Vernos las caras.
 
+

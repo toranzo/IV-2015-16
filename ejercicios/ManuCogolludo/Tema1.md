@@ -69,7 +69,7 @@ cde.options y cde-package se crearón al instalar **cde**
 
 * Nos situamos al directorio creado:
 
-![ii](https://github.com/Makova/IV-2015-16/blob/master/imagenes/scriptCDE.png)
+![](https://github.com/Makova/IV-2015-16/blob/master/imagenes/scriptCDE.png)
 
 * Y se ejecuta el script `./perl.cde script.pl` y voilá, en panatalla:
 `Hola mundo libre con Linux´
@@ -87,5 +87,5 @@ no tienes dicha funcionalidad o esta descativada.
 Con el comando [cat](https://www.hscripts.com/es/tutoriales/linux-commands/cat.html) se ejecuta `cat /proc/cpuinfo`
 para visualizar la CPU:
 
-![ii](https://github.com/Makova/IV-2015-16/blob/master/imagenes/cpuinfo.png)
+![](https://github.com/Makova/IV-2015-16/blob/master/imagenes/cpuinfo.png)
 

@@ -1,11 +1,13 @@
 #LISTA DE OBJETIVOS DE IGNACIO ROMERO CABRERIZO#
 
-Entender la metodología docente, de evaluación y de interacción de la asignatura. 
+##Sesión 1
 
-Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; 
+ - Entender la metodología docente, de evaluación y de interacción de la asignatura. 
 
-Conocer el resto de los recursos de la asignatura. 
+ - Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; 
 
-Entender el concepto de software libre y su aplicación práctica en clase. 
+ - Conocer el resto de los recursos de la asignatura. 
 
-Vernos las caras.
+ - Entender el concepto de software libre y su aplicación práctica en clase. 
+
+ - Vernos las caras.

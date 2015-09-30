@@ -21,11 +21,17 @@
 
 - [x] Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
 
-- [ ] Comprender los niveles de virtualización y sus denominaciones genéricas.
+- [x] Comprender los niveles de virtualización y sus denominaciones genéricas.
 
-- [ ] Comprender el concepto de "software as a service" y comprender los criterios necesarios para su elección.
+- [x] Comprender el concepto de "software as a service" y comprender los criterios necesarios para su elección.
 
 ### Otros objetivos
+
+- [x] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige.
+
+- [ ] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub (no https).
+
+- [ ] Tener configurdos los dos repositorios (origin, el propio, upstream, el del resto de la clase).
 
 - [x] Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura.
 

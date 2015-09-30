@@ -10,7 +10,7 @@
 
 - [x] Vernos las caras.
 
-## Segunda semana
+## Semana del 30 de septiembre al 7 de octubre de 2015
 ### Objetivos de la semana
 
 - [x] Comenzar a entender los conceptos fundamentales relacionados con la virtualización.
@@ -29,9 +29,9 @@
 
 - [x] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige.
 
-- [ ] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub (no https).
+- [x] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub (no https).
 
-- [ ] Tener configurdos los dos repositorios (origin, el propio, upstream, el del resto de la clase).
+- [x] Tener configurdos los dos repositorios (origin, el propio, upstream, el del resto de la clase).
 
 - [x] Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura.
 

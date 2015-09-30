@@ -100,4 +100,4 @@ para ver si tenemos instalado el módulo:
 
 ![](https://github.com/Makova/IV-2015-16/blob/master/img/kvm-ok.png)
 
-En mi caso si está instalado.
+En mi caso si tengo instalado el módulo.

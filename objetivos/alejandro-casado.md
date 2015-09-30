@@ -1,12 +1,12 @@
 Alejandro Casado Quijada
 ============================
 
-##Clase del 23 de septiembre
+##Sesión 1 (Semana del 23 al 30 de septiembre)
 
-[X] Entender la metodología docente, de evaluación y de interacción de la asignatura.
+- [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
-[X] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
+- [x] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
 
-[X] Entender el concepto de software libre y su aplicación práctica en clase.
+- [x] Entender el concepto de software libre y su aplicación práctica en clase.
 
-[X] Vernos las caras.
+- [x] Vernos las caras.

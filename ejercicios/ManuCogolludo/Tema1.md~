@@ -96,7 +96,7 @@ para visualizar la CPU:
 ### Ejercicio 5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
 
-	1. Instalamos el paquete [kwv-ok](http://manpages.ubuntu.com/manpages/trusty/man1/kvm-ok.1.html) desde una terminal con el comando `sudo apt-get install cpu-checker`
+	1. Instalamos el paquete `kwv-ok` desde una terminal con el comando `sudo apt-get install cpu-checker`
 	2. Desde la misma terminal en la que hemos instalado `cpu-checker` ejecutamos el siguiente comando: `sudo kvm-ok` como administrador
 	para ver si tenemos instalado el módulo:
 

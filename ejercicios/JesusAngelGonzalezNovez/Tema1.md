@@ -31,12 +31,28 @@ En este caso se va reduciendo el coste del producto conforme pasan los años, lo
 
 ### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
-Instalo "cde"
+Descargo "cde" de [aqui](https://cloud.github.com/downloads/pgbovine/CDE/cde_2011-08-15_64bit) y a cotinuación:
 
-    sudo apt-get install cde
+    sudo mv cde_2011-08-15_64bit /usr/bin/cde
+    sudo chmod u+x /usr/bin/cde
 
+Creo un script sencillo en Ruby:
+
+    #!/usr/bin/ruby
+    $i = 0
+    $num = 5
+    while $i < $num  do
+       puts("i = #$i" )
+       $i +=1
+    end
+
+Empaquetemos con la orden:
+
+    cde ruby script1.rb
 
 ### Ejercicio 5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+
+    sudo kvm-ok
 
 ![Captura módulo kvm](img/tema1-5.1.png)
 

@@ -29,6 +29,13 @@ En este caso se va reduciendo el coste del producto conforme pasan los años, lo
     - Sexto año:	539.18€ * 0.05 =  26.96€
     - Séptimo año:  539.18€ * 0.05 =  26.96€
 
+### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+
+Instalo "cde"
+
+    sudo apt-get install cde
+
+
 ### Ejercicio 5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
 ![Captura módulo kvm](img/tema1-5.1.png)

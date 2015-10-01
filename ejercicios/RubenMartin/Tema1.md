@@ -87,6 +87,6 @@ Con el comando *cat /proc/cpuinfo* vemos la CPU que tenemos:
 
 ![Comprobación módulo kvm](https://www.dropbox.com/s/7snrxi4sweozfkg/kvm-ok.PNG?dl=1)
 
-## Ejercicio 5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+### Ejercicio 5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
 
 En mi caso he instalado [Xen](http://www.xenproject.org/developers/teams/hypervisor.html) con el siguiente comando: *sudo apt-get install xen-hypervisor-4.4-amd64*

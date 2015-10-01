@@ -8,17 +8,35 @@ Para este ejercicio he decidido calcular el coste de amortización del [SERVIDOR
 
 
 Entonces tenemos que:
+
 | Base imponible |   IVA   | Total factura |
 |----------------|---------|---------------|
 |      1185€     | 314.79€ |    1499.00€   |
+
 
 Suponemos para ambos apartados que el servidor es adquirido al comienzo del año.
 
 ### 1.1 Amortización a cuatro años
 
-| CUADRO DE AMORTIZACIÓN |
+Dividimos entre **4 años** la base imponible y obtenemos una **cuota de amortización de 296.25€**.
+
 | Año | Cuota de amortización| Amortización acumulada | Valor neto contable |
-|  1  |
+|-----|----------------------|------------------------|---------------------|
+|  1  | 296.25€              | 296.25€                | 888,75€             |
+|  2  | 296.25€              | 512.5€                 | 592.5€              |
+|  3  | 296.25€              | 888,75€                | 296.25€             |
+|  4  | 296.25€              | 1185€                  | 0€                  |
 
 ### 1.2 Amortización a siete años
-Como en el caso anterior, suponemos que el equipo es adquirido al comienzo del año
+
+Dividimos entre **7 años** la base imponible y obtenemos una **cuota de amortización de 296.25€**.
+
+| Año | Cuota de amortización| Amortización acumulada | Valor neto contable |
+|-----|----------------------|------------------------|---------------------|
+|  1  | 169.29€              | 169.29€                | 1015.71€            |
+|  2  | 169.29€              | 338.55€                | 846.42€             |
+|  3  | 169.29€              | 507.84€                | 677.13€             |
+|  4  | 169.29€              | 667.13€                | 507.84€             |
+|  5  | 169.29€              | 846.42€                | 338.55€             |
+|  6  | 169.29€              | 1015.71€               | 169.29€             |
+|  7  | 169.29€              | 1185€                  | 0€                  |

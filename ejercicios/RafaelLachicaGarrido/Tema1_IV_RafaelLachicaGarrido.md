@@ -74,20 +74,20 @@ rafaellg8@system32:~/Documentos/GII/Cuarto/IV/IV-Rafael_Lachica_Garrido_15-16$ s
 ¡Hola mundo, Scaleando!
 
 A continuación empaquetamos y ejecutamos en cde usando los comandos cde scala hola.scala y nos aparecerán 2 archivos, cde-package y cde-options:
-![imagenScala](/img/ej1Scala.jpg "scala-cde")
+![imagenScala](http://i1383.photobucket.com/albums/ah302/Rafael_Lachica_Garrido/ej1Scala.jpg_zpsibuym3d9.png?t=1443563958 "scala-cde")
 
 Vamos al directorio del ejecutable en cde y lo ejecutamos:
-![imagenScala](/img/scala2.png)
+![imagenScala](http://i1383.photobucket.com/albums/ah302/Rafael_Lachica_Garrido/scala2_zpsyziswngl.png?t=1443563958)
 
 Tenemos el mismo resultado virtualizando con cde.
 
 ####4 Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?####
 
 Para los flags tenemos el siguiente resultado, ejecutando "egrep '^flags.*(vmx|svm)' /proc/cpuinfo" :
- ![vmx|svm](/img/vmxImage.png "Flags activados")
+ ![vmx|svm](http://i1383.photobucket.com/albums/ah302/Rafael_Lachica_Garrido/vmxImage_zpsszrzmvwj.png?t=1443563958 "Flags activados")
 
  **Modelo de procesador**, ejecuto cat /proc/cpuinfo:
-![cpuinfo](/img/cpuInfo.png "cpuInfo")
+![cpuinfo](http://i1383.photobucket.com/albums/ah302/Rafael_Lachica_Garrido/cpuInfo_zpswh00wnbs.png?t=1443563924 "cpuInfo")
 
 Nos aparece la información detallada de la cpu que es mi caso es un Intel core i3 2330 M con 2 núcleos reales a 2.4 GHz.
 
@@ -100,7 +100,7 @@ Nos aparece la información detallada de la cpu que es mi caso es un Intel core 
 Para el ejercicio 1 instalamos el paquete kmv con sudo apt-get insall cpu-checker, [fuente](http://nyacomputing.com/how-to-install-kvm-on-ubuntu-and-run-virtual-machines/).
 
 Ejecutamos a continuación 'sudo kvm-ok':
-[kvm-ok](/img/kmv-ok.png "km-ok")
+[kvm-ok](http://i1383.photobucket.com/albums/ah302/Rafael_Lachica_Garrido/kmv-ok_zpsykwyuztd.png?t=1443563958 "km-ok")
 
 Nos informa de que kvm está soportado en la cpu pero deshabilitado
 

@@ -6,7 +6,7 @@ Me he deicidido para utilizar como servidor el [Lenovo Thinkserver ts440](http:/
 
 El coste de amortización se obtiene del precio final, pero sin I.V.A. El calculo se puede realizar en web que permitan dichas operaciones, como por ejemplo: [calcuworld.com](http://es.calcuworld.com/calculadoras-financieras/calculadora-iva/).
 
-El calculo del servidor que he elegido es ![Precio sin IVA = 593.67 €](https://github.com/Makova/IV-2015-16/blob/mirama/img/calculadorIVA.png).
+El calculo del servidor que he elegido es ![Precio sin IVA = 593.67 €](img/calculadorIVA.png).
 
 **Amortización a 4 años**
 

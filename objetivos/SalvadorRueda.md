@@ -1,7 +1,7 @@
-Alejandro Casado Quijada
-============================
+#Salvador Rueda Molina
 
-##Sesión 1 (Semana del 23 al 30 de septiembre)
+
+###Sesión 1 (Semana del 23 al 30 de septiembre)
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 

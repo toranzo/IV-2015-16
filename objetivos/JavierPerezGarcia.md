@@ -11,7 +11,6 @@ Lista de objetivos
 
 
 ## Objetivos de la segunda semana
-asdasfasf
 
 ### Objetivos principales
 

@@ -64,7 +64,7 @@ Para ver el modelo de procesador usamos:
 
     cat /proc/cpuinfo | grep "model name"
 
-![model name](img/tema1-5.png)
+![model name](img/tema1-4.png)
 
 La orden cat /proc/cpuinfo sin el grep, nos da toda la información detallada del ordenador pero con el filtro grep obtenemos solo el nombre del procesador. Como vemos tengo 2 núcleos de Intel T1600 a 1.66GHz
 

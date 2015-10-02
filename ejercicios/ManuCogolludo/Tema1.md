@@ -6,13 +6,14 @@ Me he deicidido para utilizar como servidor el [Lenovo Thinkserver ts440](http:/
 
 El coste de amortización se obtiene del precio final, pero sin I.V.A. El calculo se puede realizar en web que permitan dichas operaciones, como por ejemplo: [calcuworld.com](http://es.calcuworld.com/calculadoras-financieras/calculadora-iva/).
 
-El calculo del servidor que he elegido es ![Precio sin IVA = 593.67 €](https://github.com/Makova/IV-2015-16/blob/mirama/img/calculadorIVA.png).
+El calculo del servidor que he elegido es
+![Precio sin IVA = 593.67 €](https://www.dropbox.com/s/9ifn3v2qrxci1ct/calculadorIVA.png?dl=1).
 
 **Amortización a 4 años**
 
 Deduciendo una amortización máxima del 25% por cada año: 593.67 * 0.25 = 148.41€ a pagar por cada año de los cuatro años amortizados.
 
-**Amortizacón a 7 años**
+**Amortización a 7 años**
 
 Los dos primeros años comienzan pagando más que el resto de años y así sucesivamente hasta finalizar la amortización del servidor.
 
@@ -32,12 +33,12 @@ Céntimo arriba, céntimo abajo.
 
 He escogido el siguiente server para alojamiento web dedicado en [STRATO](https://www.strato.es)
 
-![Strato](https://github.com/Makova/IV-2015-16/blob/master/img/ServerLinux.png)
+![Strato](https://www.dropbox.com/s/2vqpnft1gf137v1/ServerLinux.png?dl=1)
 
 Y como proveedor de servicios en la nube he escogido [Azure](https://www.microsoft.com/es-es/search/result.aspx?q=azure) y precio de dos máquinas 
-virtuales con características que se acercan al escogido como PC y servidor dedicado:  
+virtuales con características que se acercan al escogido como PC y servidor dedicado:
 
-![Azure](https://github.com/Makova/IV-2015-16/blob/master/img/Azure.png)
+![Azure](https://www.dropbox.com/s/ls4guvvfung7nb9/Azure.png?dl=1)
 
 **Se usa sólo el 1% del tiempo:**
 
@@ -65,11 +66,11 @@ print "¡Hola mundo libre con Linux!\n";`
 * Se instala CDE `sudo apt-get install cde`
 
 * Empaquetamos el script con **cde** perl script.pl, ""creo"" que los ficheros 
-cde.options y cde-package se crearón al instalar **cde** 
+cde.options y cde-package se crearon al instalar **cde** 
 
 * Nos situamos al directorio creado:
 
-![](https://github.com/Makova/IV-2015-16/blob/master/img/scriptCDE.png)
+![](https://www.dropbox.com/s/t5rng11fxutthb5/scriptCDE.png?dl=1)
 
 * Y se ejecuta el script `./perl.cde script.pl` y voilá, en pantalla:
 `Hola mundo libre con Linux`
@@ -88,7 +89,7 @@ Con el comando [cat](https://www.hscripts.com/es/tutoriales/linux-commands/cat.h
 para visualizar la CPU:
 
 
-![](https://github.com/Makova/IV-2015-16/blob/master/img/cpuinfo.png)
+![cpuinfo](https://www.dropbox.com/s/oqksxvbkl1xvu4h/cpuinfo.png?dl=1)
 
 
 ### Ejercicio 5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
@@ -98,6 +99,12 @@ para visualizar la CPU:
 2. Desde la misma terminal en la que hemos instalado `cpu-checker` ejecutamos el siguiente comando: `sudo kvm-ok` como administrador,
 para ver si tenemos instalado el módulo:
 
-![](https://github.com/Makova/IV-2015-16/blob/master/img/kvm-ok.png)
+![kmu-ok](https://www.dropbox.com/s/pqglchxgixhf4z2/kvm-ok.png?dl=1)
 
 En mi caso si tengo instalado el módulo.
+
+### Ejercicio 5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+
+Yo también he elegido [Xen](https://es.wikipedia.org/wiki/Xen) como hipervisor `sudo apt-get install xen-hypervisor-4.4-amd64` pero
+en Linux tenemos más opciones como [Virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads), [QUEMU](https://es.wikipedia.org/wiki/QEMU), [Bochs](https://es.wikipedia.org/wiki/BOCHS). También he encontrado está información por [IBM developerWorks](http://www.ibm.com/developerworks/ssa/library/l-hypervisor/).
+

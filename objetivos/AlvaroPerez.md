@@ -9,6 +9,7 @@
 [x] Entender el concepto de software libre y su aplicación práctica en clase.
 
 [x] Vernos las caras.
+<<<<<<< HEAD
 
 ### Sesion 2
 
@@ -23,3 +24,5 @@
 [] Comprender los niveles de virtualización y sus denominaciones genéricas.
 
 [] Comprender el concepto de software as a service y comprender los criterios necesarios para su elección.
+=======
+>>>>>>> b82042b65239b1365adc464c534c2ad5cf433f5c

@@ -32,12 +32,12 @@ Céntimo arriba, céntimo abajo.
 
 He escogido el siguiente server para alojamiento web dedicado en [STRATO](https://www.strato.es)
 
-![Strato](https://github.com/Makova/IV-2015-16/blob/master/img/ServerLinux.png)
+![Strato](img/ServerLinux.png)
 
 Y como proveedor de servicios en la nube he escogido [Azure](https://www.microsoft.com/es-es/search/result.aspx?q=azure) y precio de dos máquinas 
 virtuales con características que se acercan al escogido como PC y servidor dedicado:  
 
-![Azure](https://github.com/Makova/IV-2015-16/blob/master/img/Azure.png)
+![Azure](img/Azure.png)
 
 **Se usa sólo el 1% del tiempo:**
 
@@ -69,7 +69,7 @@ cde.options y cde-package se crearón al instalar **cde**
 
 * Nos situamos al directorio creado:
 
-![](https://github.com/Makova/IV-2015-16/blob/master/img/scriptCDE.png)
+![](img/scriptCDE.png)
 
 * Y se ejecuta el script `./perl.cde script.pl` y voilá, en pantalla:
 `Hola mundo libre con Linux`
@@ -88,7 +88,7 @@ Con el comando [cat](https://www.hscripts.com/es/tutoriales/linux-commands/cat.h
 para visualizar la CPU:
 
 
-![](https://github.com/Makova/IV-2015-16/blob/master/img/cpuinfo.png)
+![](img/cpuinfo.png)
 
 
 ### Ejercicio 5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
@@ -98,6 +98,6 @@ para visualizar la CPU:
 2. Desde la misma terminal en la que hemos instalado `cpu-checker` ejecutamos el siguiente comando: `sudo kvm-ok` como administrador,
 para ver si tenemos instalado el módulo:
 
-![](https://github.com/Makova/IV-2015-16/blob/master/img/kvm-ok.png)
+![](img/kvm-ok.png)
 
 En mi caso si tengo instalado el módulo.

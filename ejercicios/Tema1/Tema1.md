@@ -44,7 +44,7 @@ Se descuenta del precio total el IVA (21%). Por tanto, el precio del servicor ca
 
 * 714€ / 4 años = 178,51€/año
 
-    *Coste de amortización (4 años): **178,51€**.
+    Coste de amortización (4 años): **178,51€**.
 
 
 
@@ -54,7 +54,7 @@ Haciendo las mismas suposiciones que en el apartado anterior:
 
 * 714€ / 7 años = 102€/año
 
-    *Coste de amortización (7 años): **102€**. 
+    Coste de amortización (7 años): **102€**. 
 
 
 ###Ejercicio 1

@@ -50,6 +50,25 @@ Empaquetemos con la orden:
 
     cde ruby script1.rb
 
+FALTA PROBARLO EN DISTINTAS DISTRIBUCIONES
+
+### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+
+Los flags que me aparecen son los siguientes:
+
+    egrep '^flags.*' /proc/cpuinfo
+
+![flags](img/tema1-4flags.png)
+
+Para ver el modelo de procesador usamos:
+
+    cat /proc/cpuinfo | grep "model name"
+
+![model name](img/tema1-5.png)
+
+La orden cat /proc/cpuinfo sin el grep, nos da toda la información detallada del ordenador pero con el filtro grep obtenemos solo el nombre del procesador. Como vemos tengo 2 núcleos de Intel T1600 a 1.66GHz
+
+
 ### Ejercicio 5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
     sudo kvm-ok

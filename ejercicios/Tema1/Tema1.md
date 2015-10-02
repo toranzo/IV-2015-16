@@ -5,16 +5,16 @@
 * **Servidor**
 * HP ProLiant ML310E G8 V2 Intel Xeon E3-1220V3/4GB/2TB
 
-Más información en: http://www.pccomponentes.com/hp_proliant_ml310e_g8_v2_intel_xeon_e3_1220v3_4gb_2tb.html
+
 ![Servidor](http://fotos.pccomponentes.com/ordenadores_sobremesa/servidores/hp_proliant_ml310e_g8_v2_intel_xeon_e3_1220v3_4gb_2tb.jpg)
-* El servidor se ha sacado de la tienda pccomponentes.com (http://www.pccomponentes.com/hp_proliant_ml310e_g8_v2_intel_xeon_e3_1220v3_4gb_2tb.html)
+* El servidor se ha sacado de la tienda *pccomponentes.com* (http://www.pccomponentes.com/hp_proliant_ml310e_g8_v2_intel_xeon_e3_1220v3_4gb_2tb.html)
 
 * **Precio: 864€**
 
 
 * **Especificaciones**
 
-* Sistema
+* Sistema *
 Procesador Intel® Xeon® E3-1220 v3 (4 núcleos, 3,1 GHz, 8 MB, 80 W)
 Número de procesadores 1
 Núcleo de procesador disponible 4
@@ -35,6 +35,7 @@ Dimensiones y peso
 Dimensiones (ancho x fondo x alto) 17,5 x 47,52 x 36,82 cm
 Peso 18,96 kg
 
+Más información en: http://www.pccomponentes.com/hp_proliant_ml310e_g8_v2_intel_xeon_e3_1220v3_4gb_2tb.html
 
 
 * **Amortización a cuatro años**

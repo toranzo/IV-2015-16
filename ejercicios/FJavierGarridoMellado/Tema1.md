@@ -59,7 +59,7 @@ Puede observarse que según el uso que se le este dando puede resultar mas inter
 
 
 **Comentario en el foro:**
-*- Para usar diferentes sistemas operativos o maquinas recurriría a una virtualización completa o plena (VMware,VirtualBox,etc).
+- Para usar diferentes sistemas operativos o maquinas recurriría a una virtualización completa o plena (VMware,VirtualBox,etc).
 - En el caso de querer usar un ejecutable .exe o aplicaciones de Windows ( u otro sistema operativo) en un sistema UNIX/Linux usaría una virtualización de aplicaciones como por ejemplo Wine.
 - En el caso de querer usar las dos versiones de Python recurriría a virtualización de entornos de desarrollo ( este cuatrimestre toca probar este tipo de virtualización )*
 

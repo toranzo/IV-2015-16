@@ -31,6 +31,27 @@ Para el cálculo de la amortización primero hallo su precio sin IVA ( este es a
 
 ###Ejercicio 2 : Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
-Para el alojamiento web he visto ![leaseweb](https://www.leaseweb.com/dedicated-servers/single-processor?processorCount=1) donde hay diferentes opciones de elección. Yo he optado por el siguiente:
-![xeon](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/xeon_zpsnqhi0ea5.png)
+Para el alojamiento web he visto [leaseweb](https://www.leaseweb.com/dedicated-servers/single-processor?processorCount=1) donde hay diferentes opciones de elección. Yo he optado por el siguiente:
+![xeon](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/xeon_zpsien0avsv.png)
+Las carácteristicas del procesador son las siguientes:
+- Intel® Xeon® Processor E3-1270 v2 
+- (8M Cache, 3.40 GHz)
+- 4 nucleos.
+
+Para el proveedor de servicios en la nube he visto [Azure](https://azure.microsoft.com/es-es/pricing/calculator/) donde tengo de caracteristicas similares(muy parecidas):
+![Azure](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/xeon_zpsbg2epfvs.png)
+
+Usandose sólo el 1% del tiempo:
+
+- Precio del servidor Azure( en la nube ): 0,172 €/h * 24h * 31 dias * 1% * 2 instancias =  2,55€/mes
+- Precio del servidor dedicado de leaseweb: 141.83 €/mes
+
+Usandose sólo el 1% del tiempo:
+
+- Precio del servidor Azure( en la nube ): 0,172 €/h * 24h * 31 dias * 10% * 2 instancias =  25,5€/mes
+- Precio del servidor dedicado de leaseweb: 141.83 €/mes
+
+Puede observarse que según el uso que se le este dando puede resultar mas interesante el uso de la tecnología en la nube.
+
+
 

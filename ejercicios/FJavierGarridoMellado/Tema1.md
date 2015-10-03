@@ -55,4 +55,42 @@ Usandose sólo el 1% del tiempo:
 Puede observarse que según el uso que se le este dando puede resultar mas interesante el uso de la tecnología en la nube.
 
 
+##Ejercicio3 : 1.¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
+
+
+**Comentario en el foro:**
+*- Para usar diferentes sistemas operativos o maquinas recurriría a una virtualización completa o plena (VMware,VirtualBox,etc).
+- En el caso de querer usar un ejecutable .exe o aplicaciones de Windows ( u otro sistema operativo) en un sistema UNIX/Linux usaría una virtualización de aplicaciones como por ejemplo Wine.
+- En el caso de querer usar las dos versiones de Python recurriría a virtualización de entornos de desarrollo ( este cuatrimestre toca probar este tipo de virtualización )*
+
+##2.Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+
+He creado un programa simple en *Python* que consiste en un minijuego de adivinar números entre 1 y 100:
+```
+#!/usr/bin/env python
+import random
+
+aleatorio= random.randint(1,100)
+acertado=False
+intentos=0
+
+
+while  (acertado == False)  and  (intentos < 11) :
+	numero=int(raw_input("Introduzca un numero entre 1 y 100: "))
+	intentos+=1
+
+	if (numero == aleatorio) :
+		acertado=True
+		print "Has acertado"
+	elif (numero>aleatorio) :
+		print "El numero buscado es menor"
+	else:
+		print "El numero buscado es mayor"
+```
+A continuación he instalado CDE mediante el comando *sudo apt-get install cde* y he empaquetado el programa mediante la orden *cde python ej1.py*:
+![cde](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/cde_zpsvfai8mhl.png)
+A continuación se procede a la ejecución del ejecutable creado mediante la orden *./python.cde ej1.py* en el directorio donde se encuentra el ejecutable:
+![cde2](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/cde_zpspq1ew1ux.png)
+
+##Ejercicio4:
 

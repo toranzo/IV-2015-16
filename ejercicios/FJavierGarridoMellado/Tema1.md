@@ -33,7 +33,8 @@ Para el cálculo de la amortización primero hallo su precio sin IVA ( este es a
 
 Para el alojamiento web he visto [leaseweb](https://www.leaseweb.com/dedicated-servers/single-processor?processorCount=1) donde hay diferentes opciones de elección. Yo he optado por el siguiente:
 ![xeon](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/xeon_zpsien0avsv.png)
-Las carácteristicas del procesador son las siguientes:
+
+ Las carácteristicas del procesador son las siguientes:
 - Intel® Xeon® Processor E3-1270 v2 
 - (8M Cache, 3.40 GHz)
 - 4 nucleos.

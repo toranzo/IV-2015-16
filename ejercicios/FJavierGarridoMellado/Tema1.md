@@ -29,4 +29,8 @@ Para el cálculo de la amortización primero hallo su precio sin IVA ( este es a
 	- Sexto año:	654,91 * 0.05 =  **32,74€**
 	- Séptimo año:	654,91 * 0.05 =  **32,74€**
 
+###Ejercicio 2 : Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
+
+Para el alojamiento web he visto ![leaseweb](https://www.leaseweb.com/dedicated-servers/single-processor?processorCount=1) donde hay diferentes opciones de elección. Yo he optado por el siguiente:
+![xeon](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/xeon_zpsnqhi0ea5.png)
 

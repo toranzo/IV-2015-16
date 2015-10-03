@@ -40,4 +40,8 @@ Quinto año: 2450.41*0,1 = 245,041 €
 Sexto año: 2450.41*0,05 = 122,5205 €
 Séptimo año: 2450.41*0,05 = 122,5205 €
 
+### Ejercicio 4
 
+Tras ejecutar la línea de comandos dada compruebo que mi procesador no posee esos flags (no me devuelve nada). Mi procesador es un intel GM965, el cual no posee la tecnología de virtualización de intel, por lo que es normal que no tenga dichos flags. 
+
+Al ejecutar egrep 		'^flags.*(vmx|svm)' /proc/cpuinfo 		no me devuelve nada

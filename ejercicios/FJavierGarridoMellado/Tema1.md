@@ -91,8 +91,16 @@ while  (acertado == False)  and  (intentos < 11) :
 ```
 A continuación he instalado CDE mediante el comando *sudo apt-get install cde* y he empaquetado el programa mediante la orden *cde python ej1.py*:
 ![cde](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/cde_zpsvfai8mhl.png)
-A continuación se procede a la ejecución del ejecutable creado mediante la orden *./python.cde ej1.py* en el directorio donde se encuentra el ejecutable:
+A continuación se procede a la ejecución del ejecutable creado mediante la orden *./python.cde ej1.py* en el directorio donde se encuentra el ejecutable( falta probar en otras distribuciones ):
 ![cde2](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/cde_zpspq1ew1ux.png)
 
-##Ejercicio4:
+##Ejercicio4:Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+
+El modelo de procesador es el Intel [M460@2.53GHz](http://ark.intel.com/es-es/products/50179/Intel-Core-i5-460M-Processor-3M-Cache-2_53-GHz) y puede verse con el comando **cat /proc/cpuinfo**
+![cpu](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/cpu_zps3bcpiqgg.png)
+La salida que aparece al visualizar los flags es la siguiente:
+![flags](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/flags_zps1wureglz.png)
+Se observa como el flag **vmx** esta activado.
+
+
 

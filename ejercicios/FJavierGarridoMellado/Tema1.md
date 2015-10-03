@@ -94,13 +94,28 @@ A continuación he instalado CDE mediante el comando *sudo apt-get install cde* 
 A continuación se procede a la ejecución del ejecutable creado mediante la orden *./python.cde ej1.py* en el directorio donde se encuentra el ejecutable( falta probar en otras distribuciones ):
 ![cde2](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/cde_zpspq1ew1ux.png)
 
-##Ejercicio4:Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+##Ejercicio 4:Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
-El modelo de procesador es el Intel [M460@2.53GHz](http://ark.intel.com/es-es/products/50179/Intel-Core-i5-460M-Processor-3M-Cache-2_53-GHz) y puede verse con el comando **cat /proc/cpuinfo**
+El modelo de procesador es el Intel [M460@2.53GHz](http://ark.intel.com/es-es/products/50179/Intel-Core-i5-460M-Processor-3M-Cache-2_53-GHz) y puede verse con el comando *cat /proc/cpuinfo*
+
 ![cpu](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/cpu_zps3bcpiqgg.png)
+
 La salida que aparece al visualizar los flags es la siguiente:
+
 ![flags](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/flags_zps1wureglz.png)
-Se observa como el flag **vmx** esta activado.
+
+Se observa como el flag *vmx* esta activado.
+
+##Ejercicio 5:
+
+### 5.1 Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+
+Tras instalar el paquete *cpu-checker* he comprobado que si incluye el componente KVM:
+![KVM](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/kvm_zpsfoujzevi.png)
+
+### 5.2 Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+
+En mi caso dispongo de *VirtualBox y VMware* y he instalado *Xen* como otra opción mas a contemplar ( mediante el comando *sudo apt-get install xen-hypervisor-4.4-amd64*).
 
 
 

@@ -55,7 +55,9 @@ Usandose sólo el 1% del tiempo:
 Puede observarse que según el uso que se le este dando puede resultar mas interesante el uso de la tecnología en la nube.
 
 
-##Ejercicio3 : 1.¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
+##Ejercicio3 : 
+
+###3.1 ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
 
 
 **Comentario en el foro:**
@@ -63,7 +65,7 @@ Puede observarse que según el uso que se le este dando puede resultar mas inter
 - En el caso de querer usar un ejecutable .exe o aplicaciones de Windows ( u otro sistema operativo) en un sistema UNIX/Linux usaría una virtualización de aplicaciones como por ejemplo Wine.
 - En el caso de querer usar las dos versiones de Python recurriría a virtualización de entornos de desarrollo ( este cuatrimestre toca probar este tipo de virtualización )*
 
-##2.Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+###3.2 Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
 He creado un programa simple en *Python* que consiste en un minijuego de adivinar números entre 1 y 100:
 ```

@@ -50,7 +50,7 @@ jueves a partir de las 12:30 está la OSL en la sala de reuniones.
 
 - [ ] Usar git para hacer *check-in* en clase y [expresar al final de cada sesión los objetivos alcanzados](Cumpliendo_Objetivos.md).
 
-- [ ]Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. Se puede hacer, de la misma forma, mediante un pull request, en este caso al repo del compañero.
+- [ ] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. Se puede hacer, de la misma forma, mediante un pull request, en este caso al repo del compañero.
 
 - [ ] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
 

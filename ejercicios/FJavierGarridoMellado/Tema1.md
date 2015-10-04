@@ -15,19 +15,19 @@ Por tanto el producto es el siguiente:
 
 Para el cálculo de la amortización primero hallo su precio sin IVA ( este es amortizado el primer año ):
 
- Precio sin IVA = 829 - 829 * 0.21 = *654,91€*
+ Precio sin IVA = 829 /1.21 = *685,12€*
 
 **La amortización a 4 años** es la siguiente teniendo en cuenta que corresponde a un 25% por año:
-654,91 * 0,25 = **163,73 €**
+685,12 * 0,25 = **171,28 €**
 
 **La amortización a 7 años** es la siguiente teniendo en cuenta que corresponde a un 25% los dos primeros años y despues se realiza de forma gradual:
-	- Primer año: 	654,91 * 0.25 = **163,73€**
-	- Segundo año:	654,91 * 0.25 = **163,73€**
-	- Tercer año:	654,91 * 0.15 =  **98,23€**
-	- Cuarto año:	654,91 * 0.15 =  **98,23€**
-	- quinto año:	654,91 * 0.10 =  **65,49€**
-	- Sexto año:	654,91 * 0.05 =  **32,74€**
-	- Séptimo año:	654,91 * 0.05 =  **32,74€**
+	- Primer año: 	685,12 * 0.25 = **171,28€**
+	- Segundo año:	685,12 * 0.25 = **171,28€**
+	- Tercer año:	685,12 * 0.15 =  **102,76€**
+	- Cuarto año:	685,12 * 0.15 =  **102,76€**
+	- quinto año:	685,12 * 0.10 =  **68,51€**
+	- Sexto año:	685,12 * 0.05 =  **34,25€**
+	- Séptimo año:	685,12 * 0.05 =  **34,25€**
 
 ###Ejercicio 2 : Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 

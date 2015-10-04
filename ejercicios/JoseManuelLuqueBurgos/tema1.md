@@ -4,9 +4,9 @@
 
 Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
-** Equipo **
+**Equipo**
 
-El equipo seleccionado es !(HP ProLiant ML150 Gen9 E5-2609v3)[http://www8.hp.com/es/es/products/proliant-servers/product-detail.html?oid=7183204]
+El equipo seleccionado es ![HP ProLiant ML150 Gen9 E5-2609v3](http://www8.hp.com/es/es/products/proliant-servers/product-detail.html?oid=7183204)
 
 
 Las principales características son:

@@ -10,10 +10,11 @@ Comencemos. Partimos de considerar un IVA del 21% y suponemos que lo hemos compr
 
 Le quitamos el IVA para calcular su primer año, eso nos deja el precio del ordenador al final del primer año en (aproximadamente): 1824-(1824*0.21)= 1440 euros. Una vez hecho esto sólo tenemos que dividir entre el número de años restantes para calcular la amortización por año: 1440/3=480 euros. Es decir:
 
--Primer año: 384 euros
--Segundo año: 480 euros
--Tercer año: 480 euros
--Cuarto año: 480 euros
+- Primer año: 384 euros
+
+- Segundo año: 480 euros
+- Tercer año: 480 euros
+- Cuarto año: 480 euros
 
 ##Amortización a 7 años
 Partiendo del mismo IVA, ahora en vez de dividir entre 3 dividimos entre 6. Esto nos da un coste de amortización de 384 euros el primer año y de 240 euros cada año.

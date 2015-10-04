@@ -4,9 +4,9 @@
 
 Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
-** Equipo **
+**Equipo**
 
-El equipo seleccionado es !(HP ProLiant ML150 Gen9 E5-2609v3)[http://www8.hp.com/es/es/products/proliant-servers/product-detail.html?oid=7183204]
+El equipo seleccionado es [HP ProLiant ML150 Gen9 E5-2609v3](http://www8.hp.com/es/es/products/proliant-servers/product-detail.html?oid=7183204)
 
 
 Las principales características son:
@@ -36,7 +36,7 @@ Almacenamiento (no incluido)
 	Samsung 840 EVO - Disco duro sólido interno SSD de 500 GB
 
 
-El precio es de !(1.339,88)[http://www.amazon.es/HP-ProLiant-E5-2609v3-Non-hot-Server/dp/B00QX4XMLQ/ref=sr_1_4?s=computers&ie=UTF8&qid=1443985044&sr=1-4&keywords=hp+proliant#productDetails] + !(244.99)[http://www.amazon.es/dp/B00E3W19MO/ref=asc_df_B00E3W19MO29223280/?tag=googshopes-21&creative=24514&creativeASIN=B00E3W19MO&linkCode=df0]
+El precio es de [1.339,88](http://www.amazon.es/HP-ProLiant-E5-2609v3-Non-hot-Server/dp/B00QX4XMLQ/ref=sr_1_4?s=computers&ie=UTF8&qid=1443985044&sr=1-4&keywords=hp+proliant#productDetails) + [244.99](http://www.amazon.es/dp/B00E3W19MO/ref=asc_df_B00E3W19MO29223280/?tag=googshopes-21&creative=24514&creativeASIN=B00E3W19MO&linkCode=df0)
 Precio con IVA: 1584.87 € 
 IVA (21%): 275,06 €
 Total Sin IVA: 1.309,81 €
@@ -49,17 +49,17 @@ Con una amortización a 7 años tenemos que el servidor nos cuesta 187.116€ al
 
 Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
-** Servidor dedicado VPS **
+**Servidor dedicado VPS**
 
-El VPS elegido pertenece a !(serverhub)[https://my.serverhub.com/cart.php?a=add&pid=629&_ga=1.137224563.236627008.1443994975]
+El VPS elegido pertenece a [serverhub](https://my.serverhub.com/cart.php?a=add&pid=629&_ga=1.137224563.236627008.1443994975)
 
 Uso al 1%: 189$ que son 168€/mes aproximadamente y que al año tiene un coste de 2016€
 
 Uso al 10%: el precio es fijo así que de igual manera el coste se mantiene en 2016€
 
-** Servicio cloud **
+**Servicio cloud**
 
-El servicio escogido es Microsoft Azure calculando el precio aproximado !(aquí)[https://azure.microsoft.com/es-es/pricing/calculator/]
+El servicio escogido es Microsoft Azure calculando el precio aproximado [aquí](https://azure.microsoft.com/es-es/pricing/calculator/)
 
 Tamaño de la instacia A3 con un uso completo (744 horas/mes) tiene un precio de 200,77€/mes
 
@@ -67,7 +67,7 @@ Uso al 1%: 2€/mes
 
 Uso al 10%: 20€/mes
 
-** Conclusión **
+**Conclusión**
 
 Es obvio que las ventajas de usar servicios en la nube en el aspecto económico son claramente favorables en comparación con la adquisición de un servicio VPS o un servidor propio.
 A parte de la parte económica, la nube ofrece más ventajas como pueden ser el escalado, flexibilidad y rapidez en la configuración.

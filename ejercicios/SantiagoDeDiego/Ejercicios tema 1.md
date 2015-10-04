@@ -53,4 +53,32 @@ Si la utilización es del 10% sigue siendo más rentable contratar un servicio p
 Sin más que resolver 399 * 12 * x = 1195.2 =====> x=0.2496
 
 Es decir, si la utilización es de más del 24.96% es más rentable la primera opción. Esto nos dice que para aplicaciones de prueba, por ejemplo, es mucho más conveniente un plan con Azure, que tener que contratar un servicio de alojamiento por acceso.
-	
+
+##Ejercicio 3
+
+##Ejercicio 4
+Vemos que al ejecutar el comando ``egrep '^flags.*(vmx|svm)' /proc/cpuinfo``  la terminal no se queda vacía sino que nos devuelve:
+
+![Flags](http://i864.photobucket.com/albums/ab201/Santiago_de_Diego/salida%20egrep%20flags_zpswkzi7qrh.png)
+
+Por tanto, el ordenador con el que trabajo tiene un procesador con los flags. Por tanto el ordenador tiene activada la capacidad de virtualización.
+
+El archivo que contiene información sobre la cpu es el archivo */cpuinfo*. Por tanto, para poder ver sus características solo tenemos que ejecutar ``less /proc/cpuinfo``. Aquí podemos ver una captura con las características del primer procesador
+
+![Características del procesador](http://i864.photobucket.com/albums/ab201/Santiago_de_Diego/caracteristicas%20cpu_zpstsv4x9mp.png)
+
+Como podemos ver el modelo de procesador es un Intel Core i3 de 2.2 GHz
+
+##Ejercicio 5
+Intentamos ejecutar ``kvm-ok`` pero vemos que tenemos que instalar antes un paquete. Hacemos un ``sudo apt-get install cpu-checker``. Una vez instalado, escribimos ``kvm-ok`` con permisos de administrador y nos devuelve:
+
+```
+INFO: /dev/kvm exists
+KVM acceleration can be used
+```
+
+Por tanto, si que podemos utilizar la aceleración kvm. 
+
+Ahora vamos a instalar un hipervisor para gestionar máquinas virtuales. Aunque yo ya tenía VirtualBox instalado en mi equipo, he elegido este para realizar el ejercicio porque se instala fácilmente con un comando y porque he tenido curiosidad por saber cómo funciona ya que si me convence lo utilizaré en un futuro, aunque probablemente use Virtualbox más adelante para todo lo relacionado con la virtualización ya que estoy más familizarizado con él. 
+
+Volviendo a Xen, instalarlo es muy sencillo, solo tenemos que escribir ``sudo apt-get install xen-hypervisor-4.4-amd64``

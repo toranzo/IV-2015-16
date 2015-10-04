@@ -100,16 +100,17 @@ print(fb)
 ~~~
 
 Si ejecutamos dicho programa en un sistema el cual no tiene Fibo instalado obtenemos:
-![Error][1]
-[1]: blob:https://drive.google.com/cb9bf76d-f4d9-410e-bf65-86fc9d9901e4
+![Error](https://www.dropbox.com/s/93tsucddau1ppum/Screenshot_2015-10-05_00-55-48.png?dl=1)
 
 A continuación empaquetamos dicho programa con CDE y lo ejecutamos en el sistema anterior que nos daba error:
-
+![AhoraSi](https://www.dropbox.com/s/bpbdxoagazq9xrt/Screenshot_2015-10-05_01-01-53.png?dl=1)
 
 La estructura generada por CDE es la siguiente:
 
 cde-package
+
 └── cde-root
+
     ├── bin -> usr/bin
     ├── etc
     ├── home

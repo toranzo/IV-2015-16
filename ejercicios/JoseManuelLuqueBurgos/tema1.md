@@ -1,6 +1,6 @@
-### Ejercicios Tema 1
+# Ejercicios Tema 1
 
-## Ejercicio 1
+### Ejercicio 1
 
 Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
@@ -11,34 +11,37 @@ El equipo seleccionado es [HP ProLiant ML150 Gen9 E5-2609v3](http://www8.hp.com/
 
 Las principales características son:
 
-Procesador
-    	Intel® Xeon® E5-2609 v3 (6 núcleos, 1,9 GHz, 15 MB, 85 W) 
+ * Procesador
+   	Intel® Xeon® E5-2609 v3 (6 núcleos, 1,9 GHz, 15 MB, 85 W) 
 	Número de procesadores 1
 	Núcleo de procesador disponible 6 
 
-Tipo de fuente de alimentación
+ * Tipo de fuente de alimentación
 	(1) Fuente de alimentación con integración de fábrica de 550 W 
 
-Ranuras de expansión
+ * Ranuras de expansión
 	(6) máximo: para obtener una descripción detallada, consulte QuickSpec
 
 
-Memoria, estándar
+ * Memoria, estándar
     	RDIMM de 8 GB (1 x 8 GB) 
 
-Ranuras de memoria
+ * Ranuras de memoria
     	16 ranuras DIMM; Máximo 
 
-Tipo de memoria
+ * Tipo de memoria
 	1R x8 PC4-2133P-R
 
-Almacenamiento (no incluido)
+ * Almacenamiento (no incluido)
 	Samsung 840 EVO - Disco duro sólido interno SSD de 500 GB
 
 
 El precio es de [1.339,88](http://www.amazon.es/HP-ProLiant-E5-2609v3-Non-hot-Server/dp/B00QX4XMLQ/ref=sr_1_4?s=computers&ie=UTF8&qid=1443985044&sr=1-4&keywords=hp+proliant#productDetails) + [244.99](http://www.amazon.es/dp/B00E3W19MO/ref=asc_df_B00E3W19MO29223280/?tag=googshopes-21&creative=24514&creativeASIN=B00E3W19MO&linkCode=df0)
+
 Precio con IVA: 1584.87 € 
+
 IVA (21%): 275,06 €
+
 Total Sin IVA: 1.309,81 €
 
 Con una amortización del 25% (4 años) tenemos que el servidor nos cuesta 327.45€ al año.

@@ -1,10 +1,11 @@
 #Ejercicios tema 1
 
 
-##Ejercicio1
+##Ejercicio 1
 ###Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
-El ordenador que he elegido es *KIT SERVIDOR ML310 470065-800 XEON E3-1220V3 3.1GHZ 8GB DDR3 2X 1TB + FOUNDATION 2012*
-algunas de sus caractirísticas son las siguientes:
+El ordenador que he elegido es *KIT SERVIDOR ML310 470065-800 XEON E3-1220V3 3.1GHZ 8GB DDR3 2X 1TB + FOUNDATION 2012* en la tienda de [Dynos](http://www.dynos.es/kit-servidor-ml310-470065-800-xeon-e3-1220v3-3.1ghz-8gb-ddr3-2x-1tb--mas-foundation-2012__KIT-ML310-1.html)
+
+Algunas de sus caractirísticas son las siguientes:
 
 - Nombre de Marca:	HP
 - Gama de Producto:	ML310e G8
@@ -62,3 +63,5 @@ Deducimos que los primeros años se amortiza más
 	<li>Sexto año: 765,51 * 0,10 = 76,55</li>
 	<li>Séptimo año: 765,51 * 0,10 = 76,55</li>
 </ol>
+
+##Ejercicio 2

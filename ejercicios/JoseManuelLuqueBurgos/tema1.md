@@ -81,3 +81,62 @@ A parte de la parte económica, la nube ofrece más ventajas como pueden ser el 
 
 Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
+En primer lugar creamos un programa, el lenguaje elegido es python. 
+
+Para comprobar que realmente se produce un empaquetado de los recursos que dicho programa necesita usaremos una librería la cual es necesario instalar en el equipo que ejecuta el programa, dicha libreria es Fibo.
+
+~~~python
+# Importamos dicha libreria
+from Fibo import fab2
+
+# Línea de rigor
+print("Hello world")
+
+# Dime los 10 primeros numeros de fibonacci
+fb = fab2(10)
+
+# Imprimelos
+print(fb)
+~~~
+
+Si ejecutamos dicho programa en un sistema el cual no tiene Fibo instalado obtenemos:
+![Error][1]
+[1]: blob:https://drive.google.com/cb9bf76d-f4d9-410e-bf65-86fc9d9901e4
+
+A continuación empaquetamos dicho programa con CDE y lo ejecutamos en el sistema anterior que nos daba error:
+
+
+La estructura generada por CDE es la siguiente:
+
+cde-package
+└── cde-root
+    ├── bin -> usr/bin
+    ├── etc
+    ├── home
+    │   └── jose
+    │       └── Development
+    │           └── pythontest
+    │               ├── bin
+    │               └── lib
+    │                   └── python2.7
+    │                       ├── encodings -> ./../../../../../..//usr/lib/python2.7/encodings
+    │                       ├── lib-dynload -> ./../../../../../..//usr/lib/python2.7/lib-dynload
+    │                       └── site-packages
+    ├── lib -> usr/lib
+    ├── lib64 -> usr/lib
+    ├── sbin -> usr/bin
+    └── usr
+        ├── bin
+        ├── lib
+        │   ├── locale
+        │   └── python2.7
+        │       ├── encodings
+        │       ├── lib-dynload
+        │       ├── lib-tk
+        │       └── plat-linux2
+        ├── lib64 -> lib
+        └── share
+            └── zoneinfo
+                └── Europe
+
+29 directories

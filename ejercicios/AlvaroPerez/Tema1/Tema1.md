@@ -1,5 +1,4 @@
 #Tema 1
-
 ##Ejercicio1: Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
 Cojemos este servidor de la web de pccomponentes.com: HP ProLiant DL60 Gen 9 E5-2603v3/4GB cuyo precio es de 979€. Sin iva es: 809.09€
@@ -51,6 +50,7 @@ Azure: 0.405/Hora => 301.32/Mes * 0.01 = 3.01/Mes * 12 Meses = 36.16
 Azure: 0.405/Hora => 301.32/Mes * 0.1 = 30.13/Mes * 12 Meses = 361.58
 
 
+
 ##Ejercicio3: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
 Pequeño programa en c++:
@@ -69,8 +69,20 @@ int main(){
 
 ##Ejercicio4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
+Modelo del procesador:
+imagenejercicio4
 
-Aqui podemos ver el modelo de procesador:
+Tras ejecutar la orden elresultado es :
+
+imagenejercicio4b
+
+Como no devuelve nada, esto quiere decir que el procesador no tiene estafuncionalidad o la tiene desactivada.
+
+##Ejercicio5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+
+
+
+##Ejercicio5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. 
 
 
 

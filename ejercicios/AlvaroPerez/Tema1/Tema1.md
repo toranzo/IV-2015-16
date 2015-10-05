@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Tema 1
 ##Ejercicio1: Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
@@ -85,4 +86,9 @@ Como no devuelve nada, esto quiere decir que el procesador no tiene estafunciona
 ##Ejercicio5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. 
 
 
+=======
+#Tema1
+
+![Ejercicio4](https://www.dropbox.com/s/v6kp6shilid64qv/Ejercicio4.png?dl=1)
+>>>>>>> 17eb873ab29a6261b80001ba0d813c79a1223efa
 

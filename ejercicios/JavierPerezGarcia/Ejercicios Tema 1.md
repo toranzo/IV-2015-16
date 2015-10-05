@@ -1,4 +1,4 @@
-###Ejercicio 1
+### Ejercicio 1
 
 El pc servidor que voy a utilizar es el HP ProLiant ML350 Gen9, obtenido en la tienda Pccomponentes
 
@@ -42,6 +42,28 @@ Séptimo año: 2450.41*0,05 = 122,5205 €
 
 ### Ejercicio 4
 
-Tras ejecutar la línea de comandos dada compruebo que mi procesador no posee esos flags (no me devuelve nada). Mi procesador es un intel GM965, el cual no posee la tecnología de virtualización de intel, por lo que es normal que no tenga dichos flags. 
+Tras ejecutar la línea de comandos dada compruebo que mi procesador no posee esos flags (no me devuelve nada). Mi procesador es un intel T6400, el cual no posee la tecnología de virtualización de intel, por lo que es normal que no tenga dichos flags. 
 
 Al ejecutar egrep 		'^flags.*(vmx|svm)' /proc/cpuinfo 		no me devuelve nada
+
+Aquí dejo una captura donde se ve toda la información de mi cpu:
+
+![Mi captura](https://www.dropbox.com/s/3bmlu00lwbgr9n4/4.png?dl=0)
+![Mi captura2](https://www.dropbox.com/s/ghmm920gdd083en/4%2C1.png?dl=0)
+
+### Ejercicio 5
+
+#### Apartado 1
+
+No lo soporta, aquí dejo lo obtenido al ejecutar la orden:
+
+![ejer51](https://www.dropbox.com/s/v8gpjl742jlcda2/5%2C1.png?dl=0)
+
+#### Apartado 2
+
+Aquí dejo las capturas de la instalación de QEMU:
+
+![ejer521](https://www.dropbox.com/s/gqq1qyrg5ul8c4a/Ejercicio5%2C2%2C1.jpg?dl=0)
+![ejer522](https://www.dropbox.com/s/5f3j8ky0f8a0bun/ejercicio5%2C2%2C2.png?dl=0)
+![ejer523](https://www.dropbox.com/s/dbdq448jzffd5ui/Ejercicio%205%2C2%2C3.png?dl=0)
+![ejer524](https://www.dropbox.com/s/flwp2h7lb70p8ba/Ejercicio5%2C2%2C4.png?dl=0)

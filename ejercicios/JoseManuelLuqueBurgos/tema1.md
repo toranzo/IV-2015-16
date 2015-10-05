@@ -1,6 +1,6 @@
 # Ejercicios Tema 1
-
-### Ejercicio 1
+ 
+## Ejercicio 1
 
 Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
@@ -141,3 +141,13 @@ cde-package
                 └── Europe
 
 29 directories
+
+## Ejercicio 4
+
+Comprobar si el procesador o procesadores instalados tienen los flags vmx ó svm . ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+
+El modelo del procesador es Intel(R) Core(TM)2 Duo CPU T6500@2.10GHz
+
+La salida de egrep '^flags.*(vmx|svm)' /proc/cpuinfo no muestra nada por lo que éste procesador no tiene la posibilidad de virtualización a nivel de hardware.
+
+

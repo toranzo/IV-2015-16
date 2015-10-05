@@ -64,6 +64,21 @@ Deducimos que los primeros años se amortiza más
 	<li>Séptimo año: 800,82 * 0,10 = 80,082</li>
 </ol>
 
-##Ejercicio 2
+##Ejercicio 3.2
 ###Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
+<ol>
+	<li>He instalado CDE con el comando: sudo apt-get install cde</li>
+	<li>Me he creado un pequeño programa en python que imprime una frase</li>
+	<li>He empaquetado mi programa con el comando: cde python programa.py</li>
+	<li>Me he movido a la ruta ~/Desktop/cde-package/cde-root/home/parallels/Desktop que es donde se encuentra el archivo emmpaquetado por CDE</li>
+	<li>Ejecuto el archivo creado</li>
+</ol>
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/captura.png)
+
+
+##Ejercicio 4
+###Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+Al usar mac el comando que he tenido que ejecutar para ver la información del procesador es: sysctl -a | grep machdep.cpu
+y la salida ha sido la siguiente:
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/captura2.png)

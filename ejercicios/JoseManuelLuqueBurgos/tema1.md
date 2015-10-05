@@ -146,7 +146,7 @@ cde-package
 
 Comprobar si el procesador o procesadores instalados tienen los flags vmx ó svm . ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
-El modelo del procesador es Intel(R) Core(TM)2 Duo CPU T6500@2.10GHz
+El modelo del procesador es Intel(R) Core(TM)2 Duo CPU T6500 @ 2.10GHz
 
 La salida de egrep '^flags.*(vmx|svm)' /proc/cpuinfo no muestra nada por lo que éste procesador no tiene la posibilidad de virtualización a nivel de hardware.
 

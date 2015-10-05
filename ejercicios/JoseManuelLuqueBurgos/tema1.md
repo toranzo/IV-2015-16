@@ -1,7 +1,7 @@
 # Ejercicios Tema 1
- 
+  
 ## Ejercicio 1
-
+ 
 Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
 **Equipo**
@@ -150,4 +150,8 @@ El modelo del procesador es Intel(R) Core(TM)2 Duo CPU T6500@2.10GHz
 
 La salida de egrep '^flags.*(vmx|svm)' /proc/cpuinfo no muestra nada por lo que éste procesador no tiene la posibilidad de virtualización a nivel de hardware.
 
+## Ejercicio 5
 
+Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+
+Debido a que mi procesador no soporta la virtualización, [no dispongo](https://wiki.archlinux.org/index.php/KVM#Checking_support_for_KVM) de la orden kvm.

@@ -48,8 +48,8 @@ Al ejecutar egrep 		'^flags.*(vmx|svm)' /proc/cpuinfo 		no me devuelve nada
 
 Aquí dejo una captura donde se ve toda la información de mi cpu:
 
-![Mi captura](https://www.dropbox.com/s/3bmlu00lwbgr9n4/4.png?dl=0)
-![Mi captura2](https://www.dropbox.com/s/ghmm920gdd083en/4%2C1.png?dl=0)
+[Mi captura](https://www.dropbox.com/s/3bmlu00lwbgr9n4/4.png?dl=0)
+[Mi captura2](https://www.dropbox.com/s/ghmm920gdd083en/4%2C1.png?dl=0)
 
 ### Ejercicio 5
 
@@ -57,13 +57,13 @@ Aquí dejo una captura donde se ve toda la información de mi cpu:
 
 No lo soporta, aquí dejo lo obtenido al ejecutar la orden:
 
-![ejer51](https://www.dropbox.com/s/v8gpjl742jlcda2/5%2C1.png?dl=0)
+[ejer51](https://www.dropbox.com/s/v8gpjl742jlcda2/5%2C1.png?dl=0)
 
 #### Apartado 2
 
 Aquí dejo las capturas de la instalación de QEMU:
 
-![ejer521](https://www.dropbox.com/s/gqq1qyrg5ul8c4a/Ejercicio5%2C2%2C1.jpg?dl=0)
-![ejer522](https://www.dropbox.com/s/5f3j8ky0f8a0bun/ejercicio5%2C2%2C2.png?dl=0)
-![ejer523](https://www.dropbox.com/s/dbdq448jzffd5ui/Ejercicio%205%2C2%2C3.png?dl=0)
-![ejer524](https://www.dropbox.com/s/flwp2h7lb70p8ba/Ejercicio5%2C2%2C4.png?dl=0)
+[ejer521](https://www.dropbox.com/s/gqq1qyrg5ul8c4a/Ejercicio5%2C2%2C1.jpg?dl=0)
+[ejer522](https://www.dropbox.com/s/5f3j8ky0f8a0bun/ejercicio5%2C2%2C2.png?dl=0)
+[ejer523](https://www.dropbox.com/s/dbdq448jzffd5ui/Ejercicio%205%2C2%2C3.png?dl=0)
+[ejer524](https://www.dropbox.com/s/flwp2h7lb70p8ba/Ejercicio5%2C2%2C4.png?dl=0)

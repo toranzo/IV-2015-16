@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 #Tema 1
-##Ejercicio1: Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
+###Ejercicio1: Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
 Cojemos este servidor de la web de pccomponentes.com: HP ProLiant DL60 Gen 9 E5-2603v3/4GB cuyo precio es de 979€. Sin iva es: 809.09€
 

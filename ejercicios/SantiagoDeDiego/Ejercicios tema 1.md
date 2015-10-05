@@ -57,6 +57,14 @@ Es decir, si la utilización es de más del 24.96% es más rentable la primera o
 
 ##Ejercicio 3
 
+Primero instalamos cde con ``sudo apt-get install cde``. Una vez hecho esto empaquetamos nuestro programa sencillo en python con ``cde python3 programa.py``
+
+Al hacer esto, vemos que se ha creado una carpeta llamada */cde-package* y si entramos en ella, vemos que ha "copiado" la estructura de directorios que tenemos en nuestro ordenador dentro de la carpeta, es decir, ha creado una especie de entorno con todas las librerías necesarias para poder ejecutar nuestro programa. Para ejecutarlo, tenemos que movernos dentro de la carpeta hasta llegar a la subcarpeta donde esta el programa esto es:
+
+``cd Escritorio/cde-package/cde-root/home/santiago/Escritorio``
+
+ya que en mi caso lo tenía en el escritorio. Una vez dentro de nuestro "Escritorio virtual", ejecutamos ``./python3.cde programa.py`` y vemos como nos ejecuta nuestro programilla en python, que en mi caso es un simple programa con el clásico "Hola Mundo".
+
 ##Ejercicio 4
 Vemos que al ejecutar el comando ``egrep '^flags.*(vmx|svm)' /proc/cpuinfo``  la terminal no se queda vacía sino que nos devuelve:
 

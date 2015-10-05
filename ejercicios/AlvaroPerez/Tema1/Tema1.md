@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Tema 1
 ###Ejercicio1: Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
@@ -15,7 +14,7 @@ Cojemos este servidor de la web de pccomponentes.com: HP ProLiant DL60 Gen 9 E5-
     Quinto año:           809.09 * 0.10 =  80.91
     Sexto y séptimo año:  809.09 * 0.05 =  40.46
     
-##Ejercicio2: Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
+###Ejercicio2: Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
 _Elegimos un servidor dedicado de **1&1** con las siguientes características:_
 
@@ -52,7 +51,7 @@ Azure: 0.405/Hora => 301.32/Mes * 0.1 = 30.13/Mes * 12 Meses = 361.58
 
 
 
-##Ejercicio3: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+###Ejercicio3: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
 Pequeño programa en c++:
 
@@ -68,27 +67,29 @@ int main(){
 * Instalamos CDE: apt-get install cde.
 
 
-##Ejercicio4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+###Ejercicio4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
 Modelo del procesador:
-imagenejercicio4
+
+![Ejercicio4](https://www.dropbox.com/s/v6kp6shilid64qv/Ejercicio4.png?dl=1)
 
 Tras ejecutar la orden elresultado es :
 
-imagenejercicio4b
+![Ejercicio4b](https://www.dropbox.com/s/dsm36paloltkw7s/Ejercicio4b.png?dl=1)
 
 Como no devuelve nada, esto quiere decir que el procesador no tiene estafuncionalidad o la tiene desactivada.
 
-##Ejercicio5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+###Ejercicio5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+
+Para poder usar la orden kvm-ok debemos hacer esto: apt-get install cpu-checker 
+
+Ahora vemos con kvm-ok si es posible la acelaración KVM:
+
+![Ejercicio5a](https://www.dropbox.com/s/6bco88pnqvlyd3t/Ejercicio5a.png?dl=1)
+
+
+###Ejercicio5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. 
 
 
 
-##Ejercicio5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. 
-
-
-=======
-#Tema1
-
-![Ejercicio4](https://www.dropbox.com/s/v6kp6shilid64qv/Ejercicio4.png?dl=1)
->>>>>>> 17eb873ab29a6261b80001ba0d813c79a1223efa
 

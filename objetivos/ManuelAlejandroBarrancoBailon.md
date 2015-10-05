@@ -10,4 +10,4 @@
 
 ####Otros objetivos y tareas
 
-- [X]Encuesta inicial contestada
+- [X] Encuesta inicial contestada

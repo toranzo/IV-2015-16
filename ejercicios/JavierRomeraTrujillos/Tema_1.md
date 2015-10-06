@@ -25,7 +25,7 @@ Ejercicio 2.
 |Uso 1% al mes=  1,5609€ | Uso 1% al año= 18,7308€|	
 |Uso 10% al mes= 15,609€ | Uso 10% al año= 187,308€|	
 
-
+------
 
 * **Nube: 6vCPU/ 32GB RAM /750GB HDD**
 

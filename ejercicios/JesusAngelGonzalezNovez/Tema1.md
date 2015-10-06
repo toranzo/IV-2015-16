@@ -50,7 +50,9 @@ Empaquetemos con la orden:
 
     cde ruby script1.rb
 
-FALTA PROBARLO EN DISTINTAS DISTRIBUCIONES
+Si navegamos por el árbol de directorios generado por CDE encontraremos el intérprete para Ruby en cde-package/cde-root/usr/bin/
+
+Como vemos, es una forma interesante y práctica de distribuir aplicaciones de forma empaquetada con todo lo que pueda necesitar nuestra aplicación.
 
 ### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 

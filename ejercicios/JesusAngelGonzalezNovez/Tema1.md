@@ -62,6 +62,8 @@ Los flags que me aparecen son los siguientes:
 
 ![flags](img/tema1-4flags.png)
 
+No tengo opción de virtualización a nivel de hardware en este ordenador.
+
 Para ver el modelo de procesador usamos:
 
     cat /proc/cpuinfo | grep "model name"

@@ -85,7 +85,7 @@ Ahora vemos con kvm-ok si es posible la acelaración KVM:
 
 ###Ejercicio5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. 
 
-Como hipervisor he elegido VirtualBox para instalarlo uso: apt-get install virtualbox-qt.
+Como hipervisor he elegido VirtualBox, para instalarlo uso: apt-get install virtualbox-qt.
 
 ![Ejercicio5b](https://www.dropbox.com/s/ideodftlsygcuty/Ejercicio5b.png?dl=1)
 

@@ -68,7 +68,7 @@ Modelo del procesador:
 
 ![Ejercicio4](https://www.dropbox.com/s/v6kp6shilid64qv/Ejercicio4.png?dl=1)
 
-Tras ejecutar la orden elresultado es :
+Tras ejecutar la orden, el resultado es:
 
 ![Ejercicio4b](https://www.dropbox.com/s/dsm36paloltkw7s/Ejercicio4b.png?dl=1)
 

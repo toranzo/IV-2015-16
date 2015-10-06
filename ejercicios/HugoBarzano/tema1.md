@@ -25,16 +25,39 @@ Si se trata de una amortización a 7 años, los porcentajes cambian:
 
 Las compañias que he elegido para realziar el ejercicio son [Hostalia] (https://www.hostalia.com/) y [acens] https://www.acens.com/
 
-![imagen] ()
+![imagen] (https://www.dropbox.com/s/1mveb1r2izzicha/hostalia.png?dl=0)
 
-![imagen] ()
+![imagen] (https://www.dropbox.com/s/25ulm87aymi5cqz/acens.png?dl=0)
 
 **Ejercicio 3:** ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
+Si deseará una virtualización plena, para disfrutar de todas las características de un sistema operativo, utilizaría  hipervisores o programas de control. Si quisiera hacer un estudio más detallado de algún recurso concreto, utilizaría la virtualización parcial de dicho recurso. Para conseguir una virtualización a nivel de sistema operativo utilizaría herramientas con las que ya estamos familiarizados como por ejemplo VMware.  
 
-Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+**Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
 
+He decidido utilizar como lenguaje python y el progragrama es ordenación por burbuja
+```
+#!/usr/bin/env python
+
+	def Burbuja(elementos,tam):
+   		 for i in range(1,tam):
+   		     for j in range(0,tam-i):
+   		         if(elementos[j] > elementos[j+1]):
+   		             k = elementos[j+1]
+   		             elementos[j+1] = elementos[j]
+   		             elementos[j] = k
+```
+
+He intalado CDE mediante sudo apt-get install cde
+Para empaquetar el programa, debemos utilziar la orden cde python ejercicio2.py
+![imagen] (https://www.dropbox.com/s/hui1qnjavnr2jeu/cde.png?dl=0)
 
 **Ejercicio 4:** Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+
+Modelo de procesador: 
+
+Salida de la orden: 
+![imagen] (https://www.dropbox.com/s/7txdc5fi6d2k7sp/flags.png?dl=0)
+
 
 **ejercicio 5:** 1- Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 

@@ -1,6 +1,7 @@
-# Objetivos Rafael Lachica Garrido
+# Lista de objetivos de Jose Manuel Linares Rojas
+
 ## Semana del 23 al 30 de septiembre de 2015
-==
+### Objetivos a cubrir en la sesión
 
 - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
@@ -10,8 +11,9 @@
 
 - [x] Vernos las caras.
 
+
 ## Semana del 30 de septiembre al 7 de octubre de 2015
-==
+### Objetivos de la semana
 
 - [x] Comenzar a entender los conceptos fundamentales relacionados con la virtualización.
 
@@ -25,27 +27,27 @@
 
 - [x] Comprender el concepto de "software as a service" y comprender los criterios necesarios para su elección.
 
+
 ### Otros objetivos
 
-- [x] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige.
+- [ ] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige.
 
 - [x] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub (no https).
 
-- [x] Tener configurados los dos repositorios (origin, el propio, upstream, el del resto de la clase).
+- [x] Tener configurdos los dos repositorios (origin, el propio, upstream, el del resto de la clase).
 
 - [x] Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura.
 
-- [x] Usar los métodos de entrega de ejercicios propuestos para la asignatura usando GitHub.
+- [ ] Usar los métodos de entrega de ejercicios propuestos para la asignatura usando GitHub.
 
 - [x] Manejar de forma básica la línea de órdenes de Linux.
 
 - [x] Aprender a instalar software libre en Linux.
 
-- [ ] Entender el concepto de sistema de ficheros virtual usado en Linux para diferentes menesteres.
+- [x] Entender el concepto de sistema de ficheros virtual usado en Linux para diferentes menesteres.
 
 - [ ] Usar git para hacer check-in en clase y expresar al final de la misma los objetivos alcanzados.
 
 - [ ] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. 
 
 - [ ] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
-

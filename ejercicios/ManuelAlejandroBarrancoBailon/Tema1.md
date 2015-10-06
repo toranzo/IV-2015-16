@@ -45,7 +45,20 @@ He consultado el proveedor de alojamiento [OVH](https://www.ovh.es) en su aparta
 
 Para el proveedor de servicios en la nube, he consultado Azure de Mirosoft, en su apartado de [calculadora de precios](https://azure.microsoft.com/es-es/pricing/calculator/), obteniendo un precio de 0.015 €/hora para el servicio de un núcleo y 20 GB de almacenamiento.
 
-![Precio Azure](http://i1016.photobucket.com/albums/af281/raperaco/Precio%20Azure_zpse7ujo5wn.png)
+![Precio Azure](http://i1016.photobucket.com/albums/af281/raperaco/precio_azure_zpsiy5dqavt.png)
+
+Ahora vamos a realizar la comparación en los siguientes casos: 
+
+* Si se usa sólo el **1%**:
+	* Para el servicio de alojamiento (OVH): **7.25 € se use lo que se use durante un mes**
+	* Para el servicio en la nube (Azure): 11.29€/mes * 0.01 = **0.1129 € habría que pagar sólamente**
+	
+* Si se usa sólo el **10%**:
+	* Para el servicio de alojamiento (OVH): **7.25 € se use lo que se use durante un mes**
+	* Para el servicio en la nube (Azure): 11.29€/mes * 0.1 = **1.129 € habría que pagar sólamente**
+	
+	
+En resumen, en ambos casos vemos que si sólo se va a usar un 1% o un 10 % del tiempo, es más económica la opción del servicio en la nube de Azure (7.25€ VS. 0.112e9 o 1.129€). En cambio, si este servicio se va a usar durante un mes completo todas las horas, es más económica la opción de alojamiento (11.29€ > 7.25€).
 
 
 	

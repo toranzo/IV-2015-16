@@ -59,7 +59,7 @@ Pequeño programa en python:
 
 * Instalamos CDE: apt-get install cde.
 
-* Para empaquetar utilizamos la siguiente orden: cde python prueba.py
+* Para empaquetar utilizamos la siguiente orden: cde python prueba.py .
 
 
 ###Ejercicio4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
@@ -76,7 +76,7 @@ Como no devuelve nada, esto quiere decir que el procesador no tiene esta funcion
 
 ###Ejercicio5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
-Para poder usar la orden kvm-ok debemos hacer esto: apt-get install cpu-checker 
+Para poder usar la orden kvm-ok debemos hacer esto: apt-get install cpu-checker .
 
 Ahora vemos con kvm-ok si es posible la acelaración KVM:
 

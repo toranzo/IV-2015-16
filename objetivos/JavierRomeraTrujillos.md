@@ -7,11 +7,10 @@
 - [x] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
 - [x] Entender el concepto de software libre y su aplicación práctica en clase.
 - [x] Vernos las caras.
- - - -
+- - -
 
 #Segunda semana
 ====
-
 ##Objetivos de la semana
 
 - [x] Comenzar a entender los conceptos fundamentales relacionados con la virtualización.

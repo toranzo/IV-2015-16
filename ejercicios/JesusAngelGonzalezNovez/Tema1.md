@@ -6,28 +6,28 @@ Mirando por Amazon he encontrado el servidor [HP 726042-425](http://www.amazon.e
 
 Su precio es de 682,51€ (IVA incl.), como necesitamos el precio sin IVA pues hacemos el cálculo:
 
-682.51€ - 682.51€ * 0.21 = 539.18€
+682.51€ / 1.21 = 564.05€
 
 **Amortización a 4 años**
 
 Con una amortización máxima del 25% por año: 
 
-    - Primer año: 	539.18€ * 0.25 = 134.80€
-    - Segundo año:	539.18€ * 0.25 = 134.80€
-    - Tercer año:	539.18€ * 0.25 = 134.80€
-    - Cuarto año:	539.18€ * 0.25 = 134.80€
+    - Primer año: 	564.05€ * 0.25 = 141.01€
+    - Segundo año:	564.05€ * 0.25 = 141.01€
+    - Tercer año:	564.05€ * 0.25 = 141.01€
+    - Cuarto año:	564.05€ * 0.25 = 141.01€
 
 **Amortización a 7 años**
 
 En este caso se va reduciendo el coste del producto conforme pasan los años, los 2 primeros años se mantiene el 25% pero el 50% restante se divide de forma gradual en los 5 siguientes años como podemos ver a continuación:
 
-    - Primer año: 	539.18€ * 0.25 = 134.80€
-    - Segundo año:	539.18€ * 0.25 = 134.80€
-    - Tercer año:	539.18€ * 0.15 =  80.88€
-    - Cuarto año:	539.18€ * 0.15 =  80.88€
-    - Quinto año:	539.18€ * 0.10 =  53.92€
-    - Sexto año:	539.18€ * 0.05 =  26.96€
-    - Séptimo año:  539.18€ * 0.05 =  26.96€
+    - Primer año: 	564.05€ * 0.25 = 141.01€
+    - Segundo año:	564.05€ * 0.25 = 141.01€
+    - Tercer año:	564.05€ * 0.15 =  84.60€
+    - Cuarto año:	564.05€ * 0.15 =  84.60€
+    - Quinto año:	564.05€ * 0.10 =  56.40€
+    - Sexto año:	564.05€ * 0.05 =  28.20€
+    - Séptimo año:  564.05€ * 0.05 =  28.20€
 
 ### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 

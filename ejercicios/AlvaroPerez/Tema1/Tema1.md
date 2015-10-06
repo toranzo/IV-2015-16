@@ -53,18 +53,13 @@ Azure: 0.405/Hora => 301.32/Mes * 0.1 = 30.13/Mes * 12 Meses = 361.58
 
 ###Ejercicio3: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
-Pequeño programa en c++:
+Pequeño programa en python:
 
- #include  *<* iostream *>*
-
-using namespace std;
-
-int main(){
-
-	cout << "Ejercicio 3\n";
-}
+![Ejercicio3](https://www.dropbox.com/s/br1shbt4610drmg/Ejercicio3.png?dl=1)
 
 * Instalamos CDE: apt-get install cde.
+
+* Para empaquetar utilizamos la siguiente orden: cde python prueba.py
 
 
 ###Ejercicio4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
@@ -77,7 +72,7 @@ Tras ejecutar la orden elresultado es :
 
 ![Ejercicio4b](https://www.dropbox.com/s/dsm36paloltkw7s/Ejercicio4b.png?dl=1)
 
-Como no devuelve nada, esto quiere decir que el procesador no tiene estafuncionalidad o la tiene desactivada.
+Como no devuelve nada, esto quiere decir que el procesador no tiene esta funcionalidad o la tiene desactivada.
 
 ###Ejercicio5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
@@ -89,6 +84,11 @@ Ahora vemos con kvm-ok si es posible la acelaración KVM:
 
 
 ###Ejercicio5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. 
+
+Como hipervisor he elegido VirtualBox para instalarlo uso: apt-get install virtualbox-qt.
+
+![Ejercicio5b](https://www.dropbox.com/s/ideodftlsygcuty/Ejercicio5b.png?dl=1)
+
 
 
 

@@ -74,10 +74,12 @@ Uso al 10%: 20€/mes
 
 Es obvio que las ventajas de usar servicios en la nube en el aspecto económico son claramente favorables en comparación con la adquisición de un servicio VPS o un servidor propio.
 A parte de la parte económica, la nube ofrece más ventajas como pueden ser el escalado, flexibilidad y rapidez en la configuración.
-
+ 
 ## Ejercicio 3
 
 ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
+
+[Comentario](https://github.com/JJ/IV-2015-16/issues/1#issuecomment-145777828)
 
 Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 

@@ -11,3 +11,7 @@
 ####Otros objetivos y tareas
 
 - [X] Encuesta inicial contestada
+
+
+
+

@@ -23,6 +23,12 @@ Si se trata de una amortización a 7 años, los porcentajes cambian:
 
 **Ejercicios 2:**Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo. 
 
+Las compañias que he elegido para realziar el ejercicio son [Hostalia] (https://www.hostalia.com/) y [acens] https://www.acens.com/
+
+![imagen] ()
+
+![imagen] ()
+
 **Ejercicio 3:** ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
 
 Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.

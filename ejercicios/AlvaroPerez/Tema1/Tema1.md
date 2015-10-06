@@ -53,19 +53,10 @@ Azure: 0.405/Hora => 301.32/Mes * 0.1 = 30.13/Mes * 12 Meses = 361.58
 
 ###Ejercicio3: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
-<<<<<<< HEAD
 Pequeño programa en python:
 
 ![Ejercicio3](https://www.dropbox.com/s/br1shbt4610drmg/Ejercicio3.png?dl=1)
-=======
-Pequeño programa en Python:
 
-#!/usr/bin/env python
-
-	print "Ejercicio 3"
-
-
->>>>>>> 0596ae42b4e6543fb8b786ae31093fe8db4a9d72
 
 * Instalamos CDE: apt-get install cde.
 

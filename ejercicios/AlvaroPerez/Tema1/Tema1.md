@@ -69,7 +69,7 @@ Pequeño programa en Python:
 
 * Instalamos CDE: apt-get install cde.
 
-* Para empaquetar utilizamos la siguiente orden: cde python prueba.py
+* Para empaquetar utilizamos la siguiente orden: cde python prueba.py .
 
 
 ###Ejercicio4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
@@ -78,7 +78,7 @@ Modelo del procesador:
 
 ![Ejercicio4](https://www.dropbox.com/s/v6kp6shilid64qv/Ejercicio4.png?dl=1)
 
-Tras ejecutar la orden elresultado es :
+Tras ejecutar la orden, el resultado es:
 
 ![Ejercicio4b](https://www.dropbox.com/s/dsm36paloltkw7s/Ejercicio4b.png?dl=1)
 
@@ -86,7 +86,7 @@ Como no devuelve nada, esto quiere decir que el procesador no tiene esta funcion
 
 ###Ejercicio5.1: Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
-Para poder usar la orden kvm-ok debemos hacer esto: apt-get install cpu-checker 
+Para poder usar la orden kvm-ok debemos hacer esto: apt-get install cpu-checker .
 
 Ahora vemos con kvm-ok si es posible la acelaración KVM:
 
@@ -95,7 +95,7 @@ Ahora vemos con kvm-ok si es posible la acelaración KVM:
 
 ###Ejercicio5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios. 
 
-Como hipervisor he elegido VirtualBox para instalarlo uso: apt-get install virtualbox-qt.
+Como hipervisor he elegido VirtualBox, para instalarlo uso: apt-get install virtualbox-qt.
 
 ![Ejercicio5b](https://www.dropbox.com/s/ideodftlsygcuty/Ejercicio5b.png?dl=1)
 

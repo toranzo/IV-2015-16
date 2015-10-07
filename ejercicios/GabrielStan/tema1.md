@@ -79,3 +79,4 @@ Tras instalar CDE, he empaquetado una simple aplicación python que escribe por 
 
 
 
+

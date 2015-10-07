@@ -18,8 +18,10 @@
 
 - [x] Entender el soporte en hardware de las técnicas de virtualización y cómo se extiende ese soporte al núcleo de los sistemas operativos. Saber si el ordenador habitual lo usa.
 
-- [] Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
+- [x] Comenzar a usar git desde línea de órdenes y comprender su papel como sistema para trabajo colaborativo y despliegue de aplicaciones.
 
 - [x] Comprender los niveles de virtualización y sus denominaciones genéricas.
 
 - [x] Comprender el concepto de software as a service y comprender los criterios necesarios para su elección.
+
+## Sesion 3 (Clase 7 de octubre)

@@ -9,8 +9,9 @@ Lista de objetivos
 [x] Vernos las caras.
 
 
-
 ## Objetivos de la segunda semana
+
+Probando corregir a otro alumno
 
 ### Objetivos principales
 

@@ -28,4 +28,55 @@ Como la amortización máxima es del 25% sobre el precio base:
 6. sexto año: 828.1 * 0.15 = 124.2€
 7. séptimo año: 828.1 * 0.10 = 82.8€
 
+### Ejercicio 2
+
+**Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.**
+
+
+He comparado los precios entre un VPS ofrecido por [Dinahosting](https://dinahosting.com/) y un servidor cloud ofrecido por [Microsoft Azure](https://azure.microsoft.com) con la siguiente configuración:
+
+- Procesador: 1 vCore
+- Ram: 1GB
+- HDD: 20GB
+
+![Precios Microsoft Azure](https://www.dropbox.com/s/f6es75dr85avwrm/servidor%20cloud%20azure.png?dl=1)
+![Precios Dinahosting](https://www.dropbox.com/s/dagghelxfb549no/VPS%20dinahosting.png?dl=1)
+
+Como se puede observar, el VPS tiene un coste fijo de 432€/año. Supniendo que el servidor cloud de Microsoft Azure está operativo 24/7 durante todo el año, tendría un coste mensual de 11.29€/mes, traducido como 135.48€/año. Si el servidor cloud solo está funcionando el 1% del tiempo, tendría un coste de 1.35€/año, y con un uso del 10% tendría un coste de 13.55€/año, bastante más reducido que el coste de un VPS.
+
+
+### Ejercicio 3
+
+**1. ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro**
+
+https://github.com/JJ/IV-2015-16/issues/1#issuecomment-145336366
+
+
+**Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
+
+Tras instalar CDE, he empaquetado una simple aplicación python que escribe por pantalla "Hola mundo!". Falta ejecutarlo en diferentes distribuciones.
+
+![Instalando CDE](https://www.dropbox.com/s/i40a178ud7aixuj/instalando-cde.png?dl=1)
+
+![Probando CDE](https://www.dropbox.com/s/vt9ndcse9wcf86g/probando-cde.png?dl=1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -48,3 +48,20 @@
 - [ ] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. 
 
 - [x] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
+
+## Semana del 7 de octubre al 14 de octubre de 2015
+### Objetivos de la semana
+
+- [ ] Entender el concepto de DevOps y cómo se traduce al ciclo de vida de una aplicación.
+
+- [ ] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+
+### Otros objetivos
+
+- [x] Entregar el primer hito del proyecto al final de la semana.
+
+- [ ] Comprender la utilidad de la virtualización y definición de herramientas de desarrollo.
+
+- [ ] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
+
+- [ ] Comprender el papel de las build tools o herramientas de automatización.

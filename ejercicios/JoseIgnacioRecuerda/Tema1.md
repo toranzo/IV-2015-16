@@ -74,11 +74,11 @@ Deducimos que los primeros años se amortiza más
 	<li>Me he movido a la ruta ~/Desktop/cde-package/cde-root/home/parallels/Desktop que es donde se encuentra el archivo emmpaquetado por CDE</li>
 	<li>Ejecuto el archivo creado</li>
 </ol>
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/captura.png)
+![captura de pantalla](https://gyazo.com/b29c926d0a3e46f38b18d932d4b3a4fd)
 
 
 ##Ejercicio 4
 ###Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 Al usar mac el comando que he tenido que ejecutar para ver la información del procesador es: sysctl -a | grep machdep.cpu
 y la salida ha sido la siguiente:
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/captura2.png)
+![captura de pantalla](https://gyazo.com/bdb00327b023414a0841606cfa063560)

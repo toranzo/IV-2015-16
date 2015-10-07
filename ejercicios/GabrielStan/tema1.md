@@ -28,4 +28,42 @@ Como la amortización máxima es del 25% sobre el precio base:
 6. sexto año: 828.1 * 0.15 = 124.2€
 7. séptimo año: 828.1 * 0.10 = 82.8€
 
+### Ejercicio 2
+
+**Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.**
+
+
+He comparado los precios entre un VPS ofrecido por [Dinahosting](https://dinahosting.com/) y un servidor cloud ofrecido por [Microsoft Azure](https://azure.microsoft.com) con la siguiente configuración:
+
+- Procesador: 1 vCore
+- Ram: 1GB
+- HDD: 20GB
+
+![Precios Microsoft Azure](https://drive.google.com/open?id=0B12YzKHZfvINeFhRR0MtYVlaUDA)
+![Precios Dinahosting](https://drive.google.com/open?id=0B12YzKHZfvINemxRczRRRjJRNVU)
+
+Como se puede observar, el VPS tiene un coste fijo de 432€/año. Supniendo que el servidor cloud de Microsoft Azure está operativo 24/7 durante todo el año, tendría un coste mensual de 11.29€/mes, traducido como 135.48€/año. Si el servidor cloud solo está funcionando el 1% del tiempo, tendría un coste de 1.35€/año, y con un uso del 10% tendría un coste de 13.55€/año, bastante más reducido que el coste de un VPS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

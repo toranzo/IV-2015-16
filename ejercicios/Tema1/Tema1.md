@@ -99,7 +99,7 @@ He aprovechado un programa implementado en python para la asignatura DAI. Ordena
 
 ###Ejercicio 5.1
 **Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.**
-
+![puedo acelerar por hardware](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/Tema1/ej5.1.png)
 
 ###Ejercicio 5.2
 **Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**

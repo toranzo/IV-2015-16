@@ -1,9 +1,9 @@
 # Sesion 1 - Objetivos:
 En esta sesion hemos realizado los siguientes objetivos:
-* [x]Hemos entendido la metodologia docente, los criterios de evaluacion y la intereaccion de la asignatura.
-* [x]Nos hemos dado de alta y hemos comprendido el funcionamiento basico de GitHub y nos hemos dado de alta en la lista de correo de la asignatura.
-* [x]Comprendemos perfectamente el concepto de software libre y su aplicacion teorica en clase.
-* [x]Por ultimo nos hemos visto las caras.
+* [x] Hemos entendido la metodologia docente, los criterios de evaluacion y la intereaccion de la asignatura.
+* [x] Nos hemos dado de alta y hemos comprendido el funcionamiento basico de GitHub y nos hemos dado de alta en la lista de correo de la asignatura.
+* [x] Comprendemos perfectamente el concepto de software libre y su aplicacion teorica en clase.
+* [x] Por ultimo nos hemos visto las caras.
 
 #Sesion 2:
 Objetivos realizados en esta sesion:

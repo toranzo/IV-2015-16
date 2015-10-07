@@ -87,13 +87,13 @@ Comentado en: https://github.com/JJ/IV-2015-16/issues/1
 ###Ejercicio 3.2
 **Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
 He aprovechado un programa implementado en python para la asignatura DAI. Ordena vectores según varios algoritmos de reordenación.
-![Programa en ejecución](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/Tema1/ej3.2T1.png)
+![Programa en ejecucion](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/Tema1/ej3.2.png)
 
 
 ###Ejercicio 4
 **Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?**
 
-En mi caso no muestra nada salida de la orden egrep '^flags.*(vmx|svm)' /proc/cpuinfo, por tanto o mi ordenador no soporta virtualización por hardware o no está activada
+![Programa en ejecucion](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/Tema1/ej4.0.png)
 
 
 

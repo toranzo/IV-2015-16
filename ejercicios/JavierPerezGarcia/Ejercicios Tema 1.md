@@ -40,6 +40,26 @@ Con gasto descendente:
 - Sexto año: 2450.41*0,05 = 122,5205 €
 - Séptimo año: 2450.41*0,05 = 122,5205 €
 
+### Ejercicio 2
+
+Partimos de 2 propuestas:
+
+**Azure**
+![ejer21](https://www.dropbox.com/s/fhq0k4s21pyx0g3/2%2C1.png?dl=1)
+
+**1and1**
+![ejer22](https://www.dropbox.com/s/v7q6blw1q2vn233/2%2C2.png?dl=1)
+
+En el caso de 1and1 debemos pagar mensualmente 4,99, indistintamente del uso que le demos al servidor. 
+
+Veamos el caso de Azure:
+
+Si usamos el 1% del uso, lo utilizaremos 7,44 (=0,01*24*31) horas, por lo que pagaremos al mes 0,9672 (=7,44*0,130) €
+
+Si usamos el 10% del uso, lo utilizaremos 74,4 (=0,1*24*31) horas, por lo que pagaremos al mes 9,672 (=7,44*0,130) €
+
+Por lo que concluimos en que si usamos Azure con un 1% de servicio pagaremos menos, pero si usamos un 10% es preferible 1and1
+
 ### Ejercicio 3
 
 #### Apartado 2

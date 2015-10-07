@@ -3,17 +3,17 @@
 
 Contestado en la issue correspondiente
 
-#Ejercicio 3.2
+# Ejercicio 3.2
 
 **Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
 
 Primero debemos descargar CDE:
-1. Descargar codigo fuente de la release actual de: https://github.com/pgbovine/CDE/
-1. Descomprimir la carpeta y acceder a la carpeta resultante desde el terminal y ejecutar la orden make, que compilar el codigo segun el makefile incluido
+* Descargar codigo fuente de la release actual de: https://github.com/pgbovine/CDE/
+* Descomprimir la carpeta y acceder a la carpeta resultante desde el terminal y ejecutar la orden make, que compilar el codigo segun el makefile incluido
 
 Una vez compilado CDE podemos empaquetarlo con CDE
-2.Mover el codigo del programa donde se encuentra el ejecutable de la aplicacion CDE
-3. Ejecutamos el comando: ./cde ./Programa1.py
+* Mover el codigo del programa donde se encuentra el ejecutable de la aplicacion CDE
+* Ejecutamos el comando: ./cde ./Programa1.py
 
 Esto da como resultado el archivo Programa1.py.cde
 * Comprimimos la carpeta cd-package-cde en formato tar.gz utilizando: tar czvf Programa1.tar.gz cde-package/

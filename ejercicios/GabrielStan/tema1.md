@@ -45,8 +45,20 @@ He comparado los precios entre un VPS ofrecido por [Dinahosting](https://dinahos
 Como se puede observar, el VPS tiene un coste fijo de 432€/año. Supniendo que el servidor cloud de Microsoft Azure está operativo 24/7 durante todo el año, tendría un coste mensual de 11.29€/mes, traducido como 135.48€/año. Si el servidor cloud solo está funcionando el 1% del tiempo, tendría un coste de 1.35€/año, y con un uso del 10% tendría un coste de 13.55€/año, bastante más reducido que el coste de un VPS.
 
 
+### Ejercicio 3
+
+**1. ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro**
+
+https://github.com/JJ/IV-2015-16/issues/1#issuecomment-145336366
 
 
+**Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
+
+Tras instalar CDE, he empaquetado una simple aplicación python que escribe por pantalla "Hola mundo!". Falta ejecutarlo en diferentes distribuciones.
+
+![Instalando CDE](https://www.dropbox.com/s/i40a178ud7aixuj/instalando-cde.png?dl=1)
+
+![Probando CDE](https://www.dropbox.com/s/vt9ndcse9wcf86g/probando-cde.png?dl=1)
 
 
 

@@ -39,8 +39,8 @@ He comparado los precios entre un VPS ofrecido por [Dinahosting](https://dinahos
 - Ram: 1GB
 - HDD: 20GB
 
-![Precios Microsoft Azure](https://drive.google.com/open?id=0B12YzKHZfvINeFhRR0MtYVlaUDA)
-![Precios Dinahosting](https://drive.google.com/open?id=0B12YzKHZfvINemxRczRRRjJRNVU)
+![Precios Microsoft Azure](https://www.dropbox.com/s/f6es75dr85avwrm/servidor%20cloud%20azure.png?dl=1)
+![Precios Dinahosting](https://www.dropbox.com/s/dagghelxfb549no/VPS%20dinahosting.png?dl=1)
 
 Como se puede observar, el VPS tiene un coste fijo de 432€/año. Supniendo que el servidor cloud de Microsoft Azure está operativo 24/7 durante todo el año, tendría un coste mensual de 11.29€/mes, traducido como 135.48€/año. Si el servidor cloud solo está funcionando el 1% del tiempo, tendría un coste de 1.35€/año, y con un uso del 10% tendría un coste de 13.55€/año, bastante más reducido que el coste de un VPS.
 

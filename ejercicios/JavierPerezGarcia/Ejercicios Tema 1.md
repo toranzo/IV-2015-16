@@ -40,6 +40,13 @@ Con gasto descendente:
 - Sexto año: 2450.41*0,05 = 122,5205 €
 - Séptimo año: 2450.41*0,05 = 122,5205 €
 
+### Ejercicio 3
+
+#### Apartado 2
+![ejer321](https://www.dropbox.com/s/9706hmf1katznqj/Ejercicio%203%2C2.png?dl=1)
+![ejer322](https://www.dropbox.com/s/ygosvoyckul8tqw/3%2C2%2C2.png?dl=1)
+![ejer323](https://www.dropbox.com/s/t40wn5yxovz0992/3%2C2%2C3.png?dl=1)
+
 ### Ejercicio 4
 
 Tras ejecutar la línea de comandos dada compruebo que mi procesador no posee esos flags (no me devuelve nada). Mi procesador es un intel T6400, el cual no posee la tecnología de virtualización de intel, por lo que es normal que no tenga dichos flags. 

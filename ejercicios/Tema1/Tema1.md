@@ -1,5 +1,4 @@
 ###Ejercicio 1
-
 **Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.**
 
 * **Servidor**
@@ -63,15 +62,44 @@ Haciendo las mismas suposiciones que en el apartado anterior:
 Para dar solución a este ejercicio he optado por grandes empresas como AMAZON EC2 y GOOGLE COMPUTE ENGINE. 
 A continuación se exponen las características del producto:
 * AMAZON EC2
-	* Nombre:
-	* Virtual CPUs: 
-	* RAM: 
-	* Precio:
+	* Nombre: m4.xlarge
+	* Virtual CPUs: 4
+	* RAM: 16GB
+	* Precio: $0.252/h
+        * **1% de uso:** 87,6h * $0.252/h = $22,0752
+        * **10% de uso:** 876h * $0.252/h = $220,752
 
 * GOOGLE COMPUTE ENGINE
-	* Nombre:
-	* Virtual CPUs: 
-	* RAM: 
-	* Precio:
+	* Nombre: n1-standard-4
+	* Virtual CPUs: 4
+	* RAM: 15GB
+	* Precio: $0.140/h
+        * **1% de uso:** 87,6h * $0.140/h = $12,264
+        * **10% de uso:** 876h * $0.140/h = $122,64
+    
+
+###Ejercicio 3.1
+**¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro**
+
+Comentado en: https://github.com/JJ/IV-2015-16/issues/1
 
 
+
+###Ejercicio 3.2
+
+**Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
+
+
+
+###Ejercicio 4
+**Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?**
+
+
+
+
+###Ejercicio 5.1
+**Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.**
+
+
+###Ejercicio 5.2
+**Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**

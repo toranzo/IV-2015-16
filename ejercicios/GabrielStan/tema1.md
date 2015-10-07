@@ -52,7 +52,7 @@ Como se puede observar, el VPS tiene un coste fijo de 432€/año. Supniendo que
 https://github.com/JJ/IV-2015-16/issues/1#issuecomment-145336366
 
 
-**Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
+**2. Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
 
 Tras instalar CDE, he empaquetado una simple aplicación python que escribe por pantalla "Hola mundo!". Falta ejecutarlo en diferentes distribuciones.
 
@@ -60,23 +60,32 @@ Tras instalar CDE, he empaquetado una simple aplicación python que escribe por 
 
 ![Probando CDE](https://www.dropbox.com/s/vt9ndcse9wcf86g/probando-cde.png?dl=1)
 
+### Ejercicio 4
 
+**Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?**
 
+resultado de ejecutar la orden:
+$ cat /proc/cpuinfo
 
+![cpu info](https://www.dropbox.com/s/9cejyp29011rwa4/procesador.png?dl=1)
 
+El procesador tiene 2 nucleos, cada uno con 2 threads, por tando en el fichero aparece 4 veces la misma información.
 
+![cpu flags](https://www.dropbox.com/s/k8ztc6l7v9ikmkj/flags.png?dl=1)
 
+### Ejercicio 5
 
+**1. Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.**
 
+El SO tiene instalado el módulo KVM y la acceleración por hardware está activada.
 
+![kvm](https://www.dropbox.com/s/o8hilb8ltk6wiym/kvm.png?dl=1)
 
+**2. Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**
 
+$ sudo apt-get install qemu-kvm qemu
 
+Hecho.
 
-
-
-
-
-
-
+**Fin ejercicios tema 1 :) **
 

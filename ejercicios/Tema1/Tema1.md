@@ -62,11 +62,16 @@ Haciendo las mismas suposiciones que en el apartado anterior:
 
 Para dar solución a este ejercicio he optado por grandes empresas como AMAZON EC2 y GOOGLE COMPUTE ENGINE. 
 A continuación se exponen las características del producto:
-* *AMAZON EC2*
-* Nombre:
-* Virtual CPUs: 
-* RAM: 
+* AMAZON EC2
+	* Nombre:
+	* Virtual CPUs: 
+	* RAM: 
+	* Precio:
 
-* *GOOGLE COMPUTE ENGINE*
+* GOOGLE COMPUTE ENGINE
+	* Nombre:
+	* Virtual CPUs: 
+	* RAM: 
+	* Precio:
 
 

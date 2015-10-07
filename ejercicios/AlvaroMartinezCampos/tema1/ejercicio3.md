@@ -1,5 +1,6 @@
 # Ejercicio 3.1
 ** ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro**
+
 Contestado en la issue correspondiente
 
 #Ejercicio 3.2

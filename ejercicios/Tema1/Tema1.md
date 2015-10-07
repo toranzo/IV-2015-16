@@ -56,7 +56,6 @@ Haciendo las mismas suposiciones que en el apartado anterior:
 
 
 ###Ejercicio 2
-
 **Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.**
 
 Para dar solución a este ejercicio he optado por grandes empresas como AMAZON EC2 y GOOGLE COMPUTE ENGINE. 
@@ -86,9 +85,10 @@ Comentado en: https://github.com/JJ/IV-2015-16/issues/1
 
 
 ###Ejercicio 3.2
-
 **Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
-
+He aprovechado un programa implementado en python para la asignatura DAI. Ordena vectores según varios algoritmos de reordenación.
+![ejecucion](https://www.dropbox.com/s/uylzml4de8rc3fz/ej3.2T1.png?dl=0
+![Servidor](http://fotos.pccomponentes.com/ordenadores_sobremesa/servidores/hp_proliant_ml310e_g8_v2_intel_xeon_e3_1220v3_4gb_2tb.jpg)
 
 
 ###Ejercicio 4

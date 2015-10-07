@@ -116,27 +116,27 @@ cde-package
     ├── bin -> usr/bin
     ├── etc
     ├── home
-    │   └── jose
-    │       └── Development
-    │           └── pythontest
-    │               ├── bin
-    │               └── lib
-    │                   └── python2.7
-    │                       ├── encodings -> ./../../../../../..//usr/lib/python2.7/encodings
-    │                       ├── lib-dynload -> ./../../../../../..//usr/lib/python2.7/lib-dynload
-    │                       └── site-packages
+    │   └── jose
+    │       └── Development
+    │           └── pythontest
+    │               ├── bin
+    │               └── lib
+    │                   └── python2.7
+    │                       ├── encodings -> ./../../../../../..//usr/lib/python2.7/encodings
+    │                       ├── lib-dynload -> ./../../../../../..//usr/lib/python2.7/lib-dynload
+    │                       └── site-packages
     ├── lib -> usr/lib
     ├── lib64 -> usr/lib
     ├── sbin -> usr/bin
     └── usr
         ├── bin
         ├── lib
-        │   ├── locale
-        │   └── python2.7
-        │       ├── encodings
-        │       ├── lib-dynload
-        │       ├── lib-tk
-        │       └── plat-linux2
+        │   ├── locale
+        │   └── python2.7
+        │       ├── encodings
+        │       ├── lib-dynload
+        │       ├── lib-tk
+        │       └── plat-linux2
         ├── lib64 -> lib
         └── share
             └── zoneinfo

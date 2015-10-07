@@ -60,4 +60,13 @@ Haciendo las mismas suposiciones que en el apartado anterior:
 
 **Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.**
 
+Para dar solución a este ejercicio he optado por grandes empresas como AMAZON EC2 y GOOGLE COMPUTE ENGINE. 
+A continuación se exponen las características del producto:
+* *AMAZON EC2*
+* Nombre:
+* Virtual CPUs: 
+* RAM: 
+
+* *GOOGLE COMPUTE ENGINE*
+
 

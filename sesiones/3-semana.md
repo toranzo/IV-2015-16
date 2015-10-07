@@ -51,5 +51,3 @@ una aplicación.
 ##Siguiente semana
 
 [Cuarta semana, a partir del 14 de octubre](4-semana.md)
-
-

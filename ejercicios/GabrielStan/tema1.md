@@ -60,6 +60,19 @@ Tras instalar CDE, he empaquetado una simple aplicación python que escribe por 
 
 ![Probando CDE](https://www.dropbox.com/s/vt9ndcse9wcf86g/probando-cde.png?dl=1)
 
+### Ejercicio 4
+
+**Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?**
+
+resultado de ejecutar la orden:
+$ cat /proc/cpuinfo
+
+![cpu info](https://www.dropbox.com/s/9cejyp29011rwa4/procesador.png?dl=1)
+
+El procesador tiene 2 nucleos, cada uno con 2 threads, por tando en el fichero aparece 4 veces la misma información.
+
+![cpu flags](https://www.dropbox.com/s/k8ztc6l7v9ikmkj/flags.png?dl=1)
+
 
 
 

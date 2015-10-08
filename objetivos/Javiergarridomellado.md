@@ -36,3 +36,11 @@
 - [X] Usar git para hacer check-in en clase y expresar al final de cada sesión los objetivos alcanzados.
 - [X] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. Se puede hacer, de la misma forma, mediante un pull request, en este caso al repo del compañero.
 - [X] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
+
+## Sesion 3 (Clase del 07 de Octubre de 2015)
+
+- [ ] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware y ponerlos en práctica.
+- [ ] Entender el concepto de DevOps
+- [ ] Usar herramientas para gestión de los ciclos de desarrollo de una aplicación y entender cuales son estos.
+- [ ] Aprender a usar integración continua en cualquier aplicación.
+

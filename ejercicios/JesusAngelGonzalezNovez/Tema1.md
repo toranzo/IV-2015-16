@@ -84,7 +84,7 @@ Los flags que me aparecen son los siguientes:
 
 ![flags](img/tema1-4flags.png)
 
-Vemos que no tengo los flags de virtualización.
+Vemos que no tengo los flags de virtualización, pudiera ser que no estén activados por defecto también.
 
 Para ver el modelo de procesador usamos:
 
@@ -101,3 +101,12 @@ La orden cat /proc/cpuinfo sin el grep, nos da toda la información detallada de
 
 ![Captura módulo kvm](img/tema1-5.1.png)
 
+### Ejercicio 5.2: Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+
+La verdad es que siempre he usado [VirtualBox](https://www.virtualbox.org/), aunque investigando un poco vemos que existen dos tipos de hipervisores:
+
+*Un hipervisor es un monitor de máquinas virtuales que permite instalarlas, activarlas, monitorizar su actividad e interaccionar con ellas de las formas posibles. Un hipervisor se denomina bare-metal o Tipo uno si se ejecuta antes que el sistema operativo (siendo, por tanto, un sistema operativo en sí) o Tipo 2 si se arranca como una aplicación del sistema operativo; VirtualBox sería un ejemplo de este último.* [JJ-Teoría](http://jj.github.io/IV/documentos/temas/Contenedores#breve-introduccin-a-los-hipervisores)
+
+*Algunos de los hipervisores tipo 1 más conocidos son los siguientes: VMware ESXi Free (gratis), VMware ESX (de pago), Xen (libre), Citrix XenServer (gratis), Microsoft Hyper-V Server (gratis).*[Wikipedia-Hipervisor](https://es.wikipedia.org/wiki/Hipervisor)
+
+*Algunos de los hipervisores tipo 2 más utilizados son los siguientes: Oracle: VirtualBox (gratis), VirtualBox OSE (desde la v4.0 fusionado en VirtualBox), VMware: Workstation (de pago), Server (gratis), Player (gratis), QEMU (libre), Microsoft: Virtual PC, Virtual Server, Oracle VM (gratis).* [Wikipedia-Hipervisor](https://es.wikipedia.org/wiki/Hipervisor)

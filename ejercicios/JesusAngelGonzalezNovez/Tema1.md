@@ -33,11 +33,11 @@ En este caso se va reduciendo el coste del producto conforme pasan los años, lo
 
 Para el servidor dedicado he optado por [OVH](https://www.ovh.es)
 
-![Dedicado](img/tema1-2.1)
+![Dedicado](img/tema1-2.1.png)
 
 Para cloud he optado por [Azure](https://azure.microsoft.com)
 
-![Cloud](img/tema1-2.2)
+![Cloud](img/tema1-2.2.png)
 
 ### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 

@@ -103,3 +103,5 @@ He aprovechado un programa implementado en python para la asignatura DAI. Ordena
 
 ###Ejercicio 5.2
 **Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**
+
+En la máquina anfitriona tengo instalado Parallels Desktop

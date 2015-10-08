@@ -6,9 +6,9 @@
 Las tablas de amortización que fija cada año la agencia Tributaria en el caso de un equipo informático ,el coeficiente de amortización máximo es del 25 % [1]
 Por lo tanto para un servidor HP ProLiant DL60 Gen 9 E5-2603v3/4GB [2] con un coste de 978 euros sin iva ,la amortización anual sería 244,75 euros /año. 
 
-A 4 años la amortización es 244,74 * 4= .
+A 4 años la amortización es 244,74 * 4= 978,96 euros
 
-A 7 años la amortización es 244,74 * 7 =  
+A 7 años la amortización es 244,74 * 7 =1713,18 euros  
 
 ##Ejercicio 2
 #####Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.

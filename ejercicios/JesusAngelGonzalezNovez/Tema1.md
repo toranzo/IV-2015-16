@@ -29,6 +29,16 @@ En este caso se va reduciendo el coste del producto conforme pasan los años, lo
     - Sexto año:	564.05€ * 0.05 =  28.20€
     - Séptimo año:  564.05€ * 0.05 =  28.20€
 
+### Ejercicio 2: Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
+
+Para el servidor dedicado he optado por [OVH](https://www.ovh.es)
+
+![Dedicado](img/tema1-2.1)
+
+Para cloud he optado por [Azure](https://azure.microsoft.com)
+
+![Cloud](img/tema1-2.2)
+
 ### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
 Descargo "cde" de [aqui](https://cloud.github.com/downloads/pgbovine/CDE/cde_2011-08-15_64bit) y a cotinuación:
@@ -50,7 +60,7 @@ Empaquetemos con la orden:
 
     cde ruby script1.rb
 
-FALTA PROBARLO EN DISTINTAS DISTRIBUCIONES
+Como vemos CDE nos permite empaquetar un determinado software con sus dependencias para ejecutarlo sin problemas en otra distribución Linux sin preocuparnos de preparar tanto el entorno.
 
 ### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
@@ -59,6 +69,8 @@ Los flags que me aparecen son los siguientes:
     egrep '^flags.*' /proc/cpuinfo
 
 ![flags](img/tema1-4flags.png)
+
+Vemos que no tengo los flags de virtualización.
 
 Para ver el modelo de procesador usamos:
 

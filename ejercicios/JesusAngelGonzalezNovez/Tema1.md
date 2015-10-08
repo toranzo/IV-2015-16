@@ -39,6 +39,20 @@ Para cloud he optado por [Azure](https://azure.microsoft.com)
 
 ![Cloud](img/tema1-2.2.png)
 
+#### Uso de un 1% del tiempo:
+
+Un 1% de un mes es apróximadamente 30 días x 0.01 = 0.3 días, por tanto si el día sale a 313.71€ / 30 = 10.457€/día, tenemos que el mes nos saldría apróximadamente a 10.457€ x 0.03 = 3.1371€/mes, frente a los 59.99€+IVA/mes del servidor dedicado.
+
+#### Uso de un 10% del tiempo:
+
+En este caso un 10% de un mes es apróximadamente 30 días x 0.1 = 3 días, por tanto si el día sale a 313.71€ / 30 = 10.457€/día, tenemos que el mes nos saldría apróximadamente a 10.457€ x 3 = 31.371€/mes, frente a los 59.99€+IVA/mes del servidor dedicado.
+
+#### Extra: a partir de que punto nos saldría igual o más caro el cloud:
+
+59.99€+IVA = 72.5879€, por tanto 72.5879 / 10.457 = 6.94 días.
+
+A partir de un uso de 166 horas, 35 minutos y 24 segundos nuestra solución cloud comenzaría a costarnos más cara que la del servidor dedicado. No obstante las características de ambas no son exactamente iguales ni se ha detallado el tipo de problema a abarcar por tanto no debemos guiarnos exclusivamente por este criterio.
+
 ### Ejercicio 3.2: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
 Descargo "cde" de [aqui](https://cloud.github.com/downloads/pgbovine/CDE/cde_2011-08-15_64bit) y a cotinuación:

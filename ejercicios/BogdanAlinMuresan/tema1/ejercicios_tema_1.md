@@ -3,7 +3,7 @@
 ##Ejercicio 1
 ####Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
-Las tablas de amortización que fija cada año la agencia Tributaria en el caso de un equipo informático ,el coeficiente de amortización máximo es del 25 % [1]
+Las tablas de amortización que fija cada año la [agencia Tributaria](http://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Segmentos_Usuarios/Empresas_y_profesionales/Impuesto_sociedades/Novedades_Impuesto_Sociedades_publicadas_2014/Comparativa_Sociedades_dic.pdf) en el caso de un equipo informático ,el coeficiente de amortización máximo es del 25 % 
 Por lo tanto para un servidor HP ProLiant DL60 Gen 9 E5-2603v3/4GB [2] con un coste de 978 euros sin iva ,la amortización anual sería 244,75 euros /año. 
 
 A 4 años la amortización es 244,74 * 4= 978,96 euros
@@ -14,9 +14,9 @@ A 7 años la amortización es 244,74 * 7 =1713,18 euros
 #####Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
 
-tabla de caracterisiticas del servivio ofrecido por hostalia [2]
+[tabla de caracterisiticas del servivio ofrecido por hostalia ](http://s1175.photobucket.com/user/Bob_Mures/media/1and1_sevidor_dedicado_zpsm6h1rwns.png.html)
 
-tabla de caracterisiticas del servivio ofrecido por ads [3]
+[tabla de caracterisiticas del servivio ofrecido por adw](http://s1175.photobucket.com/user/Bob_Mures/media/adw.es_servidor_dedicado_zps5lypevfw.png.html)
 
 Si comparamos el ordenador de la más alta gama ,la empresa [adw](http://www.adw.es/servidores-dedicados.html) ofrece un servidor con 32 GB de memoria ram ,un procesador con 4 cores y 8 hebras ,512 gb ssd de disco duro  por un precio de 80 euros /mes.
 En cambio [1and1](http://www.1and1.es/server-dedicated-tariff?ac=OM.WE.WE861K171022T7073a&s_kwcid=AL!3115!3!89964622128!b!!g!!%2Bservidor%20%2Bdedicado&ef_id=VdrGdwAABXebOZXf:20151005085150:s#server) ofrece un servidor con 16 GB de memoria ram ,un prcesador con 4 núcleo y un disco duro SATA de 1000GB a un precio de 40 euros /mes los tres primero meses ,despúes ofrece el servicio a 80 euros/mes.
@@ -103,19 +103,3 @@ Instalamos QEMU en MAC OS X [sequimos los pasos ](http://docs.pistoncloud.com/su
 
 
 
-
-[3]:[URL=http://s1175.photobucket.com/user/Bob_Mures/media/adw.es_servidor_dedicado_zps5lypevfw.png.html][IMG]http://i1175.photobucket.com/albums/r624/Bob_Mures/adw.es_servidor_dedicado_zps5lypevfw.png[/IMG][/URL]
-
-[2]:[URL=http://s1175.photobucket.com/user/Bob_Mures/media/1and1_sevidor_dedicado_zpsm6h1rwns.png.html][IMG]http://i1175.photobucket.com/albums/r624/Bob_Mures/1and1_sevidor_dedicado_zpsm6h1rwns.png[/IMG][/URL]
-
-
-
-
-[1]:http://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Segmentos_Usuarios/Empresas_y_profesionales/Impuesto_sociedades/Novedades_Impuesto_Sociedades_publicadas_2014/Comparativa_Sociedades_dic.pdf
-
-
-[2]:[URL=http://s1175.photobucket.com/user/Bob_Mures/media/1and1_sevidor_dedicado_zpsm6h1rwns.png.html][IMG]http://i1175.photobucket.com/albums/r624/Bob_Mures/1and1_sevidor_dedicado_zpsm6h1rwns.png[/IMG][/URL]
-
-
-
-[3]:[URL=http://s1175.photobucket.com/user/Bob_Mures/media/adw.es_servidor_dedicado_zps5lypevfw.png.html][IMG]http://i1175.photobucket.com/albums/r624/Bob_Mures/adw.es_servidor_dedicado_zps5lypevfw.png[/IMG][/URL]

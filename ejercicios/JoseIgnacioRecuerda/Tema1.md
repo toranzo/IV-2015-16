@@ -77,17 +77,19 @@ Deducimos que los primeros años se amortiza más
 	<li>He instalado CDE con el comando: sudo apt-get install cde</li>
 	<li>Me he creado un pequeño programa en python que imprime una frase</li>
 	<li>He empaquetado mi programa con el comando: cde python programa.py</li>
-	<li>Me he movido a la ruta ~/Desktop/cde-package/cde-root/home/parallels/Desktop que es donde se encuentra el archivo emmpaquetado por CDE</li>
+	<li>Me he movido a la ruta en la que me ha creado el archivo emmpaquetado por CDE</li>
 	<li>Ejecuto el archivo creado</li>
 </ol>
-![captura de pantalla](https://gyazo.com/b29c926d0a3e46f38b18d932d4b3a4fd)
+
+En esta captura se puede ver el contenido del programa creado y la ejecución del archivo empaquetado por cde.
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr3_2.png)
 
 
 ##Ejercicio 4
 ###Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 Usando dicho comando no me lista nada, con lo cual quiere decir que mi procesador no tiene esta función o la tiene desactivada.
-![captura de pantalla](https://gyazo.com/8fdac487e3ea8292d362d7967549d886)
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_1.png)
 
 Para ver que modelo de procesador tengo uso el comando "cat /proc/cpuinfo" y obtengo la siguiente salida
-![captura de pantalla](https://gyazo.com/fb6b3a623af264a43aa746db66471125)
-![captura de pantalla](https://gyazo.com/a85dcba2f3c7e0c340e313a9f4ef2254)
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_2.png)
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_3.png)

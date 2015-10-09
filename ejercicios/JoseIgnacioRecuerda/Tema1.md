@@ -65,6 +65,21 @@ Deducimos que los primeros años se amortiza más
 </ol>
 
 
+##Ejercicio 2
+###Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
+Como servidor dedicado he escogido Hostalia
+Este tiene un coste anual de 419,4€ (los 6 primeros meses) y 599,4€ (los siguientes 6 meses) que hacen un total de 1018,8€ al año. Sus características son:
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr2.png)
+
+Para Servicios en la nube he escogido AWS Amazon, las caractiristicas que nos ofrece son:
+Procesador intel 2.4 GHz Xeon E5-2676
+Memoria RAM: 16 GiB
+Con un coste de 199€ cada mes.
+Si lo usamos un 1% tendria un coste de 1,99€ al mes que al año sería 23,88€
+Si por el contrarío lo usamos un 10% al mes tendría un coste de 19,9€ y al año de 238,8€.
+
+Con esta comparación podemos ver que sale mas económico el servicio en la nube (la comparación es haciendo uso entre un 1% y 10%)
+
 ##Ejercicio 3.1
 ###¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
 [Contestada en el foro](https://github.com/JJ/IV-2015-16/issues/1)
@@ -93,3 +108,11 @@ Usando dicho comando no me lista nada, con lo cual quiere decir que mi procesado
 Para ver que modelo de procesador tengo uso el comando "cat /proc/cpuinfo" y obtengo la siguiente salida
 ![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_2.png)
 ![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_3.png)
+
+##Ejercicio 5.1
+###Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
+![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr5_1.png)
+
+##Ejercicio 5.2
+###Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+Tengo instalado en mi ordenador el Software Parallels Desktop

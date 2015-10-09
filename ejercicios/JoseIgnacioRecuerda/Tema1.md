@@ -97,7 +97,7 @@ Con esta comparación podemos ver que sale mas económico el servicio en la nube
 </ol>
 
 En esta captura se puede ver el contenido del programa creado y la ejecución del archivo empaquetado por cde.
-![captura de pantalla](https://www.dropbox.com/s/a7kmk596868l9wu/ejr3_2.png?dl=0)
+![captura de pantalla](https://www.dropbox.com/s/a7kmk596868l9wu/ejr3_2.png?dl=1)
 
 
 ##Ejercicio 4

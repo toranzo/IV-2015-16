@@ -111,7 +111,7 @@ Para ver que modelo de procesador tengo uso el comando "cat /proc/cpuinfo" y obt
 
 ##Ejercicio 5.1
 ###Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
-![captura de pantalla](https://www.dropbox.com/s/ixfejcp2i5tqnc6/ejr5_1.png)
+![captura de pantalla](https://www.dropbox.com/s/ixfejcp2i5tqnc6/ejr5_1.png?dl=0)
 
 ##Ejercicio 5.2
 ###Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.

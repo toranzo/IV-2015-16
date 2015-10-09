@@ -115,4 +115,4 @@ Para ver que modelo de procesador tengo uso el comando "cat /proc/cpuinfo" y obt
 
 ##Ejercicio 5.2
 ###Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
-Tengo instalado en mi ordenador el Software Parallels Desktop
+Tengo instalado en mi ordenador el Software Parallels Desktop, con el que se pueden gestionar máquinas virtuales

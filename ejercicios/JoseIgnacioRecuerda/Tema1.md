@@ -69,7 +69,7 @@ Deducimos que los primeros años se amortiza más
 ###Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 Como servidor dedicado he escogido Hostalia
 Este tiene un coste anual de 419,4€ (los 6 primeros meses) y 599,4€ (los siguientes 6 meses) que hacen un total de 1018,8€ al año. Sus características son:
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr2.png)
+![captura de pantalla](https://www.dropbox.com/s/ecl3jk229pnvfdv/ejr2.png?dl=0)
 
 Para Servicios en la nube he escogido AWS Amazon, las caractiristicas que nos ofrece son:
 Procesador intel 2.4 GHz Xeon E5-2676
@@ -97,24 +97,22 @@ Con esta comparación podemos ver que sale mas económico el servicio en la nube
 </ol>
 
 En esta captura se puede ver el contenido del programa creado y la ejecución del archivo empaquetado por cde.
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr3_2.png)
+![captura de pantalla](https://www.dropbox.com/s/a7kmk596868l9wu/ejr3_2.png?dl=0)
 
 
 ##Ejercicio 4
 ###Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 Usando dicho comando no me lista nada, con lo cual quiere decir que mi procesador no tiene esta función o la tiene desactivada.
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_1.png)
+![captura de pantalla](https://www.dropbox.com/s/9yc3wh5vgi43kt8/ejr4_1.png?dl=0)
 
 Para ver que modelo de procesador tengo uso el comando "cat /proc/cpuinfo" y obtengo la siguiente salida
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_2.png)
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr4_3.png)
+![captura de pantalla](https://www.dropbox.com/s/0v6729pfrbhswwc/ejr4_2.png?dl=0)
+![captura de pantalla](https://www.dropbox.com/s/8qdrd503r5hxa42/ejr4_3.png?dl=0)
 
 ##Ejercicio 5.1
 ###Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
-![captura de pantalla](https://github.com/ignaciorecuerda/IV-2015-16/blob/miramaejercicios/ejercicios/JoseIgnacioRecuerda/ejr5_1.png)
+![captura de pantalla](https://www.dropbox.com/s/ixfejcp2i5tqnc6/ejr5_1.png)
 
 ##Ejercicio 5.2
 ###Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
 Tengo instalado en mi ordenador el Software Parallels Desktop
-
-![captura de pantalla](https://www.dropbox.com/s/ecl3jk229pnvfdv/ejr2.png?dl=0)

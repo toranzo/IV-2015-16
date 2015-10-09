@@ -64,6 +64,12 @@ Deducimos que los primeros años se amortiza más
 	<li>Séptimo año: 800,82 * 0,10 = 80,082</li>
 </ol>
 
+
+##Ejercicio 3.1
+###¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
+[Contestada en el foro](https://github.com/JJ/IV-2015-16/issues/1)
+
+
 ##Ejercicio 3.2
 ###Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
@@ -79,6 +85,9 @@ Deducimos que los primeros años se amortiza más
 
 ##Ejercicio 4
 ###Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
-Al usar mac el comando que he tenido que ejecutar para ver la información del procesador es: sysctl -a | grep machdep.cpu
-y la salida ha sido la siguiente:
-![captura de pantalla](https://gyazo.com/bdb00327b023414a0841606cfa063560)
+Usando dicho comando no me lista nada, con lo cual quiere decir que mi procesador no tiene esta función o la tiene desactivada.
+![captura de pantalla](https://gyazo.com/8fdac487e3ea8292d362d7967549d886)
+
+Para ver que modelo de procesador tengo uso el comando "cat /proc/cpuinfo" y obtengo la siguiente salida
+![captura de pantalla](https://gyazo.com/fb6b3a623af264a43aa746db66471125)
+![captura de pantalla](https://gyazo.com/a85dcba2f3c7e0c340e313a9f4ef2254)

@@ -14,11 +14,11 @@ Ahora se puede entrar y activar el entorno creado mediante el comando **source b
 
 ![activacion](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/activacion_zps9gkq305d.png)
 
-Con esto ya es posible instalar lo que sea necesario en Python usando la herramienta **pip**, por ejemplo *Django 1.6*
+Con esto ya es posible instalar lo que sea necesario de Python usando la herramienta **pip**, por ejemplo *Django 1.6*
 
 ![entornodjango](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/django_zpszdug7kvo.png)
 
-Por ultimo para desactivarlo solo hay que ejecutar la orden **deactivate**
+Por ultimo, para desactivarlo solo hay que ejecutar la orden **deactivate**
 
 ![desactivar](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/desactivar_zpsuduiec5s.png)
 

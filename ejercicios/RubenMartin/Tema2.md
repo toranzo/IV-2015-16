@@ -19,3 +19,31 @@ En mi caso me he decantado por NVM. Para su instalación, hay que seguir los sig
 7. Por último, podemos ver las versiones instaladas con el comando *nvm ls*.
 
 ![Versiones nodejs instaladas](https://www.dropbox.com/s/brsg2qi0l38vmcg/VersionesNodejs.PNG?dl=1)
+
+### Ejercicio 2: Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos. Las acciones serían crear empresa y listar calificaciones para cada empresa, crear calificación y añadirla (comprobando que la persona no la haya añadido ya), borrar calificación (si se arrepiente o te denuncia la empresa o algo) y hacer un ránking de empresas por calificación, por ejemplo. Crear un repositorio en GitHub para la librería y crear un pequeño programa que use algunas de sus funcionalidades. Si se quiere hacer con cualquier otra aplicación, también es válido.
+
+1. Decimos a NVM la versión de Node.js que queremos usar con: *nvm use v4.1.2*
+
+Procedemos a instalar una base de datos, en mi caso he elegido MongoDB: 
+
+2. Importamos la llave pública del sistema: *sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10*
+
+3. Agregamos el repositorio de MongoDB: *echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list*
+
+4. Actualizamos los paquetes de apt-get: *sudo apt-get update*
+
+5. Instalamos MongoDB: *sudo apt-get install -y mongodb-org*
+
+6. Y por último, iniciamos el proceso que actua como servidor de mongo: *sudo service mongod start*
+
+Ahora vamos a instalar el Node.js MondoDB Driver siguiendo los siguientes pasos:
+
+7. *sudo apt-get install libkrb5-dev*
+
+8. *npm install mongodb*
+
+9. *npm install bcrypt-nodejs*
+
+También he instalado SQLite con: *npm install sqlite3*
+
+Con esto ya tenemos Node.js y las bases de datos listos para comenzar a programar!!

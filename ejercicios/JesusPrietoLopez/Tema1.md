@@ -37,8 +37,8 @@ Aquí al tener más margen de años podemos dividir la amortización y pagar men
 
 Para el servidor de alojamiento en internet he utilizado el proveedor [Hostinger](http://www.hostinger.es) y le he comparado con el proveedor [Microsoft Azure](https://azure.microsoft.com).
 
-![Precio máquina virtual de Microsoft Azure](http://imgur.com/IWwee0Z)
-![Precio servidor Hostinger](http://imgur.com/ZhSabMQ)
+![Precio máquina virtual de Microsoft Azure](http://imgur.com/IWwee0Z.png)
+![Precio servidor Hostinger](http://imgur.com/ZhSabMQ.png)
 
 Microsoft Azure: 1 núcleo, 1 GB RAM, 20	GB en disco
 
@@ -108,14 +108,14 @@ Mi procesador es Intel Core i3 M330 2.13GHz
 
 Como salida de la orden `$ egrep '^flags.*(vmx|svm)' /proc/cpuinfo` aparece:
 
-![Salida del comando para ver los flags](http://imgur.com/lnIX58x)
+![Salida del comando para ver los flags](http://imgur.com/lnIX58x.png)
 
 ###Ejercicio 5:
 1. Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden `kvm-ok`.
 
 Parece ser que si tiene el módulo.
 
-![Salida del comando kvm-ok](http://imgur.com/JsOwMzQ)
+![Salida del comando kvm-ok](http://imgur.com/JsOwMzQ.png)
 
 2. Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
 

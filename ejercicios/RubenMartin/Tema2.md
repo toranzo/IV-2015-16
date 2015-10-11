@@ -65,4 +65,9 @@ Ya hemos probado antes en la versión estable 4.1.2 de node.js. Ahora probamos c
 
 ![Funciona en todas las versiones probadas](https://www.dropbox.com/s/hh8gis6271t5nq0/ChatFuncionandoOtrasversiones.PNG?dl=1)
 
+### Ejercicio 4: Crear una descripción del módulo usando package.json o el equivalente en otro lenguaje.
 
+Lo he hecho con el comando *npm init* ejecutado dentro del directorio de la aplicación.
+Solo habrá que ir rellenando los distintos parámetros que nos pide. Al final nos queda algo así:
+
+![Ejemplo de package.json](https://www.dropbox.com/s/gwhoyu8ipsbubfr/packageJSON.PNG?dl=1)

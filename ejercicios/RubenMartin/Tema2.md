@@ -47,3 +47,11 @@ Ahora vamos a instalar el Node.js MondoDB Driver siguiendo los siguientes pasos:
 También he instalado SQLite con: *npm install sqlite3*
 
 Con esto ya tenemos Node.js y las bases de datos listos para comenzar a programar!!
+
+En mi caso, he creado un chat online. El repositorio del programa que he creado esta [aquí](https://github.com/romilgildo/Chat)
+
+Para ejecutarlo simplemente, clonamos el repositorio con *git clone*, y hacemos *node server.js* en el directorio raíz de la aplicación.
+
+Aquí una muestra de la aplicación funcionando:
+
+![Chat funcionando](https://www.dropbox.com/s/lowzouqp7ulozm9/ChatFuncionando.PNG?dl=1)

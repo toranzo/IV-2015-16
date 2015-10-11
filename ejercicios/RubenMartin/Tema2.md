@@ -55,3 +55,14 @@ Para ejecutarlo simplemente, clonamos el repositorio con *git clone*, y hacemos 
 Aquí una muestra de la aplicación funcionando:
 
 ![Chat funcionando](https://www.dropbox.com/s/lowzouqp7ulozm9/ChatFuncionando.PNG?dl=1)
+
+### Ejercicio 3: Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
+
+Ya hemos probado antes en la versión estable 4.1.2 de node.js. Ahora probamos con el resto de versiones que habíamos instalado en el ejercicio 1:
+
+- v0.11.16 -> Funciona correctamente
+- v0.12.7 -> Funciona correctamente
+
+![Funciona en todas las versiones probadas](https://www.dropbox.com/s/hh8gis6271t5nq0/ChatFuncionandoOtrasversiones.PNG?dl=1)
+
+

@@ -75,7 +75,7 @@ Si tengo los flags activados.
 
 Intel® Core™ i7-3537U CPU @ 2.00GHz × 4
 
-![Sin titulo](/home/usuario/Imágenes/eje4)
+![Sin titulo](http://i1028.photobucket.com/albums/y349/Salva_Rueda/eje4_zpsoxnp2iso.png)
 
 ##Ejercicio 5.
 
@@ -83,7 +83,7 @@ Intel® Core™ i7-3537U CPU @ 2.00GHz × 4
 
 Si lo contiene.
 
-![Sin titulo](/home/usuario/Imágenes/eje5)
+![Sin titulo](http://i1028.photobucket.com/albums/y349/Salva_Rueda/eje5_zpsffzuyrtp.png)
 
 ##2.Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
 

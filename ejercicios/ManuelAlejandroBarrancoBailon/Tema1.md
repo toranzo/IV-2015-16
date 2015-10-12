@@ -93,7 +93,7 @@ El modelo de procesador es el [Intel Core i5 M430 @2.27GHz](http://ark.intel.com
 
 ![Modelo de procesador](http://i1016.photobucket.com/albums/af281/raperaco/cpuinfo_zpsjbqaxxjk.png)
 
-La salida que aparece al ejecutar la orden *egrep '^flags.*(vmx|svm)' /proc/cpuinfo* es:
+La salida que aparece al ejecutar la orden egrep '^flags.*(vmx|svm)' /proc/cpuinfo es:
 ![Orden flags virtualización](http://i1016.photobucket.com/albums/af281/raperaco/salidaFlagsVirtualizacion_zpscl5z8qgh.png)
 
 *Aparece la misma salida repetida cuatro veces, porque es la recogida en cada uno de los "cores"*. 
@@ -104,6 +104,7 @@ Vemos como efectivamente aparece el flag *vmx*.
 1. Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.	
 Ejecuto el comando kvm-ok, y recibo el aviso de que no lo tengo instalado, que instale el programa cpu-checker. 
 ![KVM1](http://i1016.photobucket.com/albums/af281/raperaco/kvm1_zpsld5yj6xc.png)
+
 Lo instalo, y vuelvo a ejecutar la orden *kvm-ok* y ya veo que el núcleo sí contiene este módulo KVM.
 ![KVM2](http://i1016.photobucket.com/albums/af281/raperaco/kvm2_zpsubojrr12.png)
 

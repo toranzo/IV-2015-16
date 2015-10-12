@@ -1,6 +1,6 @@
 ##Objetivos Alvaro Perez
 
-### Sesión 1
+### Sesión 1 (Semana del 23 al 30 septiembre 2015)
 
 [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
@@ -11,7 +11,7 @@
 [x] Vernos las caras.
 
 
-### Sesión 2
+### Sesión 2 (Semana del 30 septiembre al 7 octubre 2015)
 
 [x] Comenzar a entender los conceptos fundamentales relacionados con la virtualización.
 
@@ -49,7 +49,7 @@
 [x] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
 
 
-###Sesión 3
+###Sesión 3 (Semana del 7 al 14 de octubre 2015)
 [x] Entender el concepto de DevOps y cómo se traduce al ciclo de vida de una aplicación.
 
 [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.

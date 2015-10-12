@@ -1,6 +1,6 @@
 ##Objetivos Alvaro Perez
 
-### Sesion 1
+### Sesión 1
 
 [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
@@ -11,7 +11,7 @@
 [x] Vernos las caras.
 
 
-### Sesion 2
+### Sesión 2
 
 [x] Comenzar a entender los conceptos fundamentales relacionados con la virtualización.
 
@@ -49,7 +49,7 @@
 [x] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
 
 
-###Sesion 3
+###Sesión 3
 [x] Entender el concepto de DevOps y cómo se traduce al ciclo de vida de una aplicación.
 
 [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.

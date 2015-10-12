@@ -19,9 +19,9 @@
 
  #### Otros objetivos Sesion 2
  
- - [ ] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige. 
- - [ ] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub 
- - [ ] Tener configurdos los dos repositorios (origin, el propio, upstream, el del resto de la clase). 
+ - [x] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige. 
+ - [x] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub 
+ - [x] Tener configurdos los dos repositorios (origin, el propio, upstream, el del resto de la clase). 
  - [x] Tener a punto una instalación Linux para llevar a cabo las actividades de la asignatura. 
  - [ ] Comenzar a usar los métodos de entrega de ejercicios propuestos para la asignatura usando GitHub. 
  - [x] Manejar de forma básica la línea de órdenes de Linux.
@@ -29,4 +29,4 @@
  - [x] Entender el concepto de sistema de ficheros virtual usado en Linux para diferentes menesteres.
  - [ ] Usar git para hacer check-in en clase y expresar al final de cada sesión los objetivos alcanzados.
  - [ ] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. Se puede hacer, de la misma forma, mediante un pull request, en este caso al repo del compañero.
- - [ ] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
+ - [x] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.

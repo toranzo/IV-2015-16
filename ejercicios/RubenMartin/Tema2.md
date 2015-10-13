@@ -112,4 +112,19 @@ Y por último ejecutamos *grunt*, que produce la siguiente [documentación](http
 
 ![Creación de documentación con Grunt](https://www.dropbox.com/s/u768mvdz7edaoyy/ejecucionGrunt.PNG?dl=1)
 
+### Ejercicio 6: Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga
 
+```
+var assert = require("assert");
+
+app.post('/login', function (req, res) {
+	var username = req.body.username;
+	var password = req.body.password;
+
+	assert(username, "Login username");
+	assert(password, "Login password");
+	console.log("Usuario logueado correctamente");
+});
+```
+
+[Test con assert](https://www.dropbox.com/s/bhv8gzonwqgaizw/assertNode.PNG?dl=1)

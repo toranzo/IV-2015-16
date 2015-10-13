@@ -130,3 +130,29 @@ app.post('/login', function (req, res) {
 ```
 
 ![Test con assert](https://www.dropbox.com/s/bhv8gzonwqgaizw/assertNode.PNG?dl=1)
+
+### Ejercicio 7: Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta.
+
+Ahora he hecho los test en la función que guarda y envía los mensajes.
+
+1. Instalamos mocha con: *npm install -g mocha*
+
+2. Creamos un directorio para tests, y dentro de este, el fichero test.js
+
+```
+var assert = require("assert");
+chat = require(__dirname+"/../server.js");
+
+describe('Chat', function(){
+	describe('Carga', function(){
+		it('Debe cargar el programa', function(){
+			assert(chat, "Cargado");
+		});
+	});
+});
+
+```
+
+3. Ejecutamos el test con *mocha test/test.js*
+
+![Ejecución correcta de Mocha](https://www.dropbox.com/s/kfzx9g98pgqx6dj/testMocha.PNG?dl=1)

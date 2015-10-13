@@ -27,7 +27,7 @@ En esta sesión hemos realizado los siguientes objetivos
 
   -Otros objetivos
 
-[] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige.
+[x] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige.
 
 [] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub (no https).
 

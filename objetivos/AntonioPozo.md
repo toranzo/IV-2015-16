@@ -1,6 +1,7 @@
 
 # Lista de Objetivos de Antonio Miguel Pozo Cámara
 
+<<<<<<< HEAD
 ## Clase del 23 de septiembre de 2015
 ### Objetivos a cubrir en la sesión
 
@@ -33,3 +34,12 @@
 - [x] Manejar de forma básica la línea de órdenes de Linux.
 - [x] Aprender a instalar software libre en Linux.
 
+=======
+[x]	Entender la metodología docente, de evaluación y de interacción de la asignatura.
+
+[x]	Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
+
+[x]	Entender el concepto de software libre y su aplicación práctica en clase.
+
+[x]	Vernos las caras.
+>>>>>>> origin/AntonioPozo-patch-1

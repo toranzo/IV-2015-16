@@ -56,7 +56,7 @@ Para la comparación, utilizaremos Windows Azure y Hostinger.
 
 En Hostinger tenemos lo siguiente:
 
-![Servidor dedicado en hostinger.es](https://gyazo.com/6552eb148f78ce4de9eaca9ccf16972c)
+[![Gyazo](https://i.gyazo.com/6552eb148f78ce4de9eaca9ccf16972c.png)](https://gyazo.com/6552eb148f78ce4de9eaca9ccf16972c)
 
 El precio al año sería el siguiente:
 
@@ -64,7 +64,7 @@ El precio al año sería el siguiente:
 
 En Azure tenemos lo siguiente:
 
-![Servidor en la nube de Microsoft Azure](https://gyazo.com/ce3394945e9f494dc990f55a92045640)
+[![Gyazo](https://i.gyazo.com/ce3394945e9f494dc990f55a92045640.png)](https://gyazo.com/ce3394945e9f494dc990f55a92045640)
 
 A la hora ----> 0.017€
 
@@ -85,7 +85,7 @@ Como podemos observar, Azure es más rentable, principalmente ya que se paga por
 
 ## 1. ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
 
-[Comentario añadido.](https://gyazo.com/cad63d04544b1a63fd0144338b586094)
+[![Gyazo](https://i.gyazo.com/cad63d04544b1a63fd0144338b586094.png)](https://gyazo.com/cad63d04544b1a63fd0144338b586094)
 
 ## 2.Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
@@ -95,7 +95,7 @@ En primer lugar, voy a proceder a instalar CDE. Para ello, nos bajaremos su cód
 
 Cuando lo tengamos descargado, accederemos a la carpeta "CDE" y ejecutaremos la aplicación haciendo "__make__".
 
-<img src="https://gyazo.com/b8cb0fc170c2dd0c0c20317a29c55584">
+[![Gyazo](https://i.gyazo.com/b8cb0fc170c2dd0c0c20317a29c55584.png)](https://gyazo.com/b8cb0fc170c2dd0c0c20317a29c55584)
 
 Una vez descargado, vamos a proceder a hacer un script de un "Hola mundo" sencillo, llamado hola_mundo.sh.
 
@@ -103,7 +103,7 @@ Una vez descargado, vamos a proceder a hacer un script de un "Hola mundo" sencil
 echo "¡¡Hola Mundo!!" 
 </code></pre>
 
-<img src="https://gyazo.com/405dd3e72f3137295a902032b2c2771b">
+[![Gyazo](https://i.gyazo.com/405dd3e72f3137295a902032b2c2771b.png)](https://gyazo.com/405dd3e72f3137295a902032b2c2771b)
 
 Y le daremos permisos de ejecución:
 
@@ -113,7 +113,7 @@ Ahora vamos a empaquetar el programa. Para ello, ejecuto el siguiente comando:
 
 <pre><code> ./cde /home/manolo/CDE/hola_mundo.sh </code></pre>
 
-<img src="https://gyazo.com/a4169022ee3bf3f025671786f7bf98bb">
+[![Gyazo](https://i.gyazo.com/a4169022ee3bf3f025671786f7bf98bb.png)](https://gyazo.com/a4169022ee3bf3f025671786f7bf98bb)
 
 Solo queda comprimir los archivos generados que serán los que se encuentre en el directorio "cde-package". Podemos comprimir usando el siguiente comando:
 
@@ -121,7 +121,7 @@ Solo queda comprimir los archivos generados que serán los que se encuentre en e
 
 Para ejecutar el programa con CDE, deberemos introducir la ruta hasta el archivo hola_mundo.sh.cde (en nuestro caso: cde-package/cde-root/home/javi/CDE/hola_mundo.sh.cde), que será el que llame al programa cde-exec y ejecutará el programa que hemos empaquetado con CDE.
 
-<img src="https://gyazo.com/46469a366f97ee09d205381d1a254eb6">
+[![Gyazo](https://i.gyazo.com/46469a366f97ee09d205381d1a254eb6.png)](https://gyazo.com/46469a366f97ee09d205381d1a254eb6)
 
 
 # Ejercicio 4 
@@ -132,11 +132,11 @@ Para comprobar si está activada la virtualización a nivel de hardware deberemo
 
 <pre><code> egrep '^flags.*(vmx|svm)' /proc/cpuinfo </pre></code>
 
-<img src="https://gyazo.com/758691ca02a7276059a6119f900cd065">
+[![Gyazo](https://i.gyazo.com/758691ca02a7276059a6119f900cd065.png)](https://gyazo.com/758691ca02a7276059a6119f900cd065)
 
 Respecto al modelo de procesador,lo vamos a consultar ejecutando: <pre><code> cat /proc/cpuinfo </pre></code>
 
-<img src="https://gyazo.com/9da75ea14cc06a7c192ff7f3379f15b0">
+[![Gyazo](https://i.gyazo.com/9da75ea14cc06a7c192ff7f3379f15b0.png)](https://gyazo.com/9da75ea14cc06a7c192ff7f3379f15b0)
 
 # Ejercicio 5
 
@@ -144,7 +144,7 @@ Respecto al modelo de procesador,lo vamos a consultar ejecutando: <pre><code> ca
 
 Mi núcleo sí contiene dicho módulo del kernel.
 
-<img src="https://gyazo.com/1da214b4fa46d5ec89bfcf0bb66152ae">
+[![Gyazo](https://i.gyazo.com/1da214b4fa46d5ec89bfcf0bb66152ae.png)](https://gyazo.com/1da214b4fa46d5ec89bfcf0bb66152ae)
 
 ## 2. Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
 

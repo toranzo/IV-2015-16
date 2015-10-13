@@ -114,6 +114,8 @@ Y por último ejecutamos *grunt*, que produce la siguiente [documentación](http
 
 ### Ejercicio 6: Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga
 
+He añadido dos asersiones tras hacer el Login del usuario, y podemos ver que ambos tests han sido superados.
+
 ```
 var assert = require("assert");
 

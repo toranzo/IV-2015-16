@@ -8,7 +8,22 @@ Por lo tanto para un servidor HP ProLiant DL60 Gen 9 E5-2603v3/4GB [2] con un co
 
 A 4 años la amortización es 244,74 * 4= 978,96 euros
 
-A 7 años la amortización es 244,74 * 7 =1713,18 euros  
+A 7 años la amortización es 
+
+1)978*0.25=244,5 
+
+2) (978-244.5 )*0.25=  733.5 *0.25 =183.375
+
+3) (733.5 -183.375)*0.25=550.25 *0.25= 137.531
+
+4) (550.25-137.531 ) *0.25= 412.719 *0.25=103.18
+
+5) (412.719-103.18) *0.25 = 309.539 *0.25=77.384
+
+6) (309.539-77.384)*0.25 = 232.155 *0.25=58.038
+
+7) (231.155-58.038)*0.25=173.117 *0.25=43.279
+
 
 ##Ejercicio 2
 #####Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
@@ -99,6 +114,8 @@ MacBook-Pro-de-Bogdan:~ bogdan$
 ##Ejercicio 5 
 ####Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
 Instalamos QEMU en MAC OS X [sequimos los pasos ](http://docs.pistoncloud.com/support_docs/how_tos/install_qemu_mac_os_x.html)
+
+
 
 
 

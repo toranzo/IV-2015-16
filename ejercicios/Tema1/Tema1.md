@@ -58,8 +58,8 @@ Haciendo las mismas suposiciones que en el apartado anterior:
 ###Ejercicio 2
 **Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.**
 
-Para dar solución a este ejercicio he optado por grandes empresas como AMAZON EC2 y GOOGLE COMPUTE ENGINE. 
-A continuación se exponen las características del producto:
+Para dar solución a este ejercicio he optado por analizar grandes empresas como AMAZON EC2 y GOOGLE COMPUTE ENGINE. 
+A continuación se exponen las características de cada producto:
 * AMAZON EC2
 	* Nombre: m4.xlarge
 	* Virtual CPUs: 4
@@ -75,6 +75,9 @@ A continuación se exponen las características del producto:
 	* Precio: $0.140/h
         * **1% de uso:** 87,6h * $0.140/h = $12,264
         * **10% de uso:** 876h * $0.140/h = $122,64
+
+En cuanto a proveedor de alojamiento Internet he optado por Hostminio cuyo plan más caro son 5,99€/mes = 72€/mes y 
+el servicio de hosting es del 100%.
     
 
 ###Ejercicio 3.1

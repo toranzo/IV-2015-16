@@ -41,45 +41,41 @@ Tomando como base el descuento de **21% de IVA** del apartado anterior, el **cos
 
 **Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) si la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.**
 
-Empresas utilizadas para el estudio:
+Utilizo como servicio en la nube: http://www.interdominios.com/servidor-cloud/
+Utilizo como servicios de : https://dinahosting.com/dedicados
 
-* [leaseweb](https://www.leaseweb.com/dedicated-servers/single-processor?processorCount=1)
-* [OVH] (https://www.ovh.com/us/dedicated-servers/enterprise/)
+#### Caracteristica del servidor a comparar:
+* 1 GB de memoria
+* 160GB de disco duro
+* Pentium dual core
 
-Detalles sobre **leaseweb**
+#### Modelos seleccionados:
+*Servicio de alojamiento: Dell PowerEdge 860 * 
+Precio: 38.7 €/mes
+*Servicio en la nube: Modelo a medida*
+Precio: 51.67 €/mes Dado que solo pagare lo que utilizare, contamos el coste:
+* 1,72€/dia
+* 0.67€/h
+* 0.011 €/min
 
-* Procesador: Intel  Xeon E3 E3-1230v2
-* 8 GB DDR3
-* Almacenamiento: 2TB SATA2
+#### *Uso anual del 10%*
 
-Mas información en: https://www.leaseweb.com/
+tiempo de uso:  
+* 365 x 0,1 = 36,5 dias = 876 Horas = 52560 min  
+Precio del servidor en la nube:  
+* 52560 x 0.011 = 578,16 €  
+Precio del servidor dedicado  
+* 12 x 38.7 = 464,4 €   
 
+#### *Para un uso anual del 1%*   
 
-Detalles sobre **OVH**
+*tiempo de uso*
+* 365 x 0,01 = 3,65 dias = 87,6 Horas = 5256 min  
+Precio del servidor cloud  
+* 5256 x 0.011 = 57,816 €  
+Precio del servidor dedicado  
+* 12 x 38.7 = 464,4 €    
 
-No hace distinción entre SO y no tiene coste adicional por configuraciones.
-
-* Procesador Xeon: E3 E3-1231v3
-* 32 GB 1600 MHZ
-* 500 GB de espacio en disco.
-
-
-Para más información consultar el siguiente enlace a  http://www.ovh.es/hosting/hosting-profesional.xml
-
-
-** *Planes*
-* OVH: 79€/mes
-* Leaseweb: 139 €/mes
-
-Para **OVH**:
-
-* Usando solo un 1% de la infraestructura, obtenemos un coste de 1168 €/año * 0,01 = **11,68 €/año**
-* Usando solo un 10% de la infraestructura, obtenemos un coste de 1168 €/año * 0,1 = **116,8 €/año**
-
-Para **Hostalia**:
-
-* Usando solo un 1% de la infraestructura, obtenemos un coste de 948€/año * 0,01 = **9,48 €/año**
-* Usando solo un 10% de la infraestructura, obtenemos un coste de 948€/año * 0,1 = **94,8 €/año**
 
 # Ejercicio 3.1
 **¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro**

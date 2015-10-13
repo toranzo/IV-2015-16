@@ -25,10 +25,10 @@ El servidor debe producir 114.28 €/año si queremos que se amortice en 7 años
 COnsultamos el sitio http://www.1and1.es en busca de uno de sus servidores virtuales. En la imagen, vemos algunas de sus tarifas para estos servidores virtuales. Nos quedamos con la primera de todas, que vale 20€ al mes (y no 9.99 como aparece en la imagen, ya que ese precio es si se contrata un mínimo de 24 meses)
 
 ![](https://www.dropbox.com/s/pnt79qjg00aa01d/1and1.png?dl=1)
-https://www.dropbox.com/s/pnt79qjg00aa01d/1and1.png?dl=0
+
 EL coste total sería en 6 meses de 120 €.
 
-Ahora, comparamos el precio que nos costaría contratar una máquina ddicada de similares características. Tal y como se aprecia en la imagen, el coste es mucho superior, ya que asciende a más de 43 euros:
+Ahora, comparamos el precio que nos costaría contratar una máquina dedicada de similares características. Tal y como se aprecia en la imagen, el coste es mucho superior, ya que asciende a más de 43 euros:
 
 ![](https://www.dropbox.com/s/850gtzgm3rka80f/1and1_2.png?dl=1)
 

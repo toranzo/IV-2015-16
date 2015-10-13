@@ -188,3 +188,4 @@ script:
 
 Podemos ver el correcto funcionamiento cuando cada vez que hacemos un push del repositorio, automáticamente se ejecutan los test indicados, y si se pasan, marca el build con "succes".
 
+![Integración continua con Shippable](https://www.dropbox.com/s/8yu4xssngstoyqm/succesShippable.PNG?dl=1)

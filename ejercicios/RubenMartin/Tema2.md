@@ -156,3 +156,35 @@ describe('Chat', function(){
 3. Ejecutamos el test con *mocha test/test.js*
 
 ![Ejecución correcta de Mocha](https://www.dropbox.com/s/kfzx9g98pgqx6dj/testMocha.PNG?dl=1)
+
+### Ejercicio 8: Haced los dos primeros pasos antes de pasar al tercero.
+
+1. Me he dado de alta en Shippable conectándome directamente desde mi usuario en GitHub.
+
+2. Creamos el fichero shippable.yml con el siguiente contenido:
+
+```
+# Build Environment
+build_environment: Ubuntu 14.04
+
+# language setting
+language: node_js
+
+# version numbers, testing against two versions of node
+node_js:
+ - "0.11"
+ - "0.12"
+
+# npm install runs by default but shown here for illustrative purposes
+before_install:
+ - npm install -g mocha
+ 
+ # Running npm test to run your test cases
+script:
+ - mocha
+ ```
+ 
+3. Cargamos el repositorio y le damos a BUILD THIS BRANCH, y ya tendremos activada la integración contínua.
+
+Podemos ver el correcto funcionamiento cuando cada vez que hacemos un push del repositorio, automáticamente se ejecutan los test indicados, y si se pasan, marca el build con "succes".
+

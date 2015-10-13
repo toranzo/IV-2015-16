@@ -84,7 +84,7 @@ Para **Hostalia**:
 # Ejercicio 3.1
 **¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro**
 
-Contestado en issue: #1 por @bott17
+Contestado en issue: https://github.com/JJ/IV-2015-16/issues/1#issuecomment-146274292
 
 # Ejercicio 3.2
 

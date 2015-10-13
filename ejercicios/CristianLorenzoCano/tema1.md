@@ -2,20 +2,20 @@
 #### 1. Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.
 
 para realizar el ejercicio he elegido el servidor [SERVIDOR HP PROLIANT DL380P G8](http://www.dynos.es/servidor-hp-proliant-dl380p-g8-xeon-e5-2620-2x4gb-ddr3-p420i-512mb-887111426765__470065-701.html)
-cuyo precio es 2490 € IVA incluido
+cuyo precio es 2490 € IVA incluido es decir de 2057,85
 
 los productos informaticos se pueden amortizar por completo y hasta un maximo de un 26% al año asi la amortizacion quedaria
 de la siguiente forma
 
-|    **Amortizacion a 4 años**   |     **Amortizacion a 7 años**    |
-| ------------------------------ | -------------------------------- |
-| **1º:** 2490 x 0.26 = 647,40 € | **1º:** 2490 x 0.26 = 647,40 €   |
-| **2º:** 2490 x 0.26 = 647,40 € | **2º:** 2490 x 0.26 = 647,40 €   |
-| **3º:** 2490 x 0.26 = 647,40 € | **3º:** 2490 x 0.10 = 249,00 €   |
-| **4º:** 2490 x 0.23 = 572,70 € | **4º:** 2490 x 0.10 = 249,00 €   |
-|                                | **5º:** 2490 x 0.10 = 249,00 €   |
-|                                | **6º:** 2490 x 0.10 = 249,00 €   |
-|                                | **7º:** 2490 x 0.08 = 199,20 €   |
+|    **Amortizacion a 4 años**      |     **Amortizacion a 7 años**       |
+| --------------------------------- | ----------------------------------- |
+| **1º:** 2057,85 x 0.26 = 535,04 € | **1º:** 2057,85 x 0.26 = 535,04 €   |
+| **2º:** 2057,85 x 0.26 = 535,04 € | **2º:** 2057,85 x 0.26 = 535,04 €   |
+| **3º:** 2057,85 x 0.26 = 535,04 € | **3º:** 2057,85 x 0.10 = 205,78 €   |
+| **4º:** 2057,85 x 0.23 = 452,73 € | **4º:** 2057,85 x 0.10 = 205,78 €   |
+|                                   | **5º:** 2057,85 x 0.10 = 205,78 €   |
+|                                   | **6º:** 2057,85 x 0.10 = 205,78 €   |
+|                                   | **7º:** 2057,85 x 0.08 = 164,65 €   |
 
 
 #### 2. Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.

@@ -60,19 +60,23 @@ Precio: 51.67 €/mes Dado que solo pagare lo que utilizare, contamos el coste:
 
 #### *Uso anual del 10%*
 
-tiempo de uso:  
+Tiempo de uso:  
 * 365 x 0,1 = 36,5 dias = 876 Horas = 52560 min  
+
 Precio del servidor en la nube:  
 * 52560 x 0.011 = 578,16 €  
+
 Precio del servidor dedicado  
 * 12 x 38.7 = 464,4 €   
 
 #### *Para un uso anual del 1%*   
 
-*tiempo de uso*
+Tiempo de uso
 * 365 x 0,01 = 3,65 dias = 87,6 Horas = 5256 min  
+
 Precio del servidor cloud  
 * 5256 x 0.011 = 57,816 €  
+
 Precio del servidor dedicado  
 * 12 x 38.7 = 464,4 €    
 

@@ -127,4 +127,4 @@ app.post('/login', function (req, res) {
 });
 ```
 
-[Test con assert](https://www.dropbox.com/s/bhv8gzonwqgaizw/assertNode.PNG?dl=1)
+![Test con assert](https://www.dropbox.com/s/bhv8gzonwqgaizw/assertNode.PNG?dl=1)

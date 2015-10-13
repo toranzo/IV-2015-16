@@ -71,3 +71,45 @@ Lo he hecho con el comando *npm init* ejecutado dentro del directorio de la apli
 Solo habrá que ir rellenando los distintos parámetros que nos pide. Al final nos queda algo así:
 
 ![Ejemplo de package.json](https://www.dropbox.com/s/gwhoyu8ipsbubfr/packageJSON.PNG?dl=1)
+
+### Ejercicio 5: Automatizar con grunt y docco (o algún otro sistema para otro lenguaje de programación) la generación de documentación de la librería que se cree. Previamente, por supuesto, habrá que documentar tal librería.
+
+Primero debemos instalar grunt y docco con los siguientes comandos:
+
+1. *npm install -g grunt-cli*
+
+2. *npm install docco grunt-docco --save-dev*
+
+Ahora pasamos a crear el Gruntfile.js (en el directorio raíz de la aplicación que estamos creando):
+
+```
+'use strict';
+
+module.exports = function(grunt) {
+
+  // Configuración del proyecto
+  grunt.initConfig({
+  pkg: grunt.file.readJSON('package.json'),
+  docco: {
+	  debug: {
+	  src: ['*.js'],
+	  options: {
+		  output: 'docs/'
+	  }
+	  }
+  }
+  });
+
+  // Carga el plugin de grunt para hacer esto
+  grunt.loadNpmTasks('grunt-docco');
+
+  // Tarea por omisión: generar la documentación
+  grunt.registerTask('default', ['docco']);
+};
+```
+
+Y por último ejecutamos *grunt*, que produce la siguiente [documentación](https://github.com/romilgildo/Chat/tree/master/docs).
+
+![Creación de documentación con Grunt](https://www.dropbox.com/s/u768mvdz7edaoyy/ejecucionGrunt.PNG?dl=1)
+
+

@@ -18,21 +18,33 @@ Año 2015: 61,88 €, Año 2016: 123, 76 € Año 2017, 2018, 2019, 2020, 2021: 
 
 ##Ejercicio2: Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
-Para la comparación usare los siguiente servidores:
+Servidor dedicado de Arsys:
 
-http://aws.amazon.com/es/ec2/
+Procesador: Intel Xeon 4 Core, 2 GHz
+RAM: 8GB
+Disco Duro: 2x500 GB SATA Hw RAID 1
+Coste: 125.00€/mes
 
-https://cloud.google.com/compute/
+Máquina virtual de Azure, instancia A3:
 
-**Cálculo de los precios al 1% de uso:**
+Procesador: 4 núcleos
+RAM: 7 GB
+Disco Duro: 120 GB
+Coste: 0,202 €/h
 
-Amazon: 0,126714105 * 87,6 horas = 11,15084124 euros.
-Google: 0,114834658 * 87,6 horas = 10,105449904 euros.
+**Si se usa el 1% del tiempo:**
 
-**Cálculo de los precios al 10% de uso:**
+Arsys: 125.00€/mes * 12 meses = 1500€
 
-Amazon: 0,126714105 * 876 = 111,00155598 euros
-Google: 0,114834658 * 876 horas = 100,595160408 euros
+Azure: 0,202 €/h =>150,58 €/MES * 0.01 = 1.5058€/MES * 12 Meses = 18.0696€
+
+**Se usa el 10% del tiempo:**
+
+Arsys: 125.00€/mes * 12 meses = 1500€
+
+Azure: 0,202 €/h =>150,58 €/MES * 0.1 = 15.058€/Mes * 12 Meses = 180.696€
+
+Como se puede observar la opción del servidor dedicado es inviable si lo comparamos con la de la nube.
 
 ##Ejercicio3: Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 

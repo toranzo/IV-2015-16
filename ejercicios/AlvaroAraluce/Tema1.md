@@ -29,7 +29,7 @@ Dividimos entre **4 años** la base imponible y obtenemos una **cuota de amortiz
 
 ### 1.2 Amortización a siete años
 
-Dividimos entre **7 años** la base imponible y obtenemos una **cuota de amortización de 296.25€**.
+Dividimos entre **7 años** la base imponible y obtenemos una **cuota de amortización de 176.98€**.
 
 | Año | Cuota de amortización| Amortización acumulada | Valor neto contable |
 |-----|----------------------|------------------------|---------------------|

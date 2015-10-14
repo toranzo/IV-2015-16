@@ -90,19 +90,19 @@ Comentado en: https://github.com/JJ/IV-2015-16/issues/1
 ###Ejercicio 3.2
 **Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.**
 He aprovechado un programa implementado en python para la asignatura DAI. Ordena vectores según varios algoritmos de reordenación.
-![Programa en ejecucion](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/Tema1/ej3.2.png)
+![Programa en ejecucion](http://i57.tinypic.com/k2h449.jpg)
 
 
 ###Ejercicio 4
 **Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?**
 
-![Programa en ejecucion](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/Tema1/ej4.0.png)
+![Programa en ejecucion](http://i62.tinypic.com/24m7tif.png)
 
 
 
 ###Ejercicio 5.1
 **Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.**
-![puedo acelerar por hardware](https://github.com/AntonioPozo/IV-2015-16/blob/master/ejercicios/Tema1/ej5.1.png)
+![puedo acelerar por hardware](http://i62.tinypic.com/vcytu9.png)
 
 ###Ejercicio 5.2
 **Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**

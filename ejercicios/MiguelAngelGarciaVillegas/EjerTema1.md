@@ -29,6 +29,7 @@ Dado que hay que quitar el IVA (21%), al precio del artículo quedaría:
 ## Ejercicio 2. Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.
 
 He elegido en Axarnet, Servidor Advanced -> https://www.axarnet.es/servidores-vps/windows-linux-server-administrado/
+
 Servidor Advanced, 4 Cores CPU, 4GB de RAM, 50GB Disco SSD, Tráfico ilimitado, 1 Dirección IP y Plesk 12 -30 dominios por 19,98€/mes.
 
 19,98€ / 30 días = 0,67 €/día
@@ -43,11 +44,13 @@ VPS Linux L2, 4 Cpu, 8GB de RAM, 400GB Disco SSD por 14,90€/mes
 #### *Para un uso anual del 1%*   
 
 Axarnet -> 0,028/hora * 24h * 30dias * 1% =0.20€/mes 
+
 Strato -> 0,020/hora * 24h * 30dias * 1% =0.14€/mes 
 
 #### *Para un uso anual del 10%*   
 
 Axarnet -> 0,028/hora * 24h * 30dias * 10% =2.016€/mes 
+
 Strato -> 0,020/hora * 24h * 30dias * 10% =1.44€/mes 
 
 #### Conclusiones

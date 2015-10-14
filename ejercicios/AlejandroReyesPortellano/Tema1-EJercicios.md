@@ -33,9 +33,9 @@ Para la primera parte de la pregunta esta respondida en el foro:  [Foro](https:/
 Para la segunda parte de la pregunta:  
 El lenguaje utilizado es python, el programa imprime en pantalla "hola mundo"  
 Codigo:  
-	* _print "hola mundo"_
+* _print "hola mundo"_
 Ejecucion:  
-	* _python holamundo.py_
+* _python holamundo.py_
 Para poder empaquetarlo con CDE lo descargamos e instalarlo tecleamos en la terminal "sudo apt-get install cde".  
 Una vez instalado ejecutamos "cde python holamundo.py" y en la terminal nos muestra holamundo. En el directorio que hemos ejecutado la orden comentada anteriormente se muestra un archivo nuevo que se llama "cde-option" y un directorio llamado "cde-package"  
 Accedemos a la carpeta donde se ha comprimido el archivo:  

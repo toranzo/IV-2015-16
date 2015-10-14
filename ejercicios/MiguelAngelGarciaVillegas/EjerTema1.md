@@ -76,15 +76,32 @@ Enlace al comentario: https://github.com/JJ/IV-2015-16/issues/1#issuecomment-147
 
 ### b) Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
 
+**PROGRAMA**
+
+import re: 
+//Que empiece por mayuscula
+if re.search('^[A-Z]', cadena):
+	print 'Si'
+else:
+	print 'No'
+
+Instalar el paquete **CDE** -> **sudo apt-get install cde**
+
+Para empaquetar el programa y poder ejecutarlo, utilizamos la orden
+
+    cde python empieceMayus.py
+
 ## Ejercicios 4. Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
 
-$ egrep '^flags.*(vmx|svm)' /proc/cpuinfo
+**$ egrep '^flags.*(vmx|svm)' /proc/cpuinfo**
+
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm dtherm tpr_shadow vnmi flexpriority
 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm dtherm tpr_shadow vnmi flexpriority
 
 ##Salida 
-s$ cat /proc/cpuinfo
+**$ cat /proc/cpuinfo**
+
 processor	: 0
 vendor_id	: GenuineIntel
 cpu family	: 6
@@ -139,9 +156,21 @@ power management:
 
 
 ## Ejercicios 5. 
-### a) 
+### a) Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.
 
+He comprobado que no está instalado, aunque lo he instalado escribiendo:
+**sudo apt-get install cpu-checker**
 
+Ahora si teniendo instalado, muestra lo siguiente:
+**$ kvm-ok**
+INFO: /dev/kvm does not exist
+HINT:   sudo modprobe kvm_intel
+INFO: For more detailed results, you should run this as root
+HINT:   sudo /usr/sbin/kvm-ok
 
+### b) Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
+
+Tengo instalado VirtualBox.
+Si no lo tiene instalado y quiere instalarlo: **sudo apt-get install virtualbox**
 
 

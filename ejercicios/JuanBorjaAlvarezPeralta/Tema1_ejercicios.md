@@ -50,7 +50,7 @@ https://aws.amazon.com/es/ec2/pricing/
         
 
 #3.1:¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
-      Siempre he usado virtualización plena en todas mis prácticas, para tener la funcionalidad del Sistema Operativo y para que realizar tareas que no pongan en peligro el equipo
+   Siempre he usado virtualización plena en todas mis prácticas, para tener la funcionalidad del Sistema Operativo y para que realizar tareas que no pongan en peligro el equipo
 Siempre he usado VMware para ello.
 
 #3.2:Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.

@@ -162,11 +162,15 @@ He comprobado que no está instalado, aunque lo he instalado escribiendo:
 **sudo apt-get install cpu-checker**
 
 Ahora si teniendo instalado, muestra lo siguiente:
-**$ kvm-ok**
+**$ sudo kvm-ok**
 INFO: /dev/kvm does not exist
 HINT:   sudo modprobe kvm_intel
-INFO: For more detailed results, you should run this as root
-HINT:   sudo /usr/sbin/kvm-ok
+INFO: Your CPU supports KVM extensions
+INFO: KVM (vmx) is disabled by your BIOS
+HINT: Enter your BIOS setup and enable Virtualization Technology (VT),
+      and then hard poweroff/poweron your system
+KVM acceleration can NOT be used
+
 
 ### b) Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.
 

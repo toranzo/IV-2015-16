@@ -2,6 +2,7 @@
 # Lista de Objetivos de Antonio Miguel Pozo Cámara
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Clase del 23 de septiembre de 2015
 ### Objetivos a cubrir en la sesión
 
@@ -35,6 +36,8 @@
 - [x] Aprender a instalar software libre en Linux.
 
 =======
+=======
+>>>>>>> origin/AntonioPozo-patch-1
 [x]	Entender la metodología docente, de evaluación y de interacción de la asignatura.
 
 [x]	Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
@@ -42,4 +45,7 @@
 [x]	Entender el concepto de software libre y su aplicación práctica en clase.
 
 [x]	Vernos las caras.
+<<<<<<< HEAD
+>>>>>>> origin/AntonioPozo-patch-1
+=======
 >>>>>>> origin/AntonioPozo-patch-1

@@ -81,3 +81,46 @@ $ *./python.cde holakAse.py*
 Y tras la ejecución obtenemos un resultado idéntico al obtenido en la máquina principal.
 
 Para realizar este ejercicio me he basado en la [guía de usuario](http://www.pgbovine.net/cde/manual/) de la página oficial.
+
+### Ejercicio 4
+
+**Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?**
+
+Para comprobar el procesador que tengo ejecuto la orden:
+
+$ *grep 'model name' /proc/cpuinfo*
+
+La salida que obtengo es la siguiente:
+
+model name	: Pentium(R) Dual-Core CPU       T4500  @ 2.30GHz
+model name	: Pentium(R) Dual-Core CPU       T4500  @ 2.30GHz
+
+Eso significa que tengo un procesador Pentium(R) de 2 núcleos.
+
+Si ejecuto la orden:
+
+$ _egrep '^flags.*(vmx|svm)' /proc/cpuinfo_
+
+No obtengo ninguna salida.
+
+### Ejercicio 5
+
+**Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.**
+
+Al ejecutar la orden, la terminal me dice que debo instalar el programa, así que le hacemos caso y ejecutamos:
+
+$ _sudo apt-get install cpu-checker_
+
+Después de eso, ejecutamos de nuevo la orden y obtenemos:
+
+INFO: Your CPU does not support KVM extensions  
+INFO: For more detailed results, you should run this as root  
+HINT:   sudo /usr/sbin/kvm-ok
+
+**Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios**
+
+Yo ya tengo instalado VirtualBox como hipervisor, que es el que me gusta. Para instalarlo, sólo debemos ejecutar la orden:
+
+$ _sudo apt-get install virtualbox_
+
+**Nota: ** La forma de instalar puede variar de una distribución a otra.

@@ -77,9 +77,9 @@
 ## Semana del 14 de octubre al 21 de octubre de 2015
 ### Objetivos de la semana
 
-- [ ] Terminar la configuración de los sistemas de integración continua.
+- [x] Terminar la configuración de los sistemas de integración continua.
 
-- [ ] Comprender el nivel plataforma de la infraestructura virtual y su uso en prueba y producción.
+- [x] Comprender el nivel plataforma de la infraestructura virtual y su uso en prueba y producción.
 
 ### Otros objetivos
 

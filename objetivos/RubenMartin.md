@@ -73,3 +73,59 @@
 - [x] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
 
 - [x] Comprender el papel de las build tools o herramientas de automatización.
+
+## Semana del 14 de octubre al 21 de octubre de 2015
+### Objetivos de la semana
+
+- [ ] Terminar la configuración de los sistemas de integración continua.
+
+- [ ] Comprender el nivel plataforma de la infraestructura virtual y su uso en prueba y producción.
+
+### Otros objetivos
+
+- [x] Antes de la clase de "teoría" se debería haber entregado el primer hito del proyecto.
+
+- [ ] Configurar los toolbelt de diferentes sistemas PaaS tales como BlueMix, Heroku u OpenShift.
+
+- [ ] Comprender los mecanismos de despliegue automático.
+
+- [ ] Entender el formato YAML y su uso en diferentes infraestructuras virtuales.
+
+__________________________________________
+
+## Objetivos de la asignatura
+
+- [x] Conocer la historia de la Computación Virtual, sus orígenes y razones de su existencia.
+
+- [x] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware y ponerlos en práctica.
+
+- [x] Comprender la diferencia entre infraestructura virtual y real.
+
+- [x] Justificar la necesidad de procesamiento virtual frente a real en el contexto de una infraestructura TIC de una organización.
+
+## Objetivos específicos
+### Tema 1: Introducción a la infraestructura virtual: concepto y soporte físico
+
+- [x] Conocer diferentes tecnologías relacionadas con la virtualización (Computación nube, Utility Computing, Software as a Service o Google AppSpot)
+
+- [x] Conocer el concepto de software libre y su importancia dentro de la computación nube.
+
+- [x] Entender el concepto de DevOps y las técnicas y tecnologías que cubre.
+
+- [x] Usar el sistema de control de fuentes git para desarrollo colaborativo y para despliegue de aplicaciones en la nube.
+
+### Tema 2: Desarrollo basado en pruebas
+
+- [x] Entender el concepto de DevOps.
+
+- [x] Usar herramientas para gestión de los ciclos de desarrollo de una aplicación y entender cuales son estos.
+
+- [x] Aprender a usar integración continua en cualquier aplicación.
+
+### Tema 3: Creando aplicaciones en la nube: Uso de PaaS y SaaS
+
+- [ ] Comprender los conceptos necesarios para trabajar con diferentes plataformas PaaS
+
+- [ ] Aplicar el concepto de DevOps a este tipo específico de plataforma.
+
+- [ ] Aplicar el sistema de control de fuentes git para despliegue de aplicaciones en la nube.

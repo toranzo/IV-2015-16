@@ -26,7 +26,7 @@ Además he enlazado mi cuenta con la de mi usuario en GitHub.
 
 2. Elegimos WordPress4 de entre las aplicaciones disponibles para crear.
 
-3. Le asignamos una URL pública y el dominio, que en mi caso será: [http://mywordpress–iv2015.rhcloud.com](http://mywordpress–iv2015.rhcloud.com)
+3. Le asignamos una URL pública y el dominio, que en mi caso será: [http://mywordpress-iv2015.rhcloud.com/](http://mywordpress-iv2015.rhcloud.com/)
 
 4. Pinchamos en "Create Application".
 

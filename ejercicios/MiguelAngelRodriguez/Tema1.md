@@ -54,7 +54,7 @@ Finalmente, para empaquetar el hello world!, copiamos hello-world.sh al director
 
       
 Como flags aparecen:   
-![misFlags](https://photos-4.dropbox.com/t/2/AADFFMQ4faeSjsC65m2r56wgnR4DRGMA0dZsKTkrUC-yGw/12/14470490/png/32x32/1/1444831200/0/2/ejercicio4_flags.png/CNqa8wYgASACIAMgBSAHKAEoAigH/9WysgyjooZLivFZ6q4NrI9UWFxOKZInv7Af1UlqwETY?size=1024x768&size_mode=2)    
+![misFlags](https://photos-2.dropbox.com/t/2/AABS_IdkKAThYiRsyVKEnnGNlU1sW15ZvoDd6VmeMO6J0A/12/14470490/png/32x32/1/_/1/2/ejercicio4_flags.png/EM-94QoY1vgXIAEgAigB/9WysgyjooZLivFZ6q4NrI9UWFxOKZInv7Af1UlqwETY?size=1024x768&size_mode=2)    
 
       
 Para saber el modelo de procesador del equipo, vemos el contenido de del archivo cpuinfo del directorio /proc, pero como lo que nos interesa es solo el nombre del procesador, usando una tubería, le pasamos esa información a grep para que filtre sólo por nombre del modelo. Para ello, en una terminal se introduce:
@@ -63,12 +63,12 @@ Para saber el modelo de procesador del equipo, vemos el contenido de del archivo
          
 Lo que da como salida:          
 
-![miProcesador](https://photos-6.dropbox.com/t/2/AABsSLJ2LqJNJEJTluUXCLZZwrRV3rJZEM98xzm15sZuJA/12/14470490/png/32x32/1/1444831200/0/2/ejercicio4_modeloProcesadores.png/CNqa8wYgASACIAMgBSAHKAEoAigH/UjvZjgvYBkhYt8WwvGfOPk4DCXj2lkAQnTZroDqpPpQ?size=1024x768&size_mode=2)    
+![miProcesador](https://photos-2.dropbox.com/t/2/AADjqvaqM5y-CfnvfONNWs5yryp34w3SZagBc_soCWPPMg/12/14470490/png/32x32/1/_/1/2/ejercicio4_modeloProcesadores.png/EM-94QoY2fgXIAEgAigB/UjvZjgvYBkhYt8WwvGfOPk4DCXj2lkAQnTZroDqpPpQ?size=1024x768&size_mode=2)    
 
 ### Ejercicio 5.1
       
 Al introducir la orden, aparece lo siguiente:         
-![kvm](https://photos-1.dropbox.com/t/2/AAC_OEFtpM7BSyfk7620vedfd_HRnHDXYMmkAxwB6dbP2g/12/14470490/png/32x32/1/1444831200/0/2/ejercicio5_kvm.png/CNqa8wYgASACIAMgBSAHKAEoAigH/Awx2CosHl-NmSdVCG6_GwGiO7flwzuYpObRkUXeCqlg?size=1024x768&size_mode=2)       
+![kvm](https://photos-3.dropbox.com/t/2/AAD9PT0zMMP2GwHCxxeT6S91Hl2qzaMbctdiNN0Gzih4XA/12/14470490/png/32x32/1/_/1/2/ejercicio5_kvm.png/EM-94QoY3PgXIAEgAigB/Awx2CosHl-NmSdVCG6_GwGiO7flwzuYpObRkUXeCqlg?size=1024x768&size_mode=2)       
 Lo que significa que, al no soportar virtualización, no se soporta la orden kvm
 
 ### Ejercicio 5.2

@@ -36,6 +36,7 @@ Servidor Advanced, 4 Cores CPU, 4GB de RAM, 50GB Disco SSD, Tráfico ilimitado, 
 0,67€ / 24 horas = 0,028 €/hora
 
 He elegido en Strato, VPS Linux L2 https://www.strato.es/vps-linux/
+
 VPS Linux L2, 4 Cpu, 8GB de RAM, 400GB Disco SSD por 14,90€/mes
 
 14,90€ / 30 días = 0,49 €/día
@@ -56,14 +57,89 @@ Strato -> 0,020/hora * 24h * 30dias * 10% =1.44€/mes
 #### Conclusiones
 
 He realizado también una consultas a otro soporte, como es Arsys, http://www.arsys.es/servidor-cloud
+
 Depende el fin y el uso por supuesto, pero creo que es más rentable, contratar un proveedor de servicios en la nube que un servidor dedicado. 
 
 
+## Ejercicios 3. 
+### a) ¿Qué tipo de virtualización usarías en cada caso? Comentar en el foro
+
+Los tipos de virtualización, que voy a encontrar en las prácticas, son de tipo, V. Plena y V. de Aplicaciones.
 
 
+Cuando necesito utilizar SO sin modificar, utilizamos virtualización plena, en concreto he utilizado VirtualBox, -> https://www.virtualbox.org/.
 
 
+Ahora cuando necesito ejecutar una aplicación de un sistema operativo distinto al que tengo, se utiliza una virtualización de aplicaciones, en concreto cuando he necesitado ejecutar un programa de Windows en Linux he utilizado Wine, -> https://www.winehq.org/
 
+Enlace al comentario: https://github.com/JJ/IV-2015-16/issues/1#issuecomment-147682034
+
+### b) Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.
+
+## Ejercicios 4. Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
+
+
+$ egrep '^flags.*(vmx|svm)' /proc/cpuinfo
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm dtherm tpr_shadow vnmi flexpriority
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm dtherm tpr_shadow vnmi flexpriority
+
+##Salida 
+s$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz
+stepping	: 6
+microcode	: 0x60c
+cpu MHz		: 800.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm dtherm tpr_shadow vnmi flexpriority
+bogomips	: 4521.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     P8400  @ 2.26GHz
+stepping	: 6
+microcode	: 0x60c
+cpu MHz		: 800.000
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm dtherm tpr_shadow vnmi flexpriority
+bogomips	: 4521.21
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+## Ejercicios 5. 
+### a) 
 
 
 

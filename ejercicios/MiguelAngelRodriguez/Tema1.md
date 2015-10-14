@@ -52,5 +52,20 @@ Finalmente, para empaquetar el hello world!, copiamos hello-world.sh al director
 
 ### Ejercicio 4: Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
+      
+Como flags aparecen:   
+![misFlags](tema1/ejercicio4_flags.png)    
 
+      
+Para saber el modelo de procesador del equipo, vemos el contenido de del archivo cpuinfo del directorio /proc, pero como lo que nos interesa es solo el nombre del procesador, usando una tubería, le pasamos esa información a grep para que filtre sólo por nombre del modelo. Para ello, en una terminal se introduce:
+      
+          cat /proc/cpuinfo | grep "model name"
+         
+Lo que da como salida:          
 
+![miProcesador](tema1/ejercicio4_modeloProcesadores.png)    
+
+### Ejercicio 5
+      
+Al introducir la orden, aparece lo siguiente:         
+![kvm](tema1/ejercicio5_kvm.png)    

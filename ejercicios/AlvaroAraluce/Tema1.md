@@ -40,3 +40,44 @@ Dividimos entre **7 años** la base imponible y obtenemos una **cuota de amortiz
 |  5  | 169.29€              | 846.42€                | 338.55€             |
 |  6  | 169.29€              | 1015.71€               | 169.29€             |
 |  7  | 169.29€              | 1185€                  | 0€                  |
+
+
+## Ejercicio 3
+
+### Ejercicio 3.1
+
+[Contestado en el issue](https://github.com/JJ/IV-2015-16/issues/1)
+
+### Ejercicio 3.2
+
+El programa simple está desarrollado en python
+
+print "Hola mundo!"
+
+Guardamos este programa tan complejo en un fichero... por ejemplo "holaKase.py".
+
+El siguiente paso es descargar CDE. Podemos encontrarlo [aquí](http://www.pgbovine.net/cde.html). (En mi caso voy a descargar la versión de [64bits](https://github.com/downloads/pgbovine/CDE/cde_2011-08-15_64bit) aunque también está disponible la versión de [32bits](https://github.com/downloads/pgbovine/CDE/cde_2011-08-15_32bit))
+
+Se descargará un ejecutable al que debemos dar permisos de ejecución:
+
+$ *sudo chmod +x cde_2011-08-15_64bit*
+
+Ya sólo tenemos que ejecutar el comando
+
+$ *./cde_2011-08-15_64bit python holakAse.py*
+
+Y se nos genera un directorio donde encontraremos el fichero "holakAse.py.cde" junto con otros ficheros de datos de cde.
+
+Para probar si funciona hemos probado con un Sistema Operativo virtualizado tipo Unix. Hemos copiado el directorio generado y ahora accedemos a la ruta donde cde nos ha virtualizado el código.
+
+Accedemos a la ruta:
+
+$ *cd cde-package/cde-root/<ruta>*
+
+Y ejecutamos nuestro programa:
+
+$ *./python.cde holakAse.py*
+
+Y tras la ejecución obtenemos un resultado idéntico al obtenido en la máquina principal.
+
+Para realizar este ejercicio me he basado en la [guía de usuario](http://www.pgbovine.net/cde/manual/) de la página oficial.

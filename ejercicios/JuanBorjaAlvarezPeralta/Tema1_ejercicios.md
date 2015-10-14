@@ -76,11 +76,11 @@ Hola Mundo
 #4 Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?
 
 borja@ubuntu:~/Desktop$ cat /proc/cpuinfo | grep model
-model		: 70
+model	: 70
+model name: Intel(R) Core(TM) i7-4960HQ CPU @ 2.60GHz
+model	: 70
 model name	: Intel(R) Core(TM) i7-4960HQ CPU @ 2.60GHz
-model		: 70
-model name	: Intel(R) Core(TM) i7-4960HQ CPU @ 2.60GHz
-model		: 70
+model	: 70
 model name	: Intel(R) Core(TM) i7-4960HQ CPU @ 2.60GHz
 
 Usando dicho comando no me lista nada, con lo cual quiere decir que mi procesador no tiene esta función 

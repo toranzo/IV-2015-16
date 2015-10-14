@@ -27,18 +27,12 @@ Si se trata de una amortización a 7 años, los porcentajes cambian:
 
 Las compañías que he elegido para realizar el ejercicio son [Hostalia] (https://www.hostalia.com/) y [acens] (https://www.acens.com/)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3a80fab89911bd6b90e96e32287f3160fae63e8e
 ![host1](https://www.dropbox.com/s/1mveb1r2izzicha/hostalia.png?dl=1)
 En este proveedor de servicios, podemos observar el paquete básico de 1 CPU, 512 MB de memoria RAM y 25 GB de almacenamiento en disco SSD con capacidad de escalabilidad por un precio de 9,90€/mes el primer año y que su paquete completo consta de 8 CPUs, 16 GB de memoria RAM y 400 GB de almacenamiento en disco SSD sin posibilidad de escalabilidad por 199.90€/mes
 
 ![host2](https://www.dropbox.com/s/25ulm87aymi5cqz/acens.png?dl=1)
-<<<<<<< HEAD
-=======
 
->>>>>>> 3a80fab89911bd6b90e96e32287f3160fae63e8e
+
 En este proveedor de servicios, podemos observar el paquete básico de 1 CPU, 1GB de memoria RAM y 50 GB de almacenamiento en disco SSD con posibilidad de escalabilidad, tiene un precio de 29.90€/mes y que su paquete más completo es de 8 CPUs, 32 GB de memoria RAM y 500 GB de almacenamiento en disco SSD sin posibilidad de escalabilidad por un precio de 349.90€/mes
 
 Si lo que queremos es alojar un sitio web básico, Hostalia es la mejor opción, en cambio si deseamos un mayor número de recursos, Acens es el indicado
@@ -66,13 +60,9 @@ He decidido utilizar como lenguaje python y el programa es ordenación por burbu
 He instalado CDE mediante sudo apt-get install cde
 Para empaquetar el programa y poder ejecutarlo, debemos utilizar la orden cde python ejercicio2.py
 
-<<<<<<< HEAD
-![cde](https://www.dropbox.com/s/hui1qnjavnr2jeu/cde.png?dl=1)
-=======
 
 ![cde](https://www.dropbox.com/s/hui1qnjavnr2jeu/cde.png?dl=1)
 
->>>>>>> 3a80fab89911bd6b90e96e32287f3160fae63e8e
 
 ##Ejercicio 4:
 **Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?**
@@ -84,27 +74,20 @@ cat /proc/cpuinfo
 ```
 En la que además de mostrar el modelo de procesador, aparecen los flags disponibles, entre los que se encuentran vmx y svm
 Modelo de procesador: 
-<<<<<<< HEAD
-![cpu](https://www.dropbox.com/s/i8dog6cd9uqhnco/cpu_info.png?dl=1)
-Salida de la orden: 
-![grep](https://www.dropbox.com/s/7txdc5fi6d2k7sp/flags.png?dl=1)
-=======
+
 
 ![cpu](https://www.dropbox.com/s/i8dog6cd9uqhnco/cpu_info.png?dl=1)
-Salida de la orden: 
-![grep](https://www.dropbox.com/s/7txdc5fi6d2k7sp/flags.png?dl=1)
 
->>>>>>> 3a80fab89911bd6b90e96e32287f3160fae63e8e
+Salida de la orden: 
+
+![grep](https://www.dropbox.com/s/7txdc5fi6d2k7sp/flags.png?dl=1)
 
 
 ##ejercicio 5:
 **1- Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.**
 
 Podemos observar en la salida de la orden, que el kernel de mi PC si contiene este módulo. 
-<<<<<<< HEAD
-=======
 
->>>>>>> 3a80fab89911bd6b90e96e32287f3160fae63e8e
 ![kvm](https://www.dropbox.com/s/sjtu2ao6jfxq7ch/kvm.png?dl=1)
 
 **2-Instalar un hiper-visor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.**

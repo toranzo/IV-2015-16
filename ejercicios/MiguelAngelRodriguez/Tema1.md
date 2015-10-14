@@ -65,7 +65,12 @@ Lo que da como salida:
 
 ![miProcesador](tema1/ejercicio4_modeloProcesadores.png)    
 
-### Ejercicio 5
+### Ejercicio 5.1
       
 Al introducir la orden, aparece lo siguiente:         
-![kvm](tema1/ejercicio5_kvm.png)    
+![kvm](tema1/ejercicio5_kvm.png)       
+Lo que significa que, al no soportar virtualización, no se soporta la orden kvm
+
+### Ejercicio 5.2
+     
+Se instala VirtualBox

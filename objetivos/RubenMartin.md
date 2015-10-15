@@ -52,24 +52,24 @@
 ## Semana del 7 de octubre al 14 de octubre de 2015
 ### Objetivos de la semana
 
-- [ ] Entender el concepto de DevOps y cómo se traduce al ciclo de vida de una aplicación.
+- [x] Entender el concepto de DevOps y cómo se traduce al ciclo de vida de una aplicación.
 
-- [ ] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+- [x] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
 
-- [ ] Usar los entornos virtuales de desarrollo en diferentes lenguajes de programación y entender su utilidad.
+- [x] Usar los entornos virtuales de desarrollo en diferentes lenguajes de programación y entender su utilidad.
 
-- [ ] Entender los ficheros de requisitos y su utilidad en las infraestructuras virtuales.
+- [x] Entender los ficheros de requisitos y su utilidad en las infraestructuras virtuales.
 
 ### Otros objetivos
 
 - [x] Entregar el primer hito del proyecto al final de la semana.
 
-- [ ] Entender el formato JSON y su importancia para ficheros de configuración e intercambio genérico de datos.
+- [x] Entender el formato JSON y su importancia para ficheros de configuración e intercambio genérico de datos.
 
-- [ ] Comenzar el aprendizaje de un nuevo lenguaje de programación o entender cómo node.js hace las cosas, o simplemente mirar el cinturón de herramientas del lenguaje que se use habitualmente de otra forma.
+- [x] Comenzar el aprendizaje de un nuevo lenguaje de programación o entender cómo node.js hace las cosas, o simplemente mirar el cinturón de herramientas del lenguaje que se use habitualmente de otra forma.
 
-- [ ] Comprender la utilidad de la virtualización y definición de herramientas de desarrollo.
+- [x] Comprender la utilidad de la virtualización y definición de herramientas de desarrollo.
 
-- [ ] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
+- [x] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
 
-- [ ] Comprender el papel de las build tools o herramientas de automatización.
+- [x] Comprender el papel de las build tools o herramientas de automatización.

@@ -68,13 +68,13 @@ Los flags que me aparecen son los siguientes:
 
     egrep '^flags.*' /proc/cpuinfo
 
-![flags](img/flags.png)
+![flags](http://i1379.photobucket.com/albums/ah138/migueib17/flags_zps8rpkteq0.png)
 
 Para ver el modelo de procesador usamos:
 
     cat /proc/cpuinfo | grep "model name"
 
-![model name](img/cpuinfomodel.png)
+![model name](http://i1379.photobucket.com/albums/ah138/migueib17/cpuinfomodel_zpscl49z7sc.png)
 
 La orden cat /proc/cpuinfo sin el grep, nos da toda la información detallada del ordenador pero con el filtro grep obtenemos solo el nombre del procesador. 
 
@@ -83,4 +83,4 @@ La orden cat /proc/cpuinfo sin el grep, nos da toda la información detallada de
 
     sudo kvm-ok
 
-![Captura módulo kvm](img/ej5.1.png)
+![Captura módulo kvm](http://i1379.photobucket.com/albums/ah138/migueib17/ej5.1_zpsa5xsfi1o.png)

@@ -48,7 +48,7 @@ Ejercicio 4.
 ![imagen 4.1](https://www.dropbox.com/s/6s23a4xkq3jrstd/4.1.png?dl=0)
 
 2. Datos sobre mi procesador:
-![imagen 4.2](https://github.com/Jarotru/IV-2015-16/blob/master/ejercicios/JavierRomeraTrujillos/Imagenes/Tema1/4.2.png)
+![imagen 4.2](https://www.dropbox.com/s/6jq4f2oafszak2z/4.2.png)
 
 
 Ejercicio 5.

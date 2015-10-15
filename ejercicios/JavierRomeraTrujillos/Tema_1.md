@@ -45,16 +45,16 @@ Ejercicio 2.
 Ejercicio 4.
 ------
 1. Mi procesador no tiene instalados los flags:
-![imagen 4.1](https://www.dropbox.com/s/6s23a4xkq3jrstd/4.1.png?dl=0)
+[Imagen](https://www.dropbox.com/s/6s23a4xkq3jrstd/4.1.png?dl=0)
 
 2. Datos sobre mi procesador:
-![imagen 4.2](https://www.dropbox.com/s/6jq4f2oafszak2z/4.2.png)
+[Imagen 2](https://www.dropbox.com/s/6jq4f2oafszak2z/4.2.png?dl=0)
 
 
 Ejercicio 5.
 ------
 1. Mi CPU no permite la infraestructura KVM:
-![imagen 5.1](https://github.com/Jarotru/IV-2015-16/blob/master/ejercicios/JavierRomeraTrujillos/Imagenes/Tema1/5.1.png)
+[Imagen 1](https://www.dropbox.com/s/c9y9h6f799m3003/5.1.png?dl=0)
 
 2. Instalamos QUEMU:
-![imagen 5.2](https://github.com/Jarotru/IV-2015-16/blob/master/ejercicios/JavierRomeraTrujillos/Imagenes/Tema1/5.2.png)
+[Imagen 2](https://www.dropbox.com/s/ytw3sljsw2p0wxy/5.2.png?dl=0)

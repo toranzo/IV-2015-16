@@ -45,7 +45,7 @@ Ejercicio 2.
 Ejercicio 4.
 ------
 1. Mi procesador no tiene instalados los flags:
-![imagen 4.1](https://github.com/Jarotru/IV-2015-16/blob/master/ejercicios/JavierRomeraTrujillos/Imagenes/Tema1/4.1.png)
+![imagen 4.1](https://www.dropbox.com/s/6s23a4xkq3jrstd/4.1.png?dl=0)
 
 2. Datos sobre mi procesador:
 ![imagen 4.2](https://github.com/Jarotru/IV-2015-16/blob/master/ejercicios/JavierRomeraTrujillos/Imagenes/Tema1/4.2.png)

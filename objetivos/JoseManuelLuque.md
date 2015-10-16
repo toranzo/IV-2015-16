@@ -5,12 +5,10 @@
 ###Lista de objetivos
 
  - [x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
-
  - [x] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura. 
-
  - [x] Entender el concepto de software libre y su aplicación práctica en clase. 
-
  - [x] Vernos las caras.
+
 
 ##30 de septiembre
 
@@ -24,8 +22,7 @@ ordenador habitual lo usa.
   - [x] Comprender los niveles de virtualización y sus denominaciones genéricas.
   - [x] Comprender el concepto de *software as a service* y comprender los criterios necesarios para su elección.
 
-
-##Otros objetivos
+###Otros objetivos
 
   - [x] Entender el sistema de prácticas, a base de las entregas de hitos de un proyecto, su puntuación y qué es lo que se exige. 
   - [x] Tener a punto la instalación de git usando pares clave pública/privada para interaccionar con GitHub (**no** https).
@@ -40,3 +37,23 @@ ordenador habitual lo usa.
   - [x] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. Se puede hacer, de la misma forma, mediante un pull request, en este caso al repo del 
 compañero.
   - [x] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
+
+
+##7 de octubre
+
+###Lista de objetivos
+
+  - [ ] Entender el concepto de DevOps y cómo se traduce al ciclo de vida de una aplicación.
+  - [ ] Comprender cómo las pruebas de software encajan dentro del concepto de infraestructura virtual.
+  - [ ] Usar los entornos virtuales de desarrollo en diferentes lenguajes de programación y entender su utilidad.
+  - [ ] Entender los ficheros de requisitos y su utilidad en las infraestructuras virtuales.
+
+###Otros objetivos
+
+  - [ ] Entregar el primer hito del proyecto al final de la semana.
+  - [ ] Entender el formato JSON y su importancia para ficheros de configuración e intercambio genérico de datos.
+  - [ ] Comenzar el aprendizaje de un nuevo lenguaje de programación o entender cómo node.js hace las cosas, o simplemente mirar el cinturón de herramientas del lenguaje que se use habitualmente de otra forma.
+  - [ ] Comprender la utilidad de la virtualización y definición de herramientas de desarrollo.
+  - [ ] Instalar las herramientas necesarias para crear y aplicar tests en un proyecto.
+  - [ ] Comprender el papel de las build tools o herramientas de automatización.
+

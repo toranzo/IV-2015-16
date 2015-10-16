@@ -11,35 +11,35 @@ Entonces tenemos que:
 
 | Base imponible |   IVA   | Total factura |
 |----------------|---------|---------------|
-|      1185€     | 314.79€ |    1499.00€   |
+|    1238.84€    | 260.16€ |    1499.00€   |
 
 
 Suponemos para ambos apartados que el servidor es adquirido al comienzo del año.
 
 ### 1.1 Amortización a cuatro años
 
-Dividimos entre **4 años** la base imponible y obtenemos una **cuota de amortización de 296.25€**.
+Dividimos entre **4 años** la base imponible y obtenemos una **cuota de amortización de 309.71€**.
 
 | Año | Cuota de amortización| Amortización acumulada | Valor neto contable |
 |-----|----------------------|------------------------|---------------------|
-|  1  | 296.25€              | 296.25€                | 888,75€             |
-|  2  | 296.25€              | 512.5€                 | 592.5€              |
-|  3  | 296.25€              | 888,75€                | 296.25€             |
-|  4  | 296.25€              | 1185€                  | 0€                  |
+|  1  | 309.71€              | 309.71€                | 929.13€             |
+|  2  | 309.71€              | 619.42€                | 619.42€             |
+|  3  | 309.71€              | 929.13€                | 309.71€             |
+|  4  | 309.71€              | 1238.84€               | 0€                  |
 
 ### 1.2 Amortización a siete años
 
-Dividimos entre **7 años** la base imponible y obtenemos una **cuota de amortización de 296.25€**.
+Dividimos entre **7 años** la base imponible y obtenemos una **cuota de amortización de 176.98€**.
 
 | Año | Cuota de amortización| Amortización acumulada | Valor neto contable |
 |-----|----------------------|------------------------|---------------------|
-|  1  | 169.29€              | 169.29€                | 1015.71€            |
-|  2  | 169.29€              | 338.55€                | 846.42€             |
-|  3  | 169.29€              | 507.84€                | 677.13€             |
-|  4  | 169.29€              | 667.13€                | 507.84€             |
-|  5  | 169.29€              | 846.42€                | 338.55€             |
-|  6  | 169.29€              | 1015.71€               | 169.29€             |
-|  7  | 169.29€              | 1185€                  | 0€                  |
+|  1  | 176.98€              | 176.98€                | 1061.86€            |
+|  2  | 176.98€              | 353.96€                | 884.88€             |
+|  3  | 176.98€              | 530.94€                | 707.9€              |
+|  4  | 176.98€              | 707.92€                | 530.92€             |
+|  5  | 176.98€              | 884.9€                 | 353.94€             |
+|  6  | 176.98€              | 1061.88€               | 176.98€             |
+|  7  | 176.98€              | 1238.84€               | 0€                  |
 
 
 ## Ejercicio 3

@@ -2,7 +2,10 @@
 
 Yo he escogido para instalar npm por su facilidad de instalación en MAC. Solo tenemos que instalar el archivo que encontramos en la [Página oficial](https://nodejs.org/en/) y darle a siguiente, siguiente al estilo windows.
 
-Además también nos instala la última versión de node.js, podemos verlo escribiendo `node -v` y nos devuelve la versión que hemos instalado
+Además también nos instala la última versión de node.js, podemos verlo escribiendo `node -v` y nos devuelve la versión que hemos instalado, en mi caso la 4.2.1
+
+También instalaremos el módulo express, un framework que nos permitirá desarrollar aplicaciones web. Esto lo hacemos mediante el comando `sudo npm install -g express`
+
 ##Instalación de virtualenv en MAC OSX
 Primero de todo instalamos el gestor de paquetes pip. Esto además nos servirá para el siguiente ejercicio en el que instalaremos Django. Para ello escribimos `sudo easy_install pip` . Una vez instalado, ya solo tenemos que escribir `sudo pip install virtualenv` y ya tenemos instalado virtualenv en Mac.
 

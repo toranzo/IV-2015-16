@@ -37,3 +37,58 @@ Además he enlazado mi cuenta con la de mi usuario en GitHub.
 ¡¡Y ya tenemos nuestro WordPress en marcha!! 
 
 ![Página de Wordpress](https://www.dropbox.com/s/1574h2wwnl8pelw/WordPress.PNG?dl=1)
+
+### Ejercicio 4: Crear un script para un documento Google y cambiarle el nombre con el que aparece en el menú, así como la función a la que llama.
+
+1. Entramos en la aplicación "Documentos" de Google. 
+
+2. Creamos un nuevo documento.
+
+3. Pinchamos en Herramientas > Editor de secuencia de comandos:
+
+![Herramientas > Editor de secuencia de comandos](https://www.dropbox.com/s/la71e0cx1yyd8io/GoogleScript.png?dl=1)
+
+4. Esto nos abre un proyecto llamado "Código.gs" donde meteremos el script a ejecutar:
+
+```
+function onOpen(){
+  var ui = DocumentApp.getUi(); 
+  // Or DocumentApp or FormApp. 
+  ui.createMenu('Menu IV') 
+  .addItem('First item', 'menuItem1') 
+  .addSeparator() 
+  .addItem('Second item', 'menuItem2')
+  .addSubMenu(ui.createMenu('Sub-menu') 
+          .addItem('My Function', 'myFunction'))    
+  .addToUi(); 
+}
+
+function menuItem1(){ 
+  DocumentApp.getUi() // Or DocumentApp or FormApp. 
+  .alert('Has pulsado el primer Item!');
+}
+
+function menuItem2(){
+  DocumentApp.getUi() // Or DocumentApp or FormApp. 
+  .alert('has pulsado el segundo Item!'); 
+}
+
+function myFunction(){
+  var result = DocumentApp.getUi().alert( 'Prueba ejercicio 4 IV', 
+                                         DocumentApp.getUi().ButtonSet.YES_NO); 
+  if (result == DocumentApp.getUi().Button.YES){
+    DocumentApp.getUi().alert('Realizando la operacion...'); 
+  }
+  else{
+    DocumentApp.getUi().alert('Operacion cancelada'); 
+  }
+}
+```
+
+5. Guardamos el script y damos a ejecutar la primera función, que es la que cargará el menú:
+
+![Ejecutar onOpen](https://www.dropbox.com/s/as0g1nbsio1y2bb/onOpenScript.PNG?dl=1)
+
+6. Ya podemos irnos de nuevo al documento, y vemos que nos aparece el nuevo menú, y que podemos hacer click sobre cualquiera de las funciones creadas:
+
+![Prueba script](https://www.dropbox.com/s/hb18tsoxx7odfyd/pruebaScriptGoogle.PNG?dl=1)

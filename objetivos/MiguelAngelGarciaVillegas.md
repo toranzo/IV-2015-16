@@ -64,3 +64,13 @@
 - [X] Conocer el concepto de software libre y su importancia dentro de la computación nube.
 - [X] Entender el concepto de DevOps y las técnicas y tecnologías que cubre.
 - [X] Usar el sistema de control de fuentes git para desarrollo colaborativo y para despliegue de aplicaciones en la nube.
+
+# Tema 2 
+## Objetivos Segundo Hito: Integración continua
+- [] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware y ponerlos en práctica.
+
+## Objetivos Específicos Segundo Hito: Integración continua
+- [] Entender el concepto de DevOps.
+- [] Usar herramientas para gestión de los ciclos de desarrollo de una aplicación y entender cuales son estos.
+- [] Aprender a usar integración continua en cualquier aplicación.
+

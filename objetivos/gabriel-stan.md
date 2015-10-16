@@ -1,12 +1,12 @@
 Lista de objetivos de Gabriel Stan
 ==================================
 
-## Objetivos de la primera semana
 
-[x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
-[x] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
-[x] Entender el concepto de software libre y su aplicación práctica en clase.
-[x] Vernos las caras.
+## Objetivos de la tercera semana
+
+### Objetivos principales
+
+
 
 ## Objetivos de la segunda semana
 
@@ -47,3 +47,11 @@ Lista de objetivos de Gabriel Stan
 [] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. Se puede hacer, de la misma forma, mediante un pull request, en este caso al repo del compañero.
 
 [] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
+
+
+## Objetivos de la primera semana
+
+[x] Entender la metodología docente, de evaluación y de interacción de la asignatura.
+[x] Darse de alta y comprender el funcionamiento básico de GitHub y la lista de correo de la asignatura; conocer el resto de los recursos de la asignatura.
+[x] Entender el concepto de software libre y su aplicación práctica en clase.
+[x] Vernos las caras.

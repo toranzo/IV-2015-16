@@ -17,4 +17,4 @@ Ahora vamos a crear una aplicación web sencilla sobre la que poder trabajar. En
 
 Para ver que funciona la ejecutamos escribiendo: `DEBUG=primera_app_nodejs:* npm start` como pone en la terminal que lo hagamos. Ahora en la dirección local con el puerto 300 encontramos:
 
-![Express](http://s864.photobucket.com/user/Santiago_de_Diego/media/Express%20funcionando_zpsqrzyaexb.png.html?sort=3&o=0)
+![Express](http://i864.photobucket.com/albums/ab201/Santiago_de_Diego/Express%20funcionando_zpsqrzyaexb.png)

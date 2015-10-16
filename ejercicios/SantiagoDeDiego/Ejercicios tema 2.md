@@ -4,7 +4,7 @@ Yo he escogido para instalar npm por su facilidad de instalación en MAC. Solo t
 
 Además también nos instala la última versión de node.js, podemos verlo escribiendo `node -v` y nos devuelve la versión que hemos instalado, en mi caso la 4.2.1
 
-También instalaremos el módulo express, un framework que nos permitirá desarrollar aplicaciones web. Esto lo hacemos mediante el comando `sudo npm install -g express`
+También instalaremos el módulo express, un framework que nos permitirá desarrollar aplicaciones web. Esto lo hacemos mediante el comando `sudo npm install -g express-generator`
 
 ##Instalación de virtualenv en MAC OSX
 Primero de todo instalamos el gestor de paquetes pip. Esto además nos servirá para el siguiente ejercicio en el que instalaremos Django. Para ello escribimos `sudo easy_install pip` . Una vez instalado, ya solo tenemos que escribir `sudo pip install virtualenv` y ya tenemos instalado virtualenv en Mac.
@@ -12,8 +12,9 @@ Primero de todo instalamos el gestor de paquetes pip. Esto además nos servirá 
 El motivo de esta instalación es que utilizo bastante el mac para programar en python y me parecía interesante tener un entorno de python.
 
 #Ejercicio 2
-Primero de todo voy a instalar Django en el equipo. Empezamos escribiendo `ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"`. Ahora tenemos que instalar el gestor de paquetes pip, que eso ya lo hemos hecho en el ejercicio anterior. Instalamos Django mediante: `sudo pip install Django`.
 
-Creamos un sitio de prueba mediante `django-admin.py startproject prueba` donde prueba es el nombre de mi sitio web. Ahora para arrancarlo solo escribimos `python manage.py runserver` y podemos ver en la dirección *http://127.0.0.1:8000/* como tenemos ya nuestro sitio alojado.
+Ahora vamos a crear una aplicación web sencilla sobre la que poder trabajar. En mi caso voy a hacerla con node.js y su módulo express, de ahí que lo instalase anteriormente. En mi caso voy a crearla en mi carpeta de la asignatura, así que vamos a nuestra carpeta y escribimos el comando: `express primera_app_nodejs`. Una vez hecho esto instalamos las dependencias con `cd primera_app_nodejs && npm install`. Esto instalará las librerías (módulos) y las dependencias de estas, necesarias para correr nuestro proyecto. Ya con esto tenemos lo necesario para empezar a programar nuestra primera aplicación web.
 
-Sin más que ejecutar `python manage.py startapp mi_aplicacion` ya tenemos creada una aplicación web.
+Para ver que funciona la ejecutamos escribiendo: `DEBUG=primera_app_nodejs:* npm start` como pone en la terminal que lo hagamos. Ahora en la dirección local con el puerto 300 encontramos:
+
+![Express](http://s864.photobucket.com/user/Santiago_de_Diego/media/Express%20funcionando_zpsqrzyaexb.png.html?sort=3&o=0)

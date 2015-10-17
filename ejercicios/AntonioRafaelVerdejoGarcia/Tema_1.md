@@ -4,7 +4,7 @@
 
 Consultar en el catálogo de alguna tienda de informática el precio de un ordenador tipo servidor y calcular su coste de amortización a cuatro y siete años.  
 
-[HP ProLiant ML350 Gen9]http://www.pccomponentes.com/hp_proliant_ml350_gen9_e5_2620v3_16gb_2x300gb.html  
+[HP ProLiant ML350 Gen9](http://www.pccomponentes.com/hp_proliant_ml350_gen9_e5_2620v3_16gb_2x300gb.html)  
 
 Especificaciones (según PCComponentes.com):  
 * **Procesador** Intel® Xeon® E5-2620 v3 (6 núcleos, 2,4 GHz, 15 MB, 85 W)  
@@ -42,3 +42,48 @@ Total: 2448.76 €
 6º año (15%): 367.32 €  
 7º año (10%): 244.84 €  
 Total: 2448.76 €  
+
+## Ejercicio 2  
+
+Usando las tablas de precios de servicios de alojamiento en Internet y de proveedores de servicios en la nube, Comparar el coste durante un año de un ordenador con un procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los dos vendedores) y con el resto de las características similares (tamaño de disco duro equivalente a transferencia de disco duro) en el caso de que la infraestructura comprada se usa sólo el 1% o el 10% del tiempo.  
+
+**Servidor dedicado**
+
+Servidor dedicado *XL12i* de [1and1](http://www.1and1.es/server-dedicated-tariff#server)  
+
+Especificaciones:  
+* **CPU** Intel®Xeon® E5-2640  
+* **RAM** 32 GB DDR3 ECC  
+* **HDD** 2.000 GB (2 x 2.000 GB SATA)  
+
+* **Precio** 169.99 €/mes
+
+**Servidor en la nube**
+
+Servidor en la nube *d2.xlarge* de EC2 de [Amazon](https://aws.amazon.com/ec2/instance-types/)  
+
+Especificaciones:  
+* **CPU** Intel Xeon E5-2676v3 (Haswell)  
+* **RAM** 30.5 GB  
+* **HDD** 3 x 2000 GB  
+
+* [**Precio**](https://aws.amazon.com/ec2/pricing/) 0.69 $/h - 0.61 €/h
+
+**Comparativa**
+
+| Servidor dedicado (€/mes) | Servidor cloud (€/mes al 1%) | Servidor cloud (€/mes al 10%) |
+| --- | --- | --- |
+| 169.99 € | 4.45 € | 44.53 € |
+
+## Ejercicio 3  
+
+### 3.1  
+
+¿Qué tipo de virtualización usarías en cada caso?  
+
+Véase el comentario en el [foro](https://github.com/JJ/IV-2015-16/issues/1#issuecomment-148947567)  
+
+### 3.2  
+
+Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.  
+

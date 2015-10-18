@@ -87,3 +87,33 @@ Véase el comentario en el [foro](https://github.com/JJ/IV-2015-16/issues/1#issu
 
 Crear un programa simple en cualquier lenguaje interpretado para Linux, empaquetarlo con CDE y probarlo en diferentes distribuciones.  
 
+He creado un fichero python con un simple *Hola mundo*. Lo he empaquetado con CDE y comprobado su ejecución sin problemas.  
+
+## Ejercicio 4  
+
+Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden?  
+
+**Modelo** Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz  
+
+![**Salida del comando**](https://drive.google.com/open?id=0B6TkpnSJ8L1hcWhMSkFXZ2VOcU0)  
+
+## Ejercicio 5  
+
+### 5.1  
+
+Comprobar si el núcleo instalado en tu ordenador contiene este módulo del kernel usando la orden kvm-ok.  
+
+**Salida del comando kvm-ok**  
+
+```bash
+avaron@Tharak:~$ kvm-ok
+INFO: /dev/kvm exists
+KVM acceleration can be used
+avaron@Tharak:~$ 
+```
+
+### 5.2  
+
+Instalar un hipervisor para gestionar máquinas virtuales, que más adelante se podrá usar en pruebas y ejercicios.  
+ 
+Tengo instalado VirtualBox 5.0 como gestor de máquinas virtuales.

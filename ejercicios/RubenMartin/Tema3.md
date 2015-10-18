@@ -10,11 +10,19 @@ Voy a instalar Virtualenv para Python:
 
 3. *sudo pip install --upgrade virtualenv*
 
+Para usarlo, se hace lo siguiente:
+
+Creamos entorno virtual con *virtualenv ENV*, que nos crea la siguiente estructura de directorios:
+
 ![Virtualenv instalado](https://www.dropbox.com/s/oqhbwp5kbvqrrdr/versionVirtualenv.PNG?dl=1)
+
+Entramos en ENV y lo activamos de la siguiente forma: *source bin/activate*
+
+![Activar entorno vitual](https://www.dropbox.com/s/tr9kgu62pzkj5tf/activarEntornoPython.PNG?dl=1)
 
 ### Ejercicio 2: Darse de alta en algún servicio PaaS tal como Heroku, Nodejitsu u OpenShift.
 
-Me he registrado en el PaaS OpenShift. 
+Me he registrado en el PaaS ![OpenShift](https://www.openshift.com/). 
 
 ![Registrado en OpenShift](https://www.dropbox.com/s/bx5xijdfg2k5zrn/OpenShift_inicio.PNG?dl=1)
 
@@ -22,17 +30,25 @@ Además he enlazado mi cuenta con la de mi usuario en GitHub.
 
 ### Ejercicio 3: Crear una aplicación en OpenShift y dentro de ella instalar WordPress.
 
-1. En la página de bienvenida de OpenShift, pinchamos sobre "Create your first application now".
+En la página de bienvenida de OpenShift, pinchamos sobre "Create your first application now".
 
-2. Elegimos WordPress4 de entre las aplicaciones disponibles para crear.
+![Crear aplicacion ahora](https://www.dropbox.com/s/wy6o9t1ix7v2z1d/CreateAplicationWordpress.png?dl=1)
 
-3. Le asignamos una URL pública y el dominio, que en mi caso será: [http://mywordpress-iv2015.rhcloud.com/](http://mywordpress-iv2015.rhcloud.com/)
+Elegimos WordPress4 de entre las aplicaciones disponibles para crear.
 
-4. Pinchamos en "Create Application".
+![Elegir WordPress](https://www.dropbox.com/s/0qk7f07ry7osv4b/ElegirWordpress.png?dl=1)
 
-5. En la siguiente pantalla, añadimos algunos datos como el título de la página, o el nombre de usuario.
+Le asignamos una URL pública y el dominio, que en mi caso será: [http://mywordpress-iv2015.rhcloud.com/](http://mywordpress-iv2015.rhcloud.com/)
 
-6. Damos en "Instalar Wordpress".
+Pinchamos en "Create Application".
+
+![Crear finalmente aplicacion WordPress](https://www.dropbox.com/s/ut4malmlvq8bhrp/create%20Aplication.png?dl=1)
+
+En la siguiente pantalla, añadimos algunos datos como el título de la página, o el nombre de usuario.
+
+Damos en "Instalar Wordpress".
+
+![Instalar WordPress](https://www.dropbox.com/s/m37fq3n8wubz1o6/datos%20wordpress.png?dl=1)
 
 ¡¡Y ya tenemos nuestro WordPress en marcha!! 
 
@@ -92,3 +108,9 @@ function myFunction(){
 6. Ya podemos irnos de nuevo al documento, y vemos que nos aparece el nuevo menú, y que podemos hacer click sobre cualquiera de las funciones creadas:
 
 ![Prueba script](https://www.dropbox.com/s/hb18tsoxx7odfyd/pruebaScriptGoogle.PNG?dl=1)
+
+### Ejercicio 5: Buscar un sistema de automatización de la construcción para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.
+
+El sistema de automatización para Python que he encontrado ha sido *AAP*. Es una "especie" de make para Python. En este ![enlace](http://www.calmar.ws/aap/) nos explican como usarlo.
+
+También existen otras como BitBake, SCons o Waf sacadas de ![wikipedia](https://en.wikipedia.org/wiki/List_of_build_automation_software#Non-Make-based_tools).

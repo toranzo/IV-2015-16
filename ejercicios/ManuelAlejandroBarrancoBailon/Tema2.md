@@ -30,6 +30,7 @@ En la imagen anterior, tambien se puede ver en la carpeta *bin*, que la versión
 Para desactivar el entorno virtual, ejecutar el comando **deactivate**.
 
 Para crear un entorno con la versión 3 de Python, la orden a ejecutar es **virtualenv -p /usr/bin/python3 entornoPython3**.
+
 ![Entorno virtual con Python 3](http://i1016.photobucket.com/albums/af281/raperaco/virtualenvPython3_zpsbjmx9aqz.png)
 
 

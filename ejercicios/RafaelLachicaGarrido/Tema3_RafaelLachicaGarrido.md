@@ -40,3 +40,11 @@ function renameFile() {
 }
 ```
 ![googleAppScript](http://i1383.photobucket.com/albums/ah302/Rafael_Lachica_Garrido/Captura%20de%20pantalla%20de%202015-10-18%20185828_zpsoiebi2ta.png)
+
+#Ejercicio 5
+##Buscar un sistema de automatización de la construcción para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.
+Lenguaje: python
+Para entornos de desarrollo normalmente prefiero y uso [Atom](https://atom.io/) con los plugins [Emmet](https://atom.io/packages/emmet-simplified), [Python](https://atom.io/packages/python), y [autocomplete-python](https://atom.io/packages/autocomplete-python). También se pueden encontrar los mismos paquetes y algunos mejorados para el otro editor de textos, [Sublime Text](http://www.sublimetext.com/) el cual también ofrece una versión de prueba **gratuita** que no caduca.
+Aún así he encontrado un IDE solo para pyton bastante bueno [pycharm](http://www.jetbrains.com/pycharm/)
+En cuanto al sistema de automatización, como python es un lenguaje scripting no necesita nada, aún así tenemos herramientas como la de pycharm que nos ayudan, además de otras como [buildbot](http://buildbot.net/) que ayudan con la documentación y demás.
+Si lo que buscamos en programar en un PaaS, podemos usar el framework que nos ofrece [Openshift](https://openshift.redhat.com/) para trabajar con **Python**.

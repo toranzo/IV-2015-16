@@ -10,19 +10,23 @@ Voy a instalar Virtualenv para Python:
 
 3. *sudo pip install --upgrade virtualenv*
 
+Y ya podemos ver que lo tenemos instalado:
+
+![Virtualenv instalado](https://www.dropbox.com/s/oqhbwp5kbvqrrdr/versionVirtualenv.PNG?dl=1)
+
 Para usarlo, se hace lo siguiente:
 
 Creamos entorno virtual con *virtualenv ENV*, que nos crea la siguiente estructura de directorios:
 
-![Virtualenv instalado](https://www.dropbox.com/s/oqhbwp5kbvqrrdr/versionVirtualenv.PNG?dl=1)
+![Estructura virtualenv](https://www.dropbox.com/s/6r4g07eg4pab7rm/virtualenv.PNG?dl=1)
 
 Entramos en ENV y lo activamos de la siguiente forma: *source bin/activate*
 
 ![Activar entorno vitual](https://www.dropbox.com/s/tr9kgu62pzkj5tf/activarEntornoPython.PNG?dl=1)
-
+  
 ### Ejercicio 2: Darse de alta en algún servicio PaaS tal como Heroku, Nodejitsu u OpenShift.
 
-Me he registrado en el PaaS ![OpenShift](https://www.openshift.com/). 
+Me he registrado en el PaaS [OpenShift](https://www.openshift.com/). 
 
 ![Registrado en OpenShift](https://www.dropbox.com/s/bx5xijdfg2k5zrn/OpenShift_inicio.PNG?dl=1)
 
@@ -111,6 +115,6 @@ function myFunction(){
 
 ### Ejercicio 5: Buscar un sistema de automatización de la construcción para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.
 
-El sistema de automatización para Python que he encontrado ha sido *AAP*. Es una "especie" de make para Python. En este ![enlace](http://www.calmar.ws/aap/) nos explican como usarlo.
+El sistema de automatización para Python que he encontrado ha sido *AAP*. Es una "especie" de make para Python. En este [enlace](http://www.calmar.ws/aap/) nos explican como usarlo.
 
-También existen otras como BitBake, SCons o Waf sacadas de ![wikipedia](https://en.wikipedia.org/wiki/List_of_build_automation_software#Non-Make-based_tools).
+También existen otras como BitBake, SCons o Waf sacadas de [wikipedia](https://en.wikipedia.org/wiki/List_of_build_automation_software#Non-Make-based_tools).

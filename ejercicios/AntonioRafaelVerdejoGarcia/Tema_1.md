@@ -95,7 +95,7 @@ Comprobar si el procesador o procesadores instalados tienen estos flags. ¿Qué 
 
 **Modelo** Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz  
 
-![**Salida del comando**](https://drive.google.com/open?id=0B6TkpnSJ8L1hcWhMSkFXZ2VOcU0)  
+![Salida del comando](https://www.dropbox.com/s/h3iuthud0xvn75g/snapshot1.png?dl=1)  
 
 ## Ejercicio 5  
 

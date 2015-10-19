@@ -45,7 +45,7 @@
 
 - [ ] Usar git para hacer check-in en clase y expresar al final de la misma los objetivos alcanzados.
 
-- [ ] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras. 
+- [ ] Revisar algún ejercicio de un compañero y sugerir cambios o mejoras.
 
 - [x] Auto-corregir los ejercicios de esta forma, comprobando que están correctos.
 
@@ -128,7 +128,7 @@ __________________________________________
 
 ### Tema 3: Creando aplicaciones en la nube: Uso de PaaS y SaaS
 
-- [ ] Comprender los conceptos necesarios para trabajar con diferentes plataformas PaaS
+- [x] Comprender los conceptos necesarios para trabajar con diferentes plataformas PaaS
 
 - [ ] Aplicar el concepto de DevOps a este tipo específico de plataforma.
 

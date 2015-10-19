@@ -130,6 +130,6 @@ __________________________________________
 
 - [x] Comprender los conceptos necesarios para trabajar con diferentes plataformas PaaS
 
-- [ ] Aplicar el concepto de DevOps a este tipo específico de plataforma.
+- [x] Aplicar el concepto de DevOps a este tipo específico de plataforma.
 
 - [ ] Aplicar el sistema de control de fuentes git para despliegue de aplicaciones en la nube.

@@ -1,4 +1,6 @@
-# Objetivos Rafael Lachica Garrido
+# Objetivos
+==
+#Autor Rafael Lachica Garrido
 ## Semana del 23 al 30 de septiembre de 2015
 ==
 
@@ -107,7 +109,7 @@ __________________________________________
 
 - [x] Justificar la necesidad de procesamiento virtual frente a real en el contexto de una infraestructura TIC de una organización.
 
-## Objetivos específicos
+## Objetivos por Temas
 ### Tema 1: Introducción a la infraestructura virtual: concepto y soporte físico
 
 - [x] Conocer diferentes tecnologías relacionadas con la virtualización (Computación nube, Utility Computing, Software as a Service o Google AppSpot)
@@ -132,4 +134,4 @@ __________________________________________
 
 - [x] Aplicar el concepto de DevOps a este tipo específico de plataforma.
 
-- [ ] Aplicar el sistema de control de fuentes git para despliegue de aplicaciones en la nube.
+- [x] Aplicar el sistema de control de fuentes git para despliegue de aplicaciones en la nube.

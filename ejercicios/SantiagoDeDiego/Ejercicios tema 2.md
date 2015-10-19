@@ -14,6 +14,8 @@ El motivo de esta instalación es que utilizo bastante el mac para programar en 
 ###Importante:
 Si tenemos varias versiones de python instaladas, como es mi caso la 2.7 y la 3.4, entonces al crear un entorno virtual con virtualenv tenemos que especificar la versión de python que estamos utilizando, ya que sino dará un error. En mi caso, sería algo como: `virtualenv -p python3 <Nombre_de_la_carpeta>`
 
+También he tenido errores con pip y easy_install teniendo varias versiones de python instaladas. Si vamos a la carpeta `/usr/local/bin`
+vemos que no tenemos instalado pip, sino que tenemos pip2.7, pip3.5  y otros. Esto es debido a que tenemos varias versiones de python. Entonces, para instalar paquetes con pip, en el caso de querer hacerlo con la versión 3 de python tenemos que escribir `pip3 install <paquete>` para que funcione; si solo ponemos pip nos dirá que no existe ese comando.
 #Ejercicio 2
 
 Ahora vamos a crear una aplicación web sencilla sobre la que poder trabajar. En mi caso voy a hacerla con node.js y su módulo express, de ahí que lo instalase anteriormente. En mi caso voy a crearla en mi carpeta de la asignatura, así que vamos a nuestra carpeta y escribimos el comando: `express primera_app_nodejs`. Una vez hecho esto instalamos las dependencias con `cd primera_app_nodejs && npm install`. Esto instalará las librerías (módulos) y las dependencias de estas, necesarias para correr nuestro proyecto. Ya con esto tenemos lo necesario para empezar a programar nuestra primera aplicación web.
@@ -32,6 +34,7 @@ Aquí presento las líneas del archivo package.json
 {
   "author": "Santiago de Diego <santidediego@gmail.com>",
   "name": "primera_app_nodejs",
+  "description": "Aplicación para aprender a usar node.js",
   "version": "0.0.0",
   "repository": {
     "url": "git@github.com:santidediego/primera_app_nodejs.git"
@@ -50,3 +53,6 @@ Aquí presento las líneas del archivo package.json
   }
 }
 ```
+
+#Ejercicio 5
+Primero de todo instalamos grunt y docco con los comandos del guión. Tras instalarlos, se modifica automáticamente el archivo package.json añadiéndose las dos dependencias correspondientes a ambos programas.

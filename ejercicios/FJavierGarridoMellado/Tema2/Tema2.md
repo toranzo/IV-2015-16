@@ -81,3 +81,15 @@ Por otra parte he creado otra app usando el framework Django ( Python ) debido a
 ![appdjango2](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/Redirigir%20Empresa_zps7kcvr0hm.png)
 
 El repositorio se encuentra en el siguiente [enlace](https://github.com/javiergarridomellado/Empresa_django.git)
+
+###Ejercicio 3: Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
+
+He activado el entorno virtual con la orden **~/.nvm/nvm.sh** y he procedido a probar con las versiones **v4.2.1** ( stable ), **v0.10.40** y **v0.11.13**.Funciona correctamente ( puede ejecutarse tambien con **npm** en vez de **node**).
+
+![entornoestable](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/nodestable_zps2knqhjwn.png)
+
+![version010](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/node010_zps5kwoqevz.png)
+
+![version011](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/node011_zpshkp8wjeg.png)
+
+En el caso de Python he definido para **virtualenv** la ruta para que use **Python3** mediante el comando **virtualenv --python=/usr/bin/python3 nombre** pero al arrancar el servidor daba un error en la importación de un modulo de django.

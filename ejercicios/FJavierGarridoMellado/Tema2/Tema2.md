@@ -34,7 +34,7 @@ Añado la instalación de **nvm** para *nodejs*( para instalar [nodejs](http://w
 
 ###Ejercicio 2: Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos. Las acciones serían crear empresa y listar calificaciones para cada empresa, crear calificación y añadirla (comprobando que la persona no la haya añadido ya), borrar calificación (si se arrepiente o te denuncia la empresa o algo) y hacer un ránking de empresas por calificación, por ejemplo. Crear un repositorio en GitHub para la librería y crear un pequeño programa que use algunas de sus funcionalidades. Si se quiere hacer con cualquier otra aplicación, también es válido.
 
-En mi caso he creado una aplicación sencilla donde se añade la empresa junto al nombre del alumno y la calificación de su practica, además se permite borrar dichos datos, la he realizado usando el framework **Express** de **nodejs**.No es gran cosa la aplicación asi que espero mejorarla mas adelante.A continuación dejo unas fotos de los pasos seguidos para su realización.
+En mi caso he creado una aplicación sencilla donde se añade la empresa junto al nombre del alumno y la calificación de su practica, además se permite borrar dichos datos, la he realizado usando el framework **Express** de **nodejs**.No es gran cosa la aplicación, así que espero mejorarla mas adelante.A continuación dejo unas fotos de los pasos seguidos para su realización.
 
 - Tras crear el directorio donde vamos a tener la aplicación hay que meterse en el y ejecutar **npm init** para que cree el archivo **package.json**
 
@@ -44,7 +44,7 @@ En mi caso he creado una aplicación sencilla donde se añade la empresa junto a
 
 ![expressenlaapp](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/instexpress_zpseuftoxje.png)
 
-- Se ejecuta con la opción **npm start** , antes **npm start bin/www**
+- Se ejecuta con la opción **npm start** , antiguamente era **npm start bin/www**
 
 ![npmstart](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/npmstart_zpsoasgzcju.png)
 
@@ -53,6 +53,8 @@ En mi caso he creado una aplicación sencilla donde se añade la empresa junto a
 ![generarprac](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/antildeadirempresapract_zpsniuxilz7.png)
 
 ![eliminarprac](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/eliminarempresa_zpsupcuiqy4.png)
+
+![eliminarprac2](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/eliminarempresa2_zpseqi9236l.png)
 
 El repositorio se encuentra en el siguente [enlace](https://github.com/javiergarridomellado/Empresa_expressiv.git).
 

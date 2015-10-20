@@ -43,8 +43,16 @@ function renameFile() {
 
 #Ejercicio 5
 ##Buscar un sistema de automatización de la construcción para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.
-Lenguaje: python
+Lenguaje: **python**
 Para entornos de desarrollo normalmente prefiero y uso [Atom](https://atom.io/) con los plugins [Emmet](https://atom.io/packages/emmet-simplified), [Python](https://atom.io/packages/python), y [autocomplete-python](https://atom.io/packages/autocomplete-python). También se pueden encontrar los mismos paquetes y algunos mejorados para el otro editor de textos, [Sublime Text](http://www.sublimetext.com/) el cual también ofrece una versión de prueba **gratuita** que no caduca.
 Aún así he encontrado un IDE solo para pyton bastante bueno [pycharm](http://www.jetbrains.com/pycharm/)
 En cuanto al sistema de automatización, como python es un lenguaje scripting no necesita nada, aún así tenemos herramientas como la de pycharm que nos ayudan, además de otras como [buildbot](http://buildbot.net/) que ayudan con la documentación y demás.
 Si lo que buscamos en programar en un PaaS, podemos usar el framework que nos ofrece [Openshift](https://openshift.redhat.com/) para trabajar con **Python**.
+
+#Ejercicio 6
+#Identificar, dentro del PaaS elegido o cualquier otro en el que se dé uno de alta, cuál es el fichero de automatización de construcción e indicar qué herramienta usa para la construcción y el proceso que sigue en la misma.
+En Openshift se encuentra un fichero de automatización está en **.openshift/action_hooks/build**.
+Podemos usar también un software llamado **Jenkins**, el cual es un servidor que nos da integración automática y continua para desarrollar. Permite que ejecutemos, construyamos y testeemos programas integradas en las aplicaciones Openshift.
+
+#Ejercicio7
+#Buscar un entorno de pruebas para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.

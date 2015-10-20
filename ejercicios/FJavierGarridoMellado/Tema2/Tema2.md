@@ -54,5 +54,28 @@ En mi caso he creado una aplicación sencilla donde se añade la empresa junto a
 
 ![eliminarprac](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/eliminarempresa_zpsupcuiqy4.png)
 
+El repositorio se encuentra en el siguente [enlace](https://github.com/javiergarridomellado/Empresa_expressiv.git).
 
+Por otra parte he creado otra app usando el framework Django ( Python ) debido a que el proyecto final en mi caso usa dicha herramienta.
 
+- Activación del entorno virtual ejecutando **source bin/activate**
+
+- Instalación de la versión de Django que se va a usar **pip install Django==1.5**
+
+![instalardjango](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/instalacionDjango_zpsz6uhymoq.png)
+
+- Creación del proyecto mediante la orden **django-admin.py startproject nombreproyeto**
+
+![crearproyecto](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/creacionproyecto_zpsaf3oms0f.png)
+
+- Dentro de la carpeta del proyecto se crea la aplicación mediante la orden **django-admin.py startapp nombreaplicacion**
+
+![crearapp](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/crearapp_zpsucsg99bc.png)
+
+- La aplicación funcionando tras haber sincronizado la base de datos con **python manage.py syncdb** y ejecutar el servidor con la orden **python manage.py runserver**, en este caso solo le he dado la funcionalidad de registrar las practicas de Empresa.
+
+![appdjango](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/RegistrarEmpresa_zpsey2ioquo.png)
+
+![appdjango2](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/Redirigir%20Empresa_zps7kcvr0hm.png)
+
+El repositorio se encuentra en el siguiente [enlace](https://github.com/javiergarridomellado/Empresa_django.git)

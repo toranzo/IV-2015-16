@@ -92,4 +92,6 @@ He activado el entorno virtual con la orden **~/.nvm/nvm.sh** y he procedido a p
 
 ![version011](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/node011_zpshkp8wjeg.png)
 
-En el caso de Python he definido para **virtualenv** la ruta para que use **Python3** mediante el comando **virtualenv --python=/usr/bin/python3 nombre**,  al arrancar el servidor daba un error en la importación de un modulo de django.
+En el caso de Python he definido para **virtualenv** la ruta para que use **Python3** mediante el comando **virtualenv --python=/usr/bin/python3 nombre**,  puede verse en la carpeta **/bin** como esta la version 3 para usarse pero al arrancar el servidor da un error en la importación de un modulo de django.
+
+![python3](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/errorpython3_zpsig2cbyi7.png)

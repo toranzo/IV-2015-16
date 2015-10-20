@@ -133,4 +133,4 @@ Ambos lo he sacado de [aquí](https://developers.openshift.com/en/managing-modif
 
 ### Ejercicio 7: Buscar un entorno de pruebas para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.
 
-Existen dos entornos de pruebas muy usados para Python, que son [nose](https://pypi.python.org/pypi/nose/1.3.7) y [unittest](https://docs.python.org/2/library/unittest.html).
+Existen dos entornos de pruebas muy usados para Python, que son [Tox](https://pypi.python.org/pypi/tox) y [nose](https://pypi.python.org/pypi/nose/1.3.7) que usa funciones de [unittest](https://docs.python.org/2/library/unittest.html).

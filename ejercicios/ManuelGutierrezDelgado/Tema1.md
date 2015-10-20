@@ -8,45 +8,45 @@ Este servidor que cuesta 699 € podríamos amortizarlo de la siguiente manera
 
 Considerando que hemos comprado a principios de año el servidor, podremos deducir el 100% del IVA sobre el producto, que sería de un 21% en España. 
 
-	699€ de 21% = 146,79€
+	699€/1.21 = 577,69€
 	
-	699€ – 146,79€ = 552,21€
-	
-El precio del servidor sin IVA es 552,21€.
+El precio del servidor sin IVA es 577,69€.
 
 En cuatro años seria:
 
 100 / 4 = 25   -------> 25% para los 4 años.
 
-25% de 552,21 = 138,05€
+25% de 577,69 = 144.42€
 
-2015---->138,05€
+2015---->144,42€
 
-2016---->138,05€
+2016---->144,42€
 
-2017---->138,05€
+2017---->144,42€
 
-2018---->138,05€
+2018---->144,42€
 
 Y para el caso de siete años tenemos:
 
 100 / 7 = 14,29   ------->  14,29% para los 7 años.
 
-14,29% de 552,21 = 78,91€
+14,29% de 577,69 = 82,55€
 
-2014---->78,91€
+2014---->82.55€
 
-2015---->78,91€
+2015---->82.55€
 
-2016---->78,91€
+2016---->82.55€
 
-2017---->78,91€
+2017---->82.55€
 
-2018---->78,91€
+2018---->82.55€
 
-2019---->78,91€
+2019---->82.55€
 
-2020---->78,91€
+2020---->82.55€
+
+(__Los resultados los he redondeado__)
 
 # Ejercicio 2
 

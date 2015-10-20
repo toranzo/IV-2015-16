@@ -125,6 +125,12 @@ En OpenShift el fichero de automatización se encuentra en .openshift/action_hoo
 
 Además, para poder automatizar tareas existen dos formas: 
 
-- Usando Jenkins: es un servidor que proporciona funciones de integración continua para el desarrollo de software que puede ejecutar, construir, testear y programar tareas que se integran con las aplicaciones de OpenShift.
+- Usando [Jenkins](https://developers.openshift.com/en/managing-continuous-integration.html): es un servidor que proporciona funciones de integración continua para el desarrollo de software que puede ejecutar, construir, testear y programar tareas que se integran con las aplicaciones de OpenShift.
 
 - Usando Hot deployment: con hot deployment se aplican los cambios al código de la aplicación sin necesidad de reiniciar la aplicación, lo que aumenta la velocidad de despliegue y minimiza el tiempo de inactividad de la aplicación. 
+
+Ambos lo he sacado de [aquí](https://developers.openshift.com/en/managing-modifying-applications.html).
+
+### Ejercicio 7: Buscar un entorno de pruebas para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.
+
+Existen dos entornos de pruebas muy usados para Python, que son [nose](https://pypi.python.org/pypi/nose/1.3.7) y [unittest](https://docs.python.org/2/library/unittest.html)

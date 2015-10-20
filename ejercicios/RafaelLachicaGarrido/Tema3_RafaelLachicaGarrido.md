@@ -65,3 +65,9 @@ Podemos usar también un software llamado **Jenkins**, el cual es un servidor qu
 
 #Ejercicio7
 #Buscar un entorno de pruebas para el lenguaje de programación y entorno de desarrollo que usemos habitualmente.
+Para python he usado [nosetest](https://nose.readthedocs.org/en/latest/), el cual nos permite hacer test en el entorno de integración, como ya he hecho en Shippable:
+![img](https://camo.githubusercontent.com/8b90e84f498bcd50fdd5fc7db526587ef867563c/687474703a2f2f69313338332e70686f746f6275636b65742e636f6d2f616c62756d732f61683330322f52616661656c5f4c6163686963615f4761727269646f2f43617074757261253230646525323070616e74616c6c612532306465253230323031352d31302d31382532303231303433335f7a7073317a6c716f336e662e706e67)
+
+Está todo hecho en el archivo [practica2IV](https://github.com/rafaellg8/IV-PLUCO-RLG/blob/master/practica2IV.md).
+Además de este software, también he encontrado otros como [pytest](http://pytest.org/latest/), y [tox](https://tox.readthedocs.org/en/latest/).
+Aquí tenemos un especie de [tutorial](http://testrun.org/tox/latest/example/pytest.html) en el que se usan los dos a la vez.

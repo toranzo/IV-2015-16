@@ -34,3 +34,23 @@ Para la 0.11:
 
 	$ npm -v 
 ![version node](https://www.dropbox.com/s/mzlbhkjyoi5yu1v/node_v.png?dl=1)
+
+##Ejercicio 2: Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos. Las acciones serían crear empresa y listar calificaciones para cada empresa, crear calificación y añadirla (comprobando que la persona no la haya añadido ya), borrar calificación (si se arrepiente o te denuncia la empresa o algo) y hacer un ránking de empresas por calificación, por ejemplo. Crear un repositorio en GitHub para la librería y crear un pequeño programa que use algunas de sus funcionalidades. Si se quiere hacer con cualquier otra aplicación, también es válido. Se trata de hacer una aplicación simple que se pueda hacer rápidamente con un generador de aplicaciones como los que incluyen diferentes marcos MVC. Si cuesta mucho trabajo, simplemente prepara una aplicación que puedas usar más adelante en el resto de los ejercicios.
+
+He desarrollado la aplicación utilizando como framework Django, desarollada en python y utilizando la base de datos que integra Django, sqlite3. El framework permite separar Modelo-Vista-Controlador. La aplicación esta en el siguiente repositorio [Empresas](https://github.com/hugobarzano/Aplicaciones/tree/master/ENV1/mysite) de de github. Para lanzarla, es necesario tener python instalado, y una vez lanzado el entorno virtual, basta con ejecutar:
+
+	(ENV1)hugo@hugo-machine:~/App/ENV1/mysite$ python manage.py runserver&
+
+Esto lanzará en segundo plano el servidor de desarrollo que proporciona Django que da servicio en la url:
+
+	http://127.0.0.1:8000/empresas
+
+
+
+
+
+
+
+
+
+

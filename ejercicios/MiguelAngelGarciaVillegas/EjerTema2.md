@@ -21,16 +21,17 @@ Y se crea un directorio NombreProyecto, el cual contiene tres directorios más, 
 En el directorio bin/ se encuentran los ejecutables necesarios para interactuar con el virtualenv. En include/ se encuentran algunos archivos de cabecera de C (cuya extensión es *.h) necesarios para compilar algunas librerías de Python. Y finalmente en lib/ se encuentra una copia de Python así como un directorio llamado site-packages/ en el cual se aloja el código fuente de los paquetes Python instalados en el virtualenv.
 
 Para Activar y desactivar un proyecto python en virtualenv
-Activar: Dentro de la carpeta del proyecto, **$ source bin/activate**
-Desactivar: (NombreProyecto)$ **deactivate**
+Activar: Dentro de la carpeta del proyecto
+**$ source bin/activate**
+
+Desactivar: 
+**(NombreProyecto)$ deactivate**
 
 Para Instalar paquetes en un proyecto python virtualenv, ejemplo django
 **(NombreProyecto)$ pip install django**
 
-
 ###Instalación NVM
 NVM, que es el que nos interesa, permite instalar múltiples versiones de Node.js y npm en un mismo ambiente, dejando cada una completamente aislada de las otras. Sí, puedes tener Node v0.4 y v0.11 instaladas en tu equipo y ejecutar una u otra según lo necesites
-
 **sudo apt-get install -y curl build-essential libssl-dev git**
 
 Para instalar las versiones que nos piden:

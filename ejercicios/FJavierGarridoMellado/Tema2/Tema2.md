@@ -92,6 +92,16 @@ He activado el entorno virtual con la orden **~/.nvm/nvm.sh** y he procedido a p
 
 ![version011](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/node011_zpshkp8wjeg.png)
 
-En el caso de Python he definido para **virtualenv** la ruta para que use **Python3** mediante el comando **virtualenv --python=/usr/bin/python3 nombre**,  puede verse en la carpeta **/bin** como esta la version 3 para usarse pero al arrancar el servidor da un error en la importación de un modulo de django.
+En el caso de Python he definido para **virtualenv** la ruta para que use **Python3** mediante el comando **virtualenv --python=/usr/bin/python3 nombre**,  puede verse en la carpeta **/bin** como esta la version 3 para usarse pero al arrancar el servidor da un error en la importación de un modulo de django que posiblemente sea causado por ser la version 1.5 y por tanto no use diche versión.
 
 ![python3](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/errorpython3_zpsig2cbyi7.png)
+
+###Ejercicio 4: Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.
+
+Usando el comando **npm init** se crea el archivo **package.json** como puede verse en la figura.
+
+![package](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/ejerc4_zps7adcvb89.png)
+
+En el caso de **django** lo mas parecido que he encontrado es el archivo **settings.py** donde se encuentra el nombre de la aplicación, tipo de base de datos usada, etc.
+
+![django](http://i1045.photobucket.com/albums/b457/Francisco_Javier_G_M/django_zpsq2vd3ksl.png)

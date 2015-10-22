@@ -104,6 +104,13 @@ El resultado seria algo así:
 
 Nota: He tenido que comentar los impor* de cada archivo para poder generar el html. Enlace a github [Documentacion Empresas](https://github.com/hugobarzano/Aplicaciones/tree/master/ENV1/mysite/empresas/html)
 
+##Ejercicio 6: Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
+
+El primer test que vamos a realizar es la creación de una nueva empresa, podemos observar en la siguiente imagen, que se creará una empresa con nombre etest y correo ctest y se insertará en la base de datos, comprobando con las aserciones, que la creación ha sido correcta:
+
+![test1](https://www.dropbox.com/s/x1vfvocpt8u0z1x/test1.png?dl=1)
+
+El siguiente paso es crear los test necesarios para una nueva funcionalidad, comprobar que fallan y entonces crear dicha funcionalidad de manera que los test no fallen. 
 
 
 

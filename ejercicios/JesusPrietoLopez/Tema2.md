@@ -41,3 +41,131 @@ También he instalado *virtualenv*
 ![Instalación de virtualenv](http://i1175.photobucket.com/albums/r628/jesusgorillo/instalacion%20virtualenv_zpsw8nlixro.png)
 
 
+###Ejercicio 2: Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos. Las acciones serían crear empresa y listar calificaciones para cada empresa, crear calificación y añadirla (comprobando que la persona no la haya añadido ya), borrar calificación (si se arrepiente o te denuncia la empresa o algo) y hacer un ránking de empresas por calificación, por ejemplo. Crear un repositorio en GitHub para la librería y crear un pequeño programa que use algunas de sus funcionalidades. Si se quiere hacer con cualquier otra aplicación, también es válido.
+
+He realizado este ejercicio con python y el framework Djando. Para ello he hecho uso de *virtualenv* creando un entorno virtual y luego he instalado django en él.
+
+`$ virtualenv <miproyecto>`
+
+Activamos el entorno:
+
+`$ source bin/activate`
+
+E instalando django:
+
+`(<mientorno>)$ pip install Django`
+
+![Creación del entorno con virtualenv e instalación del framework django]()
+
+He creado el proyecto de Django con el siguiente comando:
+
+`(<mientorno>)$ django-admin startproject <nombreproyecto>`
+
+Dentro del proyecto ya podemos empezar nuestra aplicación y levantar el servidor.
+
+`(mientorno)$ python manage.py startapp <app>`
+
+`(<mientorno>)$ python manage.py runserver`
+
+La aplicación web está en el siguiente repositorio: [califpy-empresa](https://github.com/JesGor/califpy-empresa)
+
+Si queremos hacerla funcionar tan solo tenemos que descargarla, acceder al directorio */califpy-empresa* y activar el entorno (lo he subido con el entorno que se desarrolló):
+
+`$source bin/activate`
+
+Después tan solo tenemos que acceder al directorio */califpy-empresa/web* y ejecutar la aplicación:
+
+`$python manage.py runserver`
+
+Desde el navegador ahora podemos acceder a la web con la dirección http://IP 127.0.0.0:8000
+
+![Creación del entorno con virtualenv e instalación del framework django]()
+
+###Ejercicio 3: Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
+
+El programa lo he desarrollado con la versión 2.7.6 de python. Podemos ver la versión activando el entorno virtual y escribiendo python.
+
+`$ source bin/activate`
+
+`$python`
+
+![captura con la versión de python en el entorno virtual]()
+
+Y funciona correctamente como hemos visto antes. Pero ahora vamos a cambiar de versión, para ello cambiamos la versión de python dentro del entorno virtual creado.
+
+`$virtualenv -p /usr/bin/python3 califpy-empresa`
+
+Activamos el entorno:
+
+`$ cd califpy-empresa`
+`$ source bin/activate`
+
+Podemos comprobar la versión de python con:
+`$python`
+
+Ejecutamos la aplicación para comprobar que funciona.
+
+`$ cd web`
+`$ python manage.py runserver`
+
+![Captura con el fallo recibido tras usar otra versión de python]()
+
+Vemos que aparece un error al utilizar esta versión de python, al parecer por algún módulo de *django*.
+
+###Ejercicio 4: Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente. 
+
+Como se trata de python no podemos usar package.json. En este caso se utiliza un archivo setup.py que trabaja de forma parecida y sirve para describir el módulo.
+
+Podemos hacer uso del comando *pip freeze* para saber las dependencias.
+
+`<mientorno>$ pip freeze`
+
+![Captura con las dependencias]()
+
+La descripción del módulo *setup.py* quedaría tal que así:
+
+```python
+from setuptools import setup
+
+setup(name='web',
+	version='0.0.1',
+	description='Web para dar de alta a empresas que tendran asociadas varias calificaciones hechas por alumnos',
+	url='https://github.com/JesGor/califpy-empresa',
+	author='Jesus Prieto Lopez',
+	author_email='jesusgorillo@gmail.com',
+	license='GNU General Public License',
+	packages=['web'],
+	install_requires=[
+		'django',
+		'wheel',
+	],
+	zip_safe=False)
+```
+
+Para instalar el package localmente utilizamos:
+
+`$ python setup.py install`
+
+Otra alternativa para instalar las dependencias sería hacer uso del archivo *requirements.txt*.
+
+`$ pip install -r requirements.txt`
+
+###Ejercicio 5: Automatizar con grunt y docco (o algún otro sistema) la generación de documentación de la librería que se cree. Previamente, por supuesto, habrá que documentar tal librería.
+
+Para este ejercicio he utilizado [epydoc](http://epydoc.sourceforge.net/), para automatizar la generación de documentación de los módulos creados con python.
+
+Podemos instalarlo en nuestro entorno con:
+
+`$ pip install epydoc`
+
+Nos debemos crear un directorio para la documentación dentro de nuestro proyecto, por ejemplo, con el nombre *docs*. Dentro de ese directorio lanzamos *epydoc* para que nos genere la documentación automáticamente.
+
+`$ mkdir docs`
+`$ epydoc ../app`
+
+Cuando ejecutemos este último comando se creará una carpeta *html* en *docs* que contendrá la documentación, podemos acceder a la página mediante el *index.html*.
+
+**Es necesario tener comentada la aplicación (módulos, funciones, clases, etc) con docstrings para que la documentación no esté vacía.**
+
+
+

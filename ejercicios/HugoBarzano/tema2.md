@@ -73,7 +73,7 @@ Un primer setup.py para la aplicación de valorar practicas de empresa, tendria 
 	      keywords='aplicacion basica de valoracion',
 	      url='https://github.com/hugobarzano/Aplicaciones/tree/master/ENV1/mysite',
 	      author='Hugo Barzano Cruz',
-	      author_email='Hugo Barzano Cruz',
+	      author_email='hugobarzano@gmail.com',
 	      license='GNU',
 	      packages=['Empresas'],
 	      install_requires=['sqlite3', ],

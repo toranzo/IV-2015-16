@@ -9,7 +9,7 @@ He utilizado *nodeenv* para el entorno de node.js. Lo podemos instalar con el si
 
 ![Instalación nodeenv](http://i1175.photobucket.com/albums/r628/jesusgorillo/instalacion%20nodeenv_zpsuqrs7jat.png)
 
-*En caso de necesitar **pip** lo instalamos con* `$ sudo apt-get install python-pip`
+*En caso de necesitar *pip* lo instalamos con `$ sudo apt-get install python-pip`
 
  Una vez instalado, creamos un entorno y lo activamos
 
@@ -43,7 +43,7 @@ También he instalado *virtualenv*
 
 ###Ejercicio 2: Como ejercicio, algo ligeramente diferente: una web para calificar las empresas en las que hacen prácticas los alumnos. Las acciones serían crear empresa y listar calificaciones para cada empresa, crear calificación y añadirla (comprobando que la persona no la haya añadido ya), borrar calificación (si se arrepiente o te denuncia la empresa o algo) y hacer un ránking de empresas por calificación, por ejemplo. Crear un repositorio en GitHub para la librería y crear un pequeño programa que use algunas de sus funcionalidades. Si se quiere hacer con cualquier otra aplicación, también es válido.
 
-He realizado este ejercicio con python y el framework Djando. Para ello he hecho uso de *virtualenv* creando un entorno virtual y luego he instalado django en él.
+He realizado este ejercicio con python y el framework Django. Para ello he hecho uso de *virtualenv* creando un entorno virtual y luego he instalado django en él.
 
 `$ virtualenv <miproyecto>`
 
@@ -55,7 +55,7 @@ E instalando django:
 
 `(<mientorno>)$ pip install Django`
 
-![Creación del entorno con virtualenv e instalación del framework django]()
+![Creación del entorno con virtualenv e instalación del framework django](http://i1175.photobucket.com/albums/r628/jesusgorillo/cap1_zpszuzakpx4.png)
 
 He creado el proyecto de Django con el siguiente comando:
 
@@ -77,9 +77,10 @@ Después tan solo tenemos que acceder al directorio */califpy-empresa/web* y eje
 
 `$python manage.py runserver`
 
+![Ejecución de la aplicación](http://i1175.photobucket.com/albums/r628/jesusgorillo/cap2_zpsah8gvwm6.png)
+
 Desde el navegador ahora podemos acceder a la web con la dirección http://IP 127.0.0.0:8000
 
-![Creación del entorno con virtualenv e instalación del framework django]()
 
 ###Ejercicio 3: Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?
 
@@ -89,7 +90,7 @@ El programa lo he desarrollado con la versión 2.7.6 de python. Podemos ver la v
 
 `$python`
 
-![captura con la versión de python en el entorno virtual]()
+![Captura con la versión de python en el entorno virtual](http://i1175.photobucket.com/albums/r628/jesusgorillo/cap3_zpsnqm08gkv.png)
 
 Y funciona correctamente como hemos visto antes. Pero ahora vamos a cambiar de versión, para ello cambiamos la versión de python dentro del entorno virtual creado.
 
@@ -108,7 +109,7 @@ Ejecutamos la aplicación para comprobar que funciona.
 `$ cd web`
 `$ python manage.py runserver`
 
-![Captura con el fallo recibido tras usar otra versión de python]()
+![Captura con el fallo recibido tras usar otra versión de python](http://i1175.photobucket.com/albums/r628/jesusgorillo/cap4_zpskvsguv6k.png)
 
 Vemos que aparece un error al utilizar esta versión de python, al parecer por algún módulo de *django*.
 
@@ -120,7 +121,7 @@ Podemos hacer uso del comando *pip freeze* para saber las dependencias.
 
 `<mientorno>$ pip freeze`
 
-![Captura con las dependencias]()
+![Captura con las dependencias](http://i1175.photobucket.com/albums/r628/jesusgorillo/cap5_zpstts1bvsr.png)
 
 La descripción del módulo *setup.py* quedaría tal que así:
 

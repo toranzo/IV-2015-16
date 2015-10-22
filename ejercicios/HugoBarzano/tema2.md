@@ -52,7 +52,7 @@ Estoy utilizando la versión 1.4 de Django, que funciona correctamente con versi
 ![python3](https://www.dropbox.com/s/76xk30y5kk3eje0/python3.png?dl=1)
 
 
-##Ejercicio 4:Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente. 
+##Ejercicio 4: Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente. 
 
 Con python y trabajando en Django, la herramienta equivalente es pip (PyPI) y los archivos de configuración setup.py
 En el siguiente enlace, podemos encontrar un tutorial de como utilizar dicha herramienta [pip](http://python-packaging.readthedocs.org/en/latest/minimal.html)
@@ -82,7 +82,27 @@ Un primer setup.py para la aplicación de valorar practicas de empresa, tendria 
 
 ```
 
+##Ejercicio 5: Automatizar con grunt y docco (o algún otro sistema) la generación de documentación de la librería que se cree. Previamente, por supuesto, habrá que documentar tal librería.
 
+Para documentar la aplicación python, he utilizado epidoc. Podemos encontrar un sencillo tutorial en [epidoc](http://mundogeek.net/archivos/2008/07/07/documentacion-en-python/)
+
+Instalacion:
+
+	 sudo apt-get install python-epydoc
+
+Generar html de modelos y vistas: la opcion -v es para ver el log de errores)
+
+	epydoc –html -v models.py views.py
+
+Es necesaio documentar previamente, veamos un ejemplo de como se documentaria por ejemplo el index:
+
+![documentando_1](https://www.dropbox.com/s/3yx5v9xha3znki2/documentando.png?dl=1)
+
+El resultado seria algo así:
+
+![documentando_2](https://www.dropbox.com/s/vu484jogcb7b8ag/documentando2.png?dl=1)
+
+Nota: He tenido que comentar los impor* de cada archivo para poder generar el html. Enlace a github [Documentacion Empresas](https://github.com/hugobarzano/Aplicaciones/tree/master/ENV1/mysite/empresas/html)
 
 
 

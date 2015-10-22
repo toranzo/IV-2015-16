@@ -52,6 +52,52 @@ Estoy utilizando la versión 1.4 de Django, que funciona correctamente con versi
 ![python3](https://www.dropbox.com/s/76xk30y5kk3eje0/python3.png?dl=1)
 
 
+##Ejercicio 4:Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente. 
+
+Con python y trabajando en Django, la herramienta equivalente es pip (PyPI) y los archivos de configuración setup.py
+En el siguiente enlace, podemos encontrar un tutorial de como utilizar dicha herramienta [pip](http://python-packaging.readthedocs.org/en/latest/minimal.html)
+Un primer setup.py para la aplicación de valorar practicas de empresa, tendria un aspecto tal que así:
+```python
+	from setuptools import setup
+
+	setup(name='Empresas',
+	      version='0.1',
+	      description='Aplicacion para valorar practicas de empresas',
+	      long_description='Aplicacion que permite registrar empresas y valoraciones de las practicas en ellas',
+	      classifiers=[
+		'Development Status :: 3 - Alpha',
+		'License :: GNU :: GNU License',
+		'Programming Language :: Python :: 2.7',
+		'Topic :: Text Processing :: Linguistic',
+	      ],
+	      keywords='aplicacion basica de valoracion',
+	      url='https://github.com/hugobarzano/Aplicaciones/tree/master/ENV1/mysite',
+	      author='Hugo Barzano Cruz',
+	      author_email='Hugo Barzano Cruz',
+	      license='GNU',
+	      packages=['Empresas'],
+	      install_requires=['sqlite3', ],
+	      include_package_data=True,
+	      zip_safe=False)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

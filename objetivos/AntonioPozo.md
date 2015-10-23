@@ -41,8 +41,17 @@
 
 - [x] Vernos las caras.
 
+### Objetivos del tema 1
+
 - [x] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware y ponerlos en práctica.
 - [x] Comprender la diferencia entre infraestructura virtual y real.
 - [x] Justificar la necesidad de procesamiento virtual frente a real en el contexto de una infraestructura TIC de una organización.
+- [x] Conocer el concepto de software libre y su importancia dentro de la computación nube.
 - [ ] Entender el concepto de DevOps y las técnicas y tecnologías que cubre.
 
+### Objetivos del tema 2
+
+- [ ] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware y ponerlos en práctica.
+- [ ] Entender el concepto de DevOps.
+- [ ] Usar herramientas para gestión de los ciclos de desarrollo de una aplicación y entender cuales son estos.
+- [ ] Aprender a usar integración continua en cualquier aplicación.

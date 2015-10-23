@@ -27,24 +27,36 @@ Instalamos las herramientas necesarias para el funcionamiento de ésta aplicaci�
     npm install jade
     npm install stylus
 
-
+Ejecutamos node app.js y si no hay errores, la aplicación está funcionando en el puerto 3000 (indicado en el app.js).
+![aplicación funcionando](http://s2.subirimagenes.com/imagen/previo/thump_9484070ej2.png)
     
 
 ###Ejercicio 3
 **Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?**
-
+Sí, se muestra en la siguiente captura:
+![peticiones con diferentes versiones del lengüaje](http://s2.subirimagenes.com/imagen/previo/thump_9484075ej3.png)
 
 
 ###Ejercicio 4
 **Crear una descripción del módulo usando package.json. En caso de que se trate de otro lenguaje, usar el método correspondiente.**
+Para poder hacer este apartado hay que utilizar una versión estable, por lo que se ha vuelto a la versión v4.2.1.
+Para crear la descripción del módulo he tecleado npm init. Al final del proceso se ha obtenido lo siguiente:
 
+![descripción del módulo usando package.json](http://s2.subirimagenes.com/imagen/previo/thump_9484079ej4.png)
 
 
 
 ###Ejercicio 5
 **Automatizar con grunt y docco (o algún otro sistema) la generación de documentación de la librería que se cree. Previamente, por supuesto, habrá que documentar tal librería.**
 
+Instalamos grunt (npm install -g grunt-cli) y docco (npm install docco grunt-docco --save-dev) 
 
+
+Ahora pasamos a crear el Gruntfile.js con el siguiente contenido:
+
+```
+'use strict';module.exports = function(grunt) {  // Configuración del proyecto  grunt.initConfig({  pkg: grunt.file.readJSON('package.json'),  docco: {      debug: {      src: ['*.js'],      options: {          output: 'docs/'      }      }  }  });  // Carga el plugin de grunt para hacer esto  grunt.loadNpmTasks('grunt-docco');  // Tarea por omisión: generar la documentación  grunt.registerTask('default', ['docco']);};
+```
 
 
 

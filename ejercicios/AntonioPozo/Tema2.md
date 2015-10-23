@@ -1,6 +1,20 @@
 ###Ejercicio 1
 **Instalar alguno de los entornos virtuales de node.js (o de cualquier otro lenguaje con el que se esté familiarizado) y, con ellos, instalar la última versión existente, la versión minor más actual de la 4.x y lo mismo para la 0.11 o alguna impar (de desarrollo).**
 
+He instalado NVM. Para su instalación, hay que seguir los siguientes pasos:
+
+1. Tecleamos la siguiente orden:  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.28.0/install.sh | bash
+
+2. Ejecutamos source ~/.profile en el terminal, para recargar el archivo ~/.profile.
+
+3. Instalamos node.js con la orden nvm install stable
+
+4. También instalamos las versiones más recientes de la 0.12 y la 0.11 con: nvm install v0.12.7 y nvm install v0.11.16
+
+5. Se pueden ver las versiones instaladas con la orden nvm ls.
+
+![captura versiones nvm](http://s2.subirimagenes.com/imagen/previo/thump_9483947ej1.png)
+
 
 
 

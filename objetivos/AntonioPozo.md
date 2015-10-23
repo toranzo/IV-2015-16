@@ -44,5 +44,5 @@
 - [x] Conocer los conceptos relacionados con el proceso de virtualización tanto de software como de hardware y ponerlos en práctica.
 - [x] Comprender la diferencia entre infraestructura virtual y real.
 - [x] Justificar la necesidad de procesamiento virtual frente a real en el contexto de una infraestructura TIC de una organización.
-- [] Entender el concepto de DevOps y las técnicas y tecnologías que cubre.
+- [ ] Entender el concepto de DevOps y las técnicas y tecnologías que cubre.
 

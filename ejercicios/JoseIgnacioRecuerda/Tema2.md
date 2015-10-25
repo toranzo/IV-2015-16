@@ -7,10 +7,12 @@
 HE SEGUIDO ESTE TUTORIAL: https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps
 
 En primer lugar descargamos el fichero install.sh con el comando:
+
 curl https://raw.githubusercontent.com/creationix/nvm/v0.11.1/install.sh | bash
 ![captura descarga fichero install.sh](https://www.dropbox.com/s/syl4fjl0n2c0cot/1.png?dl=1)
 
 Reinicio la máquina para que se puedan observar los cambios.
+
 Con el comando "nvm ls-remote" podemos ver las distintas versiones de nvm e instalar la que necesitemos.
 
 Instalamos la versión más actual de la v0.11 que es la v0.11.16 con el comando:

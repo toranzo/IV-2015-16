@@ -111,4 +111,13 @@ Por último solo falta ejecutar el comando que vemos a continuación con el resu
 ##Ejercicio 8
 Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante.
 
+He usado [Travis](https://travis-ci.org).
 
+En primer lugar me he tenido que registrar con la misma cuenta de hitHub. Una vez dentro tengo que dar permiso para que acceda a mi cuenta de gitHub y así poder escoger el proyecto de la aplicación que quiero que se ejecute.
+Creo el fichero .travis.yml y lo agrego a la raiz de mi repositorio, Este fichero tiene el siguiente contenido;
+
+![mocha test/test.js](https://www.dropbox.com/s/f7vjbqcz78v6bw4/Ejr8.1.png?dl=1)
+
+Por último desde travis ejecutamos el test y vemos que ha pasado el test.
+
+![mocha test/test.js](https://www.dropbox.com/s/uvzbbd1umttpgkh/Ejr8.2.png?dl=1)

@@ -76,16 +76,36 @@ Creamos el archivo Gruntfile.js en la raiz de nuestro proyecto. Este archivo tie
 
 ![archivo Gruntfile.js](https://www.dropbox.com/s/0s4ruyvkb0l2cpx/Ejr5.3.png?dl=1)
 
-Por último no queda nada mas que ejecutar el comando "grunt" para que nos genere la documentación del proyecto en un nuevo directorio "docs". 
+Por último no queda nada mas que ejecutar el comando "grunt" para que nos genere la documentación del proyecto en un nuevo directorio "docs". Nos genera .html con información del proyecto. 
 
 ![comando grunt](https://www.dropbox.com/s/1pk2g3fdjsmh58s/Ejr5.4.png?dl=1)
 
 ##Ejercicio 6
 Para la aplicación que se está haciendo, escribir una serie de aserciones y probar que efectivamente no fallan. Añadir tests para una nueva funcionalidad, probar que falla y escribir el código para que no lo haga (vamos, lo que viene siendo TDD).
 
+Me voy al archivo index.js donde quiero asegurarme que el nombre del alumno que quieren añadir en la empresa tiene al menos 3 caracteres. En el método usado para añadir un alumno lo modifico añadiendo el assert y queda así:
+
+![metodo añadir alumno con asser](https://www.dropbox.com/s/2m6vcu1la35kj7b/Ejr6.1.png?dl=1)
+
+A continuación vuelvo a lanzar la aplicación y pruebo a introducir un alumno a una empresa con el nombre "a" (menor de 3 caracteres), no me permite añadirlo e imprime el mensaje que he puesto. Y después introduzco "alberto" y lo añade sin problema
+
+![metodo añadir alumno con asser](https://www.dropbox.com/s/aumdd37xza4nuqs/Ejr6.2.png?dl=1)
+
 
 ##Ejercicio 7
 Convertir los tests unitarios anteriores con assert a programas de test y ejecutarlos desde mocha, usando descripciones del test y del grupo de test de forma correcta. Si hasta ahora no has subido el código que has venido realizando a GitHub, es el momento de hacerlo, porque lo vamos a necesitar un poco más adelante.
+
+En primer lugar instalamos mocha con el comando "sudo npm install -g mocha"
+
+![instalando moncha](https://www.dropbox.com/s/dxlyquv0gqvxjrd/Ejr7.1.png?dl=1)
+
+En el directorio raiz del proyecto creo una carpeta llamada "test" y dentro de esta el archivo test.js que tiene el siguiente contenido:
+
+![contenido test.js](https://www.dropbox.com/s/2idiggalxq4916u/Ejr7.2.png?dl=1)
+
+Por último solo falta ejecutar el comando que vemos a continuación con el resultado:
+
+![mocha test/test.js](https://www.dropbox.com/s/2ifpq81vaniczwy/Ejr7.3.png?dl=1)
 
 
 ##Ejercicio 8

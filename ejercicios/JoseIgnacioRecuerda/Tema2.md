@@ -116,8 +116,8 @@ He usado [Travis](https://travis-ci.org).
 En primer lugar me he tenido que registrar con la misma cuenta de hitHub. Una vez dentro tengo que dar permiso para que acceda a mi cuenta de gitHub y así poder escoger el proyecto de la aplicación que quiero que se ejecute.
 Creo el fichero .travis.yml y lo agrego a la raiz de mi repositorio, Este fichero tiene el siguiente contenido;
 
-![mocha test/test.js](https://www.dropbox.com/s/f7vjbqcz78v6bw4/Ejr8.1.png?dl=1)
+![.travis.yml](https://www.dropbox.com/s/f7vjbqcz78v6bw4/Ejr8.1.png?dl=1)
 
 Por último desde travis ejecutamos el test y vemos que ha pasado el test.
 
-![mocha test/test.js](https://www.dropbox.com/s/uvzbbd1umttpgkh/Ejr8.2.png?dl=1)
+![build passing](https://www.dropbox.com/s/uvzbbd1umttpgkh/Ejr8.2.png?dl=1)

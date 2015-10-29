@@ -9,7 +9,7 @@ Tras instalar **nvm**, se instalan las versiones del mismo:
      
 Se realiza la web con **NodeJS**, dando como resultado lo que se puede apreciar en la siguiente imagen:    
 ![Ejercicio2](https://photos-4.dropbox.com/t/2/AABWv5NP6Y9LiYsWuOUZGcYq82PiKjlSLFDtrIc6piltMQ/12/14470490/png/32x32/1/1446145200/0/2/ejercicio2.png/CNqa8wYgASACIAMgBSAHKAEoAigH/yhiKc9k7SHfqKJFKbmKOOH_bKgODk25hQ80DyvQa3EM?size=1024x768&size_mode=2)    
-En el ![repositorio](https://github.com/miguelangelrdguez/Empresa_IV) de Github pueden encontrarse los archivos de la misma junto a la documentación    
+En el [repositorio](https://github.com/miguelangelrdguez/Empresa_IV) de Github pueden encontrarse los archivos de la misma junto a la documentación    
 
 ## Ejercicio 3: Ejecutar el programa en diferentes versiones del lenguaje. ¿Funciona en todas ellas?   
     
